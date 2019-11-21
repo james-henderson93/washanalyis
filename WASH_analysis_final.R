@@ -11,8 +11,6 @@ library(hypegrammaR) # simple stats 4 complex samples
 library(composr) # horziontal operations
 source("postprocessing_functions.R")
 source("to_alpha_lowercase.R")
-source("Input/recoding.R")
-
 
 #' load input files & make everything match:
 source("load_inputs.R",local = T)
@@ -49,12 +47,14 @@ if(nrow(strata_samplingframe_issues)!=0){
   print(strata_samplingframe_issues)
   warning("something's not right with the strata id matching!")
 }
+# TO BE DELETED. BE CAREFUL it deletes some data
+response <- response[-which(response$X_uuid %in% strata_samplingframe_issues$X_uuid),]
 
-cluster_samplingframe_issues <- as.data.frame(response[which(!response$cluster_id[which(response$population_group != "idp_in_camp")] %in% samplingframe$cluster_strata_ID), c("X_uuid", "strata")])
-if(nrow(cluster_samplingframe_issues)!=0){
-  print(cluster_samplingframe_issues)
-  warning("something's not right with the cluster id matching!")
-}
+# cluster_samplingframe_issues <- as.data.frame(response[which(!response$cluster_id[which(response$population_group != "idp_in_camp")] %in% samplingframe$cluster_strata_ID), c("X_uuid", "strata")])
+# if(nrow(cluster_samplingframe_issues)!=0){
+#   print(cluster_samplingframe_issues)
+#   warning("something's not right with the cluster id matching!")
+# }
 
 ### IGNORING CLUSTER LEVEL WEIGHTING FOR NOW
 #### it's been under debate..
@@ -106,39 +106,45 @@ response$weights<-weight_fun(response)
 #   df$weights
 # }
 
+source("Recoding.R")
+response_with_composites <- calc_avgs(response)
+response_with_composites <- recodingchoices(response_with_composites)
 
-response_with_composites <- recoding_msni(response, loop)
-#table(response_with_composites[, c("g51a")][which(response_with_composites$district == "erbil" & response_with_composites$population_group == "idp_out_camp")], useNA="always")
+table(response_with_composites[, c("sufficient_containers_recoded")][which(response_with_composites$district == "erbil")], useNA="always")
+table(response_with_composites$population_group, useNA="always")
 #which(response_with_composites$district == "al.hatra")
 
 # Correcting for random sampled districts
+simple_random_strata <- samplingframe$stratum[which(samplingframe$sampling.type == "2 stages random - st1")]
 simple_random_records <- response_with_composites$strata %in% simple_random_strata
 response_with_composites$cluster_id[simple_random_records]<-
   paste("simple random unique cluster id - ",1:length(which(simple_random_records)))
 
-dap_name <- "msni"
-analysisplan <- read.csv(sprintf("input/dap_%s.csv",dap_name), stringsAsFactors = F)
+dap_name <- "preliminary"
+analysisplan <- read.csv(sprintf("Input/dap_%s.csv",dap_name), stringsAsFactors = F)
 #analysisplan <- analysisplan[-which(analysisplan$ignore),]
-#analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "g51a") 
+ # analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "flood_causes") 
 #  | startsWith(analysisplan$dependent.variable, "s7") 
 #  | startsWith(analysisplan$dependent.variable, "s21") 
 #  | startsWith(analysisplan$dependent.variable, "s22")
-#                                   ),]
+                                    # ),]
 #analysisplan <- analysisplan_nationwide(analysisplan)
 #analysisplan <- analysisplan_pop_group_aggregated(analysisplan)
+#analysisplan <- analysisplan[which(analysisplan$independent.variable == ""),]
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
                                           weighting = weight_fun,
-                                          cluster_variable_name = "cluster_id",
+                                   #       cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
 
-name <- "msni_20190926_with_sub_pillars"
+
+name <- "20191120_preliminary"
 saveRDS(result,paste(sprintf("output/result_%s.RDS", name)))
 #summary[which(summary$dependent.var == "g51a"),]
-
-lookup_in_camp<-load_samplingframe("./input/sampling_frame_in_camp.csv")
-names(lookup_in_camp)[which(names(lookup_in_camp) == "camp")] <- "name"
-names(lookup_in_camp)[which(names(lookup_in_camp) == "camp.long.name")] <- "english"
-names(lookup_in_camp)[which(names(lookup_in_camp) == "governorate")] <- "filter"
+# 
+# lookup_in_camp<-load_samplingframe("./input/sampling_frame_in_camp.csv")
+# names(lookup_in_camp)[which(names(lookup_in_camp) == "camp")] <- "name"
+# names(lookup_in_camp)[which(names(lookup_in_camp) == "camp.long.name")] <- "english"
+# names(lookup_in_camp)[which(names(lookup_in_camp) == "governorate")] <- "filter"
 
 summary <- bind_rows(lapply(result[[1]], function(x){x$summary.statistic}))
 write.csv(summary, sprintf("output/raw_results_%s.csv", name), row.names=F)
@@ -150,7 +156,7 @@ if(all(is.na(summary$independent.var.value))){summary$independent.var.value <- "
 groups <- unique(summary$independent.var.value)
 groups <- groups[!is.na(groups)]
 for (i in 1:length(groups)) {
-  df <- pretty.output(summary, groups[i], analysisplan, cluster_lookup_table, lookup_table, severity = name == "severity", camp = F)
+  df <- pretty.output(summary, groups[i], analysisplan, cluster_lookup_table, lookup_table, severity = F, camp = F)
   write.csv(df, sprintf("output/summary_sorted_%s_%s.csv", name, groups[i]), row.names = F)
   if(i == 1){
     write.xlsx(df, file=sprintf("output/summary_sorted_%s.xlsx", name), sheetName=groups[i], row.names=FALSE)
@@ -162,17 +168,6 @@ for (i in 1:length(groups)) {
 # formap <- df[-c(1:4),]
 # formap$msni <- as.numeric(formap$msni)
 
-
-# Extra step for pin calculation
-for (i in 1:length(groups)) {
-  group_pin <- severity_for_pin(sprintf("output/summary_sorted_%s_%s.csv", name, groups[i]), analysisplan = analysisplan)
-  write.csv(group_pin, sprintf("output/pin_%s_%s.csv", name, groups[i]), row.names = F)
-  if(i == 1){
-    write.xlsx(group_pin, file=sprintf("output/pin_%s.xlsx", name), sheetName=groups[i], row.names=FALSE)
-  } else {
-    write.xlsx(group_pin, file=sprintf("output/pin_%s.xlsx", name), sheetName=groups[i], append=TRUE, row.names=FALSE)
-  }
-}
 
 
 

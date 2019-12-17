@@ -1,0 +1,1738 @@
+list_name,name,label::English,label::Arabic,Governorate
+governorate_wash,al.anbar,al.anbar,???????,
+governorate_wash,baghdad,Baghdad,?????,
+governorate_wash,duhok,Duhok,????,
+governorate_wash,diyala,Diyala,?????,
+governorate_wash,erbil,Erbil,?????,
+governorate_wash,kerbala,Kerbala,??????,
+governorate_wash,maysan,Maysan,?????,
+governorate_wash,ninewa,Ninewa,?????,
+governorate_wash,al.sulaymaniyah,al.sulaymaniyah,??????????,
+governorate_wash,kirkuk,Kirkuk,?????,
+governorate_wash,salah al-din,Salah Al-Din,???? ?????,
+governorate_wash,al.najaf,Najaf,?????,
+governorate_wash,thi.qar,Thi Qar,?? ???,
+governorate_wash,al.basrah,Basrah,??????,
+governorate_wash,al.qadissiya,Qadissiya,????????,
+governorate_wash,babil,Babylon,????,
+governorate_wash,wassit,Wassit,????,
+,,,,
+camp_name,Al_Khalidiya_Central_camp,Al-Khalidiya Central camp,???? ???????? ,al.anbar
+camp_name,aaf,Amriyat Al-Fallujah Camp,???? ?????? ???????,al.anbar
+camp_name,htc,Habbaniya Tourist City camps,????? ???????? ????????,al.anbar
+camp_name,bzbz,Bezabize Camps,????? ,al.anbar
+camp_name,other,Other,????,al.anbar
+camp_name,Shooting_Camp_/_Al_Ahel,Shooting Camp / Al Ahel,???? ????? ????? / ?????,baghdad
+camp_name,Al_Nabi_Younis,Al-Nabi Younis,????? ????,baghdad
+camp_name,AlAmal_Nassir_WaSalam_Caravans,Al-Amal / Nassir Wa Salam Caravans,????? / ??????? ????? ???????,baghdad
+camp_name,Zayona,Zayona,?????,baghdad
+camp_name,other,Other,????,baghdad
+camp_name,Bajed_Kandala,Bajed Kandala,????? ??????,duhok
+camp_name,Kabarto_1,Kabarto 1,?????? 1,duhok
+camp_name,Kabarto_2,Kabarto 2,?????? 2,duhok
+camp_name,Darkar,Darkar,??????,duhok
+camp_name,Dawadia,Dawoudia,???????,duhok
+camp_name,Bersive_2,Bersive 2,????? 2,duhok
+camp_name,Bersive_1,Bersive 1,????? 1,duhok
+camp_name,Rwanga_Community,Rwanga Community,???? ??????,duhok
+camp_name,Khanke,Khanke,?????,duhok
+camp_name,Shariya,Shariya,?????,duhok
+camp_name,Chamishku,Chamishku,???????,duhok
+camp_name,other,Other,????,duhok
+camp_name,Alwand_2,Alwand 2,????? 2,diyala
+camp_name,Qoratu,Qoratu,??????,diyala
+camp_name,Alwand_1,Alwand 1,????? 1,diyala
+camp_name,other,Other,????,diyala
+camp_name,Debaga_1,Debaga 1,????? 1 (???????),erbil
+camp_name,Debaga_2,Debaga 2,????? 2,erbil
+camp_name,Harshm,Harshm,????,erbil
+camp_name,Baharka,Baharka,?????,erbil
+camp_name,Other,Other,????,erbil
+camp_name,Al_Kawthar_Camp,Al-Kawthar Camp (Kerbala MODM),???? ?????? ( ?????? ?????? ?????????),kerbala
+camp_name,Laylan_IDP,Laylan IDP (1),????? 1,kirkuk
+camp_name,Laylan_2,Laylan 2,????? 2,kirkuk
+camp_name,Nazrawa,Nazrawa,???????,kirkuk
+camp_name,Yahyawa,Yahyawa,??????,kirkuk
+camp_name,other,Other,????,kirkuk
+camp_name,As_Salamyiah,As Salamyiah,???????? 1& 2,ninewa
+camp_name,As_Salamyiah_Nimrud,As Salamyiah Nimrud,???????? ?????,ninewa
+camp_name,Essian,Essian,?????,ninewa
+camp_name,Garmawa,Garmawa,??????,ninewa
+camp_name,Haj_Ali,Haj Ali,??? ???,ninewa
+camp_name,Hamam_Al_Alil_1,Hamam Al Alil 1,???? ?????? 1,ninewa
+camp_name,Hamam_Al_Alil_2,Hamam Al Alil 2,???? ?????? 2,ninewa
+camp_name,Hasansham_U2,Hasansham_U2,??? ??? U2,ninewa
+camp_name,Hasansham_U3,Hasansham U3,??? ??? U3,ninewa
+camp_name,Khazer_M1,Khazer M1,???? M1,ninewa
+camp_name,Mamilian,Mamilian,???????,ninewa
+camp_name,Mamrashan,Mamrashan,???????,ninewa
+camp_name,Qayyarah_Airstrip,Qayyarah Airstrip,???? ??????? ( ???????),ninewa
+camp_name,Qayyarah_Jad'ah,Qayyarah-Jad'ah (1-6),???? ??????? ( ????),ninewa
+camp_name,Sheikhan,Sheikhan,?????,ninewa
+camp_name,other,Other,????,ninewa
+camp_name,Al_Alam_all,Al-Alam (all),?????,salah al-din
+camp_name,Basateen_Al_Sheuokh,Basateen Al Sheuokh,?????? ??????,salah al-din
+camp_name,Al_Sh'hamah,Al Sh'hamah,???????,salah al-din
+camp_name,Karamah,Karamah,???????,salah al-din
+camp_name,other,Other,????,salah al-din
+camp_name,Ashti_IDP,Ashti IDP,???? ????????,al.sulaymaniyah
+camp_name,Arbat_IDP,Arbat IDP,????,al.sulaymaniyah
+camp_name,Barzinja,Barzinja,??????,al.sulaymaniyah
+camp_name,Surdesh,Surdesh,????,al.sulaymaniyah
+camp_name,Tazade,Tazade,??????,al.sulaymaniyah
+,,,,
+camp_name_aaf,aaf33,Al Abrar (AAF33),??????? (AAF33),
+camp_name_aaf,aaf27,Al Anbar (AAF27),??????? (AAF27),
+camp_name_aaf,aaf23,Al Bashayir camp (AAF23),???? ??????? (AAF23),
+camp_name_aaf,aaf17,Al Fallujah 1 (AAF17),??????? 1 (AAF17),
+camp_name_aaf,aaf25,Al Najat (AAF25),?????? (AAF25),
+camp_name_aaf,aaf31,Al Rayan (AAF31),?????? (AAF31),
+camp_name_aaf,aaf32,Al Shahuda al Ashwaii (AAF32),??????? ??????? (AAF32),
+camp_name_aaf,aaf10,Al-Abaydh camp (AAF10),???? ?????? (AAF10),
+camp_name_aaf,aaf05,Al-Amal Al-manshood 1 MoDM camp (AAF05),???? ????? ??????? 1 ?????? ????????? (AAF05),
+camp_name_aaf,aaf04,Al-Hijaj camp (AAF04),???? ?????? (AAF04),
+camp_name_aaf,aaf03,Al-Ikhowa (AAF03),???? ?????? (AAF03(,
+camp_name_aaf,aaf19,Al-Mateen (AAF19),???? ?????? (AAF19),
+camp_name_aaf,aaf01,Al-Nasir Camp (AAF01),???? ????? (AAF01),
+camp_name_aaf,aaf08,Al-Sa'ada camp (AAF08),???? ??????? (AAF08),
+camp_name_aaf,aaf02,Al-Salam Camp (AAF02),???? ?????? (AAF02),
+camp_name_aaf,aaf24,Al-Simood / Ssumud (AAF24),???? ?????? (AAF24),
+camp_name_aaf,aaf30,Alta'aki (AAF30),?????? (AAF30),
+camp_name_aaf,aaf26,Al-Tahadi (AAF26),???????(AAF26),
+camp_name_aaf,aaf18,Al-Tahrir (Al Khanjar) (AAF18),??????? ( ??????) (AAF18),
+camp_name_aaf,aaf12,Amal Manshood 2 (AAF12),????? ??????? (AAF12),
+camp_name_aaf,aaf07,Amriyat Al-Fallujah semi-perminant / UNHCR Halls (Al Qa'at) (AAF07), ?????? ??????? ????? ???????? ( ???????) (AAF07),
+camp_name_aaf,aaf15,Baghdad (AAF15),????? (AAF15),
+camp_name_aaf,aaf11,Caravan 1 camp (AAF11),???? ????????? 1 (AAF11(,
+camp_name_aaf,aaf13,Caravans 2 (AAF13),???? ????????? 2 (AAF13),
+camp_name_aaf,aaf21,Fallujah 10 (AAF21),??????? 10 (AAF21),
+camp_name_aaf,aaf20,Fallujah 9 (AAF20),??????? 9 (AAF20),
+camp_name_aaf,aaf14,Iraq Camp (AAF14),???? ?????? (AAF14),
+camp_name_aaf,aaf16,Kiram Al Fallujah Camp (AAF16),???? ???? ??????? (AAF16),
+camp_name_aaf,aaf09,Sabe Sanabul camp (AAF09),??? ????? (AAf09(,
+camp_name_aaf,aaf06,Um Alqura (AAF6),?? ????? (AAF6),
+camp_name_aaf,aaf22,Zoba'a camp (AAF22),???? ??????? (AAF22),
+,,,,
+camp_name_htc,htc_alhijra,Al-Hijra - HTC,??????- HTC,
+camp_name_htc,htc_alsmuod,Al-Smuod Camp - HTC,???? ?????? - HTC,
+camp_name_htc,htc_fallujah1,Fallujah camp 1 - HTC,???? ??????? 1 - HTC,
+camp_name_htc,htc_fallujah4,Fallujah camp 4 - HTC,???? ??????? 4 - HTC,
+camp_name_htc,htc_fallujah5,Fallujah camp 5 - HTC,???? ??????? 5 - HTC,
+camp_name_htc,htc_fallujah6,Fallujah camp 6 - HTC,???? ??????? 6 - HTC,
+camp_name_htc,htc_fallujah7,Fallujah camp 7 - HTC,???? ??????? 7 - HTC,
+camp_name_htc,htc_fallujah8,Fallujah camp 8 - HTC,???? ??????? 8 - HTC,
+,,,,
+camp_name_jadah,jadah_1_2,Qayyarah-Jad'ah 1-2,???? ??????? ( ????) 1-2,
+camp_name_jadah,jadah_3,Qayyarah-Jad'ah 3,???? ??????? ( ????) 3,
+camp_name_jadah,jadah_4,Qayyarah-Jad'ah 4,???? ??????? ( ????) 4,
+camp_name_jadah,jadah_5,Qayyarah-Jad'ah 5,???? ??????? ( ????) 5,
+camp_name_jadah,jadah_6,Qayyarah-Jad'ah 6,???? ??????? ( ????) 6,
+,,,,
+district_wash,al.falluja,Al-Falluja,???????,al.anbar
+district_wash,al.kaim,Al-Kaim,??????,al.anbar
+district_wash,al.ramadi,Al-Ramadi,???????,al.anbar
+district_wash,al.rutba,Al-Rutba,??????,al.anbar
+district_wash,ana,Ana,????,al.anbar
+district_wash,haditha,Haditha,?????,al.anbar
+district_wash,heet,Heet,???,al.anbar
+district_wash,abu.al.khaseeb,Abu Al-Khaseeb,??? ??????,al.basrah
+district_wash,al.basrah,al.basrah,??????,al.basrah
+district_wash,al.faw,Al-Faw,?????,al.basrah
+district_wash,al.midaina,Al-Midaina,???????,al.basrah
+district_wash,al.qurna,Al-Qurna,??????,al.basrah
+district_wash,al.zubair,Al-Zubair,??????,al.basrah
+district_wash,shat.al.arab,Shat Al-Arab,?? ?????,al.basrah
+district_wash,al.khidhir,Al-Khidhir,??????,al.muthanna
+district_wash,al.rumaitha,Al-Rumaitha,???????,al.muthanna
+district_wash,al.salman,Al-Salman,???????,al.muthanna
+district_wash,al.samawa,Al-Samawa,???????,al.muthanna
+district_wash,al.kufa,Al-Kufa,??????,al.najaf
+district_wash,al.manathera,Al-Manathera,????????,al.najaf
+district_wash,al.najaf,al.najaf,?????,al.najaf
+district_wash,afaq,Afaq,???,al.qadissiya
+district_wash,al.diwaniya,Al-Diwaniya,?????????,al.qadissiya
+district_wash,al.hamza,Al-Hamza,??????,al.qadissiya
+district_wash,al.shamiya,Al-Shamiya,???????,al.qadissiya
+district_wash,al.sulaymaniyah,al.sulaymaniyah,??????????,al.sulaymaniyah
+district_wash,chamchamal,Chamchamal,??????,al.sulaymaniyah
+district_wash,derbendikhan,Derbendikhan,?????????,al.sulaymaniyah
+district_wash,dokan,Dokan,?????,al.sulaymaniyah
+district_wash,halabcha,Halabcha,?????,al.sulaymaniyah
+district_wash,kalar,Kalar,????,al.sulaymaniyah
+district_wash,panjwin,Panjwin,???????,al.sulaymaniyah
+district_wash,pshdar,Pshdar,?????,al.sulaymaniyah
+district_wash,rania,Rania,?????,al.sulaymaniyah
+district_wash,sharbazher,Sharbazher,???????,al.sulaymaniyah
+district_wash,al.hashimiya,Al-Hashimiya,????????,babil
+district_wash,al.hilla,Al-Hilla,?????,babil
+district_wash,al.mahaweel,Al-Mahaweel,????????,babil
+district_wash,al.mussyab,Al-Mussyab,??????,babil
+district_wash,al.adhamiya,Al-Adhamiya,????????,baghdad
+district_wash,al.kadhmiyah,Al-Kadhmiyah,????????,baghdad
+district_wash,al.karkh,Al-Karkh,?????,baghdad
+district_wash,al.mada.in,Al-Mada'in,???????,baghdad
+district_wash,al.mahmoudiya,Al-Mahmoudiya,?????????,baghdad
+district_wash,al.risafa,Al-Risafa,???????,baghdad
+district_wash,al.thawra,Al-Thawra,??????,baghdad
+district_wash,al.khalis,Al-Khalis,??????,diyala
+district_wash,al.muqdadiya,Al-Muqdadiya,?????????,diyala
+district_wash,baladruz,Baladruz,??????,diyala
+district_wash,baquba,Baquba,??????,diyala
+district_wash,khanaqin,Khanaqin,??????,diyala
+district_wash,kifri,Kifri,????,diyala
+district_wash,al.amadiya,Al-Amadiya,???? / ????????,duhok
+district_wash,duhok,Duhok,????,duhok
+district_wash,sumail,Sumail,?????,duhok
+district_wash,zakho,Zakho,????,duhok
+district_wash,al.zibar,Al-Zibar,???????,erbil
+district_wash,erbil,Erbil,?????,erbil
+district_wash,koysinjaq,Koysinjaq,???????,erbil
+district_wash,makhmour,Makhmour,?????,erbil
+district_wash,rawanduz,Rawanduz,??????,erbil
+district_wash,shaqlawa,Shaqlawa,??????,erbil
+district_wash,ain.al.tamur,Ain Al-Tamur,??? ?????,kerbala
+district_wash,al.hindiya,Al-Hindiya,???????,kerbala
+district_wash,kerbela,Kerbela,??????,kerbala
+district_wash,al.hawiga,Al-Hawiga,???????,kirkuk
+district_wash,daquq,Daquq,?????,kirkuk
+district_wash,dibis,Dibis,???,kirkuk
+district_wash,kirkuk,Kirkuk,?????,kirkuk
+district_wash,al.amara,Al-Amara,???????,maysan
+district_wash,ali.al.gharbi,Ali Al-Gharbi,??? ??????,maysan
+district_wash,al.kahla,Al-Kahla,??????,maysan
+district_wash,al.maimouna,Al-Maimouna,????????,maysan
+district_wash,al.mejar.al.kabir,Al-Mejar Al-Kabir,????? ??????,maysan
+district_wash,qalat.saleh,Qalat Saleh,???? ????,maysan
+district_wash,al.baaj,Al-Baaj,??????,ninewa
+district_wash,al.hamdaniya,Al-Hamdaniya,?????????,ninewa
+district_wash,al.hatra,Al-Hatra,?????,ninewa
+district_wash,al.mosul,Al-Mosul,??????,ninewa
+district_wash,al.shikhan,Al-Shikhan,???????,ninewa
+district_wash,aqra,Aqra,????,ninewa
+district_wash,sinjar,Sinjar,?????,ninewa
+district_wash,telafar,Telafar,?????,ninewa
+district_wash,tilkaef,Tilkaef,?????,ninewa
+district_wash,al.daur,Al-Daur,?????,salah al-din
+district_wash,al.shirqat,Al-Shirqat,???????,salah al-din
+district_wash,balad,Balad,???  ,salah al-din
+district_wash,beygee,Beygee,????,salah al-din
+district_wash,samarra,Samarra,??????,salah al-din
+district_wash,tikrit,Tikrit,?????,salah al-din
+district_wash,tooz.khurmato,Tooz Khurmato,??????????,salah al-din
+district_wash,al.chibayish,Al-Chibayish,???????,thi.qar
+district_wash,al.nasiriya,Al-Nasiriya,????????,thi.qar
+district_wash,al.rifai,Al-Rifai,???????,thi.qar
+district_wash,al.shatra,Al-Shatra,??????,thi.qar
+district_wash,suq.al.shoyokh,Suq Al-Shoyokh,??? ??????,thi.qar
+district_wash,al.hai,Al-Hai,????,wassit
+district_wash,al.kut,Al-Kut,?????,wassit
+district_wash,al.namaniya,Al-Namaniya,?????????,wassit
+district_wash,al.suwaira,Al-Suwaira,???????,wassit
+district_wash,badra,Badra,????,wassit
+,,,,
+yes_no,yes,Yes,???,
+yes_no,no,No,??,
+,,,,
+sex,male,Male,???,
+sex,female,Female,????,
+,,,,
+water_source_one,network_private,Piped water into compound,???? ?????? ?????? ?? ??????,
+water_source_one,network_comm,Piped water connected to public tap,?????? ?????? ????? ???????? ?????,
+water_source_one,dug_well,Borehole,??? ????,
+water_source_one,prot_well,Protected well,??? ????,
+water_source_one,rainwater,Protected rainwater tank,???? ???? ??????? ??????,
+water_source_one,river_spring,Protected spring,??? ???? ????,
+water_source_one,bottled_water,Bottled water,???? ?????,
+water_source_one,purchase_water,Purchase water,???? ??????,
+water_source_one,water_trucking,Water Trucking,??? ?????? ????????? ???????,
+water_source_one,illegal_connection,Illegal connection to piped network,????? ??? ?????? ????? ??????,
+water_source_one,unprot_tank,Unprotected rainwater tank,???? ???? ??????? ????? ????,
+water_source_one,unprot_well,Unprotected well,??? ??? ???? (????? ???????? ?????????),
+water_source_one,unprot_spring,Unprotected spring,????? ??? ????,
+water_source_one,surface_water,"Surface water without pre-treatment (river, dam, lake, pond, stream, canal)",?????? ??????? ??? ?????? ????? (????? ? ???? ? ??????? ? ?????? ? ???? ? ??????),
+water_source_one,other,Other,???? ,
+,,,,
+water_source_two,network_private,Piped water into compound,???? ?????? ?????? ?? ??????,
+water_source_two,network_comm,Piped water connected to public tap,?????? ?????? ????? ???????? ?????,
+water_source_two,dug_well,Borehole,??? ????,
+water_source_two,prot_well,Protected well,??? ????,
+water_source_two,rainwater,Protected rainwater tank,???? ???? ??????? ??????,
+water_source_two,river_spring,Protected spring,??? ???? ????,
+water_source_two,bottled_water,Bottled water,???? ?????,
+water_source_two,purchase_water,Purchase water,???? ??????,
+water_source_two,water_trucking,Water Trucking,??? ?????? ????????? ???????,
+water_source_two,illegal_connection,Illegal connection to piped network,????? ??? ?????? ????? ??????,
+water_source_two,unprot_tank,Unprotected rainwater tank,???? ???? ??????? ????? ????,
+water_source_two,unprot_well,Unprotected well,??? ??? ???? (????? ???????? ?????????),
+water_source_two,unprot_spring,Unprotected spring,????? ??? ????,
+water_source_two,surface_water,"Surface water without pre-treatment (river, dam, lake, pond, stream, canal)",?????? ??????? ??? ?????? ????? (????? ? ???? ? ??????? ? ?????? ? ???? ? ??????),
+water_source_two,no_other_source,No other source,?? ???? ???? ???,
+water_source_two,other,Other,???? ,
+,,,,
+sufficient,morethan_sufficient,More than sufficient,???? ?? ????,
+sufficient,sufficient,Sufficient,???? ??? ??????,
+sufficient,justenough_barelyenough,Just enough/barely enough,?????? ????,
+sufficient,insufficient,Insufficient,?? ??? ??????,
+sufficient,totally_insufficient,Totally insufficient,?? ??? ?????? ??????,
+,,,,
+problems_access,waterpoints_toofar, Waterpoints are too far,???? ?????? ????? ???,
+problems_access,waterpoints_difficult, Waterpoints are difficult to reach (especially for people with disabilities),?? ????? ?????? ??? ???? ?????? ( ?????? ??????? ??? ???????),
+problems_access,water_dangerous, Fetching water is a dangerous activity,??? ?????? ?? ???? ????,
+problems_access,groups_noaccess," Some groups (children, women, elderly, ethnic minorities, etc.) do not have access to the waterpoints",  ??? ????????? (??????? ? ?????? ? ???? ???? ? ???????? ??????? ? ???) ?? ?????? ?????? ??? ???? ??????,
+problems_access,insufficient_number, Insufficient number of water points / waiting time at water points,  ??? ????? ??? ???? ?????? / ??? ???????? ??? ???? ??????,
+problems_access,waterpoints_dysfunctional, Water points are not functioning or close, ???? ?????? ?? ???? ?? ?????,
+problems_access,market_notavailable,Water is not available at the market,?????? ??? ?????? ?? ?????,
+problems_access,water_expensive,Water is too expensive,????? ???? ???,
+problems_access,containers_notenough, Not enough container to store the water ,?????? ??? ???? ?????? ??????,
+problems_access,taste_quality_bad, Don’t like taste / quality of water,??? ?????? ?? ??????,
+problems_access,no_problems,No problems,?? ???? ?????,
+problems_access,other, Other (please list),  ???? (???? ?????),
+problems_access,dont_know, Don’t know,?? ????,
+,,,,
+water_needs,drinking,Drinking,?????,
+water_needs,cooking,Cooking,?????,
+water_needs,personal_hygiene,Personal hygiene (washing or bathing),??????? ??????? ( ?????? ?? ?????????),
+water_needs,domestic_purposes,"Other domestic purposes (cleaning house, floor, etc.)",??????? ???????? ?????? ( ??? ?????? ?? ??????),
+water_needs,none,None of the previous,?? ???? ???? ??? ???,
+water_needs,dont_know, Don't know,?? ????,
+,,,,
+water_contingency,less_preferred,Rely on less preferred (unimproved/untreated) water sources for drinking water;,???????? ??? ????? ?????? ????? ??????? (??? ??????? / ??? ?????????) ?????,
+water_contingency,rely_surface_water,Rely on surface water for drinking water; ,???????? ??? ?????? ??????? ?????,
+water_contingency,rely_less_preferred_source, Rely on less preferred (unimproved/untreated) water sources for other purposes such as cooking and washing;,  ???????? ??? ????? ?????? ????? ??????? (??? ??????? / ??? ????????) ?????? ???? ??? ????? ??????? ,
+water_contingency,rely_surface_water_other, Rely on surface water for other purposes such as cooking and washing;,  ???????? ??? ?????? ??????? ?????? ???? ??? ????? ??????? ,
+water_contingency,fetch_water, Fetch water at a source further than the usual one;,  ??? ????? ?? ???? ???? ?? ???????,
+water_contingency,children_fetch_water, Send children to fetch water;,  ????? ??????? ???? ??????,
+water_contingency,fetch_water_dangerous,Fetch water at a source that could be dangerous; ,????? ????? ?? ???? ?? ???? ??????,
+water_contingency,spend_money_water, Spend money (or credit) on water that should otherwise be used for other purposes; ,????? ????? (?? ??????? ) ???? ????? ?? ???? ?????? ???? ??? ?????,
+water_contingency,reduce_drinking_water,Reduce drinking water consumption (drink less);,????? ??????? ???? ????? ,
+water_contingency,reduce_water_consumption,"Reduce water consumption for other purposes (bathe less, etc.);",????? ??????? ?????? ?????? ???? (????????? ??? ? ??? ??? ???) ,
+water_contingency,none,None of the above,????? ??? ???,
+water_contingency,other, Other (please list);  ,  ???? (???? ?????),
+water_contingency,don.U.0092.t_know,Don’t know,?? ????,
+,,,,
+waterpoint_time,water_on_premises, Water on premises/ Not applicable,?? ?????? ?????? ?????? ?????? ?? ???? ??????? ?? ?? ?????? ?? ??????,
+waterpoint_time,lessthan_5,Less than 5 min to fetch and return     ,??? ?? 5 ????? ???? ?????? ???????,
+waterpoint_time,between5_15, Between 5 and 15 min to fetch and return   ,  ??? 5 ? 15 ????? ???? ?????? ???????,
+waterpoint_time,between16_30, Between 16 and 30 min to fetch and return,  ??? 16 ? 30 ????? ???? ?????? ???????,
+waterpoint_time,morethan_30," More than 30 min, up to 1 hour",  ???? ?? 30 ??????  ??? 1 ????,
+waterpoint_time,morethan_1hour," More than 1 hour, up to 2 hours",  ???? ?? 1 ???? ? ??? ??? 2 ????,
+waterpoint_time,don.U.0092.t_know, Do not know,  ?? ????,
+,,7. More than 2 hours,,
+waterfetching_problem,distance,Distance is a problem, ??????? ?????,
+waterfetching_problem,queuing,Queuing time is a problem,??? ???????? ?? ?????,
+waterfetching_problem,distance_queuing,Both distance and queuing time are a problem,?? ?? ??????? ???? ???????? ?????? ?????,
+waterfetching_problem,not_safe,Do not feel safe (mainly women and girls), ??? ?????? ??????? (????? ?????? ????????),
+waterfetching_problem,no_problem,No problem, ??  ???? ?????,
+,,7. More than 2 hours,,
+problems_associated,reduce_time,Reduces time usually spent on other tasks,???? ?? ????? ???? ????? ???? ?? ???? ????,
+problems_associated,prevent_children,Prevents children from attending classes,???? ??????? ?? ???? ?????? ????????,
+problems_associated,reduces_amount,Reduces amount of water accessible to household,???? ?? ???? ?????? ??????? ????? ????????,
+problems_associated,combine_sources,"Forces household to complement with closer, less desirable water sources",???? ????? ??? ?? ?????? ?????? ???? ???? ???? ?????????,
+problems_associated,other,Other (please specify,??? ??? (???? ???????,
+,,7. More than 2 hours,,
+treat_water,always,"Yes, always treat it before drinking ",???? ?????? ??? ????? ?????? ??? ?????,
+treat_water,sometimes,"Yes, sometimes treat it before drinking ",???? ?????? ????? ?????? ??? ?????,
+treat_water,never," No, never treat it before drinking because it is not necessary",???? ?? ????? ?????? ??? ????? ?????? ??? ??? ??? ???????,
+treat_water,don.U.0092.t_know,Don’t know ,?? ????,
+,,7. More than 2 hours,,
+treat_techniques,stand_settle, Let it stand and settle,??? ????? ?????? ?? ?????,
+treat_techniques,boil,Boil it,??? ??????,
+treat_techniques,expose_sunlight, Expose it to sunlight,????? ?????? ????? ?????,
+treat_techniques,aquatabs,Aquatabs/water purification tablets       ,??? ????? ?????? ??????,
+treat_techniques,chlorine_liquid,Liquid chlorine     ,?????? ??????,
+treat_techniques,chlorine_powder,Powder or granular chlorine  ,????? ?? ?????? ??????,
+treat_techniques,sachets,PuR or Watermaker sachets  ,????? ????? ???? ????? ??????,
+treat_techniques,biosand,Biosand Filter   ,???? ?????? ??????,
+treat_techniques,ceramic,Ceramic Pot Filter   ,???? ???? ?????????,
+treat_techniques,candle,Candle Filter/Bucket Filter  ,???? ????? (?????),
+treat_techniques,electric,Electric/solar Filter,???? ????? ????????? ?? ???? ??? ?????? ???????,
+treat_techniques,multiple,Multiple filter methods,??? ????? ??????,
+treat_techniques,buy_water,Buy water,???? ?????,
+treat_techniques,other, Other,????,
+treat_techniques,none,None of the above,????? ??? ???,
+treat_techniques,don.U.0092.t_know, Don’t know,?? ????,
+,,7. More than 2 hours,,
+why_treat,turbid,It is turbid (unclear with suspended particles),????? ???? (??? ???? ?? ???? ???????? ???????),
+why_treat,tastes_unpleasant, It tastes unpleasant,  ???? ??? ???,
+why_treat,smells_unpleasant, It smells unpleasant,  ????? ??? ????? ?????,
+why_treat,unsafe,It is unsafe,??? ??? ???,
+why_treat,other, Other,????,
+why_treat,don.U.0092.t_know, Don't know,?? ????,
+,,7. More than 2 hours,7. ???? ?? 2 ????,
+satisfied,v_satisfied,Very satisfied,???? ???,
+satisfied,satisifed,Satisfied ,???,
+satisfied,unsatisfied,Unsatisfied ,??? ????,
+satisfied,v_unsatisfied,Very unsatisfied,??? ??? ???,
+satisfied,dont_know,Don’t know,?? ????,
+,,7. More than 2 hours,7. ???? ?? 2 ????,
+sanitation_facility,flush, Flush or pour/flush toilet       ,????? ??????? ?? (?????) ??? ????? ?? ?? ????? ?????,
+sanitation_facility,latrine_without_slab, Pit latrine without a slab or platform    ,???? ????? ???? ????? ??????? ?? ????,
+sanitation_facility,latrine_slab, Pit latrine with a slab and platform  ,???? ????? ?? ????? ??????? ?? ????,
+sanitation_facility,open_hole,Open hole  ,???? ???????? ??????,
+sanitation_facility,pit_vip,Pit VIP toilet      ,????? ?? ???? ?????? ?????,
+sanitation_facility,bucket_toilet, Bucket toilet ,????? ????? (?????),
+sanitation_facility,plastic_bag,Plastic bag,??? ????????,
+sanitation_facility,hanging_toilet,Hanging toilet/latrine,????? ????? ,
+sanitation_facility,none_of," None of the above, open defecation          ",  ?? ??? ??? ??? ? ?????? ?? ??????,
+sanitation_facility,other,Other (specify)      ,??? ??? (???),
+sanitation_facility,dont_know,Don't know,?? ????,
+,,7. More than 2 hours,,
+responsible,women,Women,??????,
+responsible,girls,Girls,???????,
+responsible,boys,Boys ,???????,
+responsible,men,Men,??????,
+responsible,whoever,"Whoever uses it, cleans it",?? ???????? ? ???? ???????,
+responsible,nobody,No one,?? ???,
+responsible,muncipality,Muncipality ,???????,
+,,7. More than 2 hours,,
+sanitation_problems,lack_of_facilities,Lack of sanitation facilities (latrines/toilets)/facilities too crowded,??? ???? ????? ????? ????? (????????) / ????? ?????? ??????,
+sanitation_problems,not_functioning,Sanitation facilities (latrines/toilets) are not functioning or full,????? ????? ????? (???????? ) ?? ???? ?? ??????,
+sanitation_problems,unclean,Sanitation facilities are unclean/unhygienic,????? ????? ????? ??? ????? / ??? ????,
+sanitation_problems,not_private,Sanitation facilities are not private (no locks/door/walls/lighting/etc),????? ????? ????? ????? ??? ???????? (?? ???? ????? / ??? / ????? / ????? / ???),
+sanitation_problems,not_segregated,Sanitation facilities (latrines/toilets) are not segregated between men and women,????? ????? ????? (????????) ???? ?????? ??? ?????? ???????,
+sanitation_problems,too_far,Sanitation facilities (latrines/toilets) are too far,????? ????? ????? (????????) ????? ????,
+sanitation_problems,difficult_to_reach,Sanitation facilities (latrines/toilets) are difficult to reach (especially for people with disabilities),???? ?????? ??? ????? ????? ????? (????????) (???? ??????? ??????? ??? ???????),
+sanitation_problems,dangerous,Going to sanitation facilities (latrines/toilets) is dangerous,?????? ??? ????? ????? ????? (????????) ??? ????,
+sanitation_problems,groups_no_access,"Some groups (children, women, elderly, ethnic minorities, etc) do not have access to sanitation facilities (latrines/toilets)",??? ????????? (??????? ? ?????? ? ???? ???? ? ???????? ??????? ? ???) ?? ?????? ?????? ??? ????? ????? ????? (????????),
+sanitation_problems,none,None,?? ???,
+sanitation_problems,other,"Other, please specify",??? ??? (???? ???????,
+,,7. More than 2 hours,,
+latrine_facility,flush,"A functiong flushing system (water to flush with, if applicable)",???? ??? ?????? (????? ????? ?? ??????? ? ?? ????),
+latrine_facility,drainage,A proper drainage (e.g. no standing/stagnant water in the latrine),????? ????? (????: ??? ?? ??? ?????  ??? ?????? ??????),
+latrine_facility,segregation,A sufficient segragation between men and women,????? ??????? ????? ???????,
+latrine_facility,privacy,Sufficient privacy partitions,????? ?????? ?????,
+latrine_facility,structure,Proper walls/doors/windows (e.g. no broken doors/walls/windows),??????? / ??????? / ??????? ???????? (??? ???? ?????? ????? ??? ?????? / ????? / ????? ??? ??????),
+latrine_facility,lock,An adequate lock,??? ?????,
+latrine_facility,lighting,Sufficient lighting,????? ?????,
+latrine_facility,clean,It is clean enough,????? ??? ??? ???????,
+latrine_facility,convenient,It is located in a covenient area of the area (the HH has no privacy or dignity concerns),??? ?? ????? ????? ?? ?????? (?? ???? ??? ?????? ?? ????? ????? ????????? ?? ???????),
+latrine_facility,accessible,The latrine is accessible for persons with disabilities,??????? ???? ??????? ??? ???????,
+latrine_facility,none,None of the above,?? ??? ??????,
+,,7. More than 2 hours,,
+sanitation,less_preferred,Relied on a less preferred sanitation facilities (latrines/toilets)  ,??????? ??? ????? ????? ????? ????? ??????? (????????),
+sanitation,dangerous_sanitation,Gone to a sanitation facility (latrine/toilet) in a dangerous place,???? ??? ???? ????? ????? (?????) ?? ???? ????,
+sanitation,open_defecation,Defecated in the open ,?????? ?? ??????,
+sanitation,none,None of the above,?? ??? ??? ???,
+sanitation,other,Other (please list); ,????,
+,,7. More than 2 hours,,
+disposal,garbage_bin,Communal garbage bin emptied by municipality,????? ????? ?????? ??? ??????? ?? ??? ???????,
+disposal,private,Private container,????? ????,
+disposal,rubbish_pit,Rubbish pit,???? ???????,
+disposal,burning,Burning,??? ???????,
+disposal,inside_residential,Throw in street / open space inside residential area,??? ??????? ?? ?????? / ????? ?????? ???? ??????? ???????,
+disposal,outside_residential,Throw in street/open space outside residential area,??? ??????? ?? ?????? / ????? ?????? ???? ??????? ???????,
+disposal,burying,Burying,??? ???????,
+disposal,other,Other,????,
+,,7. More than 2 hours,,
+frequency,everyday,Every day,?? ???,
+frequency,twice ,Twice a week,????? ?? ???????,
+frequency,every_week,Every week,?? ?????,
+frequency,two_weeks,Every two weeks,?? ???????,
+frequency,month,Every month,?? ???,
+frequency,less_than,Less than once a month,??? ?? ??? ?? ?????,
+frequency,don.U.0092.t_know,Don't know,?? ????,
+,,7. More than 2 hours,,
+drain,septic_tank,Covered and lined septic tank/cesspool,???? ??? ??? ???? ????? / ??????,
+drain,hole,A handdug hole in the ground,??? ???? ?? ?????,
+drain,communal_line,It is connected to a communal lined drainage and to the sewage,?????? ??? ??? ????? ?????? ?????? ?????? ?????,
+drain,stagnant_field,It drains into the field at the back of the shelter and remains stagnant, ???? ??? ?????? ?? ????? ?????? ?? ?????? ????? ??????,
+drain,nothing,There is no mechanism available,?? ???? ???? ?????,
+drain,other,"Other, please specify",??? ??? (???? ???????,
+drain,dont_know,Don't know,?? ????,
+,,7. More than 2 hours,,
+sewage_visibility,never,Never visible,??? ????? ????,
+sewage_visibility,sometimes,Sometimes visible ,?????? ???? ?????,
+sewage_visibility,always,Always visible,????? ?????,
+,,7. More than 2 hours,,
+waste_visibility,solid_waste,Solid waste or trash,???????? ?????? ?? ???????,
+waste_visibility,feaces,Human feaces,???? ???????,
+waste_visibility,dead_animals,Dead animals,????????? ???????,
+waste_visibility,rodents,Rodents,???????,
+waste_visibility,stagnant_water,Stagnant water,???? ?????,
+waste_visibility,animal_faeces,Animal faeces,???? ?????????,
+waste_visibility,none,None of the above,????? ??? ???,
+,,7. More than 2 hours,,
+household_health,diarrhoea,Diarrhoea,???????,
+household_health,cholera,Cholera,????????,
+household_health,infection,Skin/Eye infection,?????? ????? ?? ?????,
+household_health,none,None,????? ??? ???,
+,,7. More than 2 hours,,
+soap_access,all_day,"Access all day, everyday.",?????? ???? ????? ? ?? ???.,
+soap_access,five_times,Access at least 5 times a week.,???? ?? ?? ??? ?? 5 ???? ?? ???????.,
+soap_access,once_week,Access at least once a week,?????? ??? ????? ??? ????? ?? ???????,
+soap_access,once_month,Access at least once a month,?????? ??? ????? ??? ????? ?? ?????,
+soap_access,dont_know,Don't know,?? ????,
+,,7. More than 2 hours,7. More than 2 hours,
+no_soap,unavailable,It is unavailable at the local market,???? ?????? ?? ????? ???????,
+no_soap,substitute,We prefer a substitute (IE: ash),??? ????? ?????? ?? ??????? ( ??????? ????),
+no_soap,waiting,We are waiting for the next distribution,??? ????? ??????? ?????? ?????? ??? ???????,
+no_soap,need_to_buy_again,"We ran out of soap, but intend to buy it again soon",??? ??? ??? ??????? ?????? ???? ????? ??? ????,
+no_soap,market_too_far,The market is too far,????? ???? ???,
+no_soap,unaffordable,We cannot afford it,?? ?????? ?????? ??? ???????,
+no_soap,not_necessary,Soap is not necessary,??????? ??? ?????,
+no_soap,allergy,Allergies,????? ?? ???????? ??? ?????????,
+no_soap,other,Other,????,
+,,7. More than 2 hours,,
+handwash_duration,on_premises,Handwashing device on premises,??????? ?? ??????/ ?? ?????,
+handwash_duration,less_than_five,Less than 5 minutes,??? ?? 5 ?????,
+handwash_duration,five_fifteen,Between 5 and 15 minutes,??? 5 ? 15 ?????,
+handwash_duration,sixteen_thirty,Between 16 and 30 minutes,??? 16 ?  30 ?????,
+handwash_duration,more_than_thirty,More than 31 minutes,???? ?? ??? ????,
+handwash_duration,no_facilities,No handwashing facilities available,?? ???? ????? ??????,
+,,7. More than 2 hours,,
+hygiene_source,ngo,Distribution from NGO/area management,??????? ?? ???????? ??? ???????? / ????? ????????,
+hygiene_source,gov,Distribution from Government,??????? ?? ???????,
+hygiene_source,market_too_far,Buy it from the market,????? ?? ?????,
+hygiene_source,friends_family,Friends/Family,??????/ ???????,
+hygiene_source,other,Other,????,
+hygiene_source,refuse,Refuse to answer,???? ??? ???????,
+,,7. More than 2 hours,,
+hygiene_problems,none, No,?? ????? ?? ?????,
+hygiene_problems,expensive,Soap and other hygiene items are too expensive,??????? ????? ??????? ?????? ????? ?????,
+hygiene_problems,unavailable,Soap and other hygiene items are not available at the market,??????? ????? ??????? ?????? ??? ?????? ?? ?????,
+hygiene_problems,too_far,The market is too far away ,????? ???? ???,
+hygiene_problems,inaccessible,The market is difficult to reach (especially for people with disabilities),?? ????? ?????? ??? ????? (???? ??????? ??????? ??? ???????),
+hygiene_problems,dangerous,Going to the market is dangerous ,?????? ??? ????? ??? ????,
+hygiene_problems,inaccessible_groups,Some groups do not have access to the market,??? ????????? ?? ?????? ?????? ??? ?????,
+hygiene_problems,bad_quality,Don’t like quality of soap and other hygiene items,?? ????? ???? ??????? ????? ??????? ??????,
+hygiene_problems,other,Other (specify),??? ??? (???),
+hygiene_problems,dont_know,Don't know,?? ????,
+,,7. More than 2 hours,,
+hygiene adapt,less_preferred_NFI,Rely on less preferred types of NFI,???????? ??? ????? ??? ??????? ?? ?????? ??? ????????,
+hygiene adapt,soap_substitutes_sand_or_other_rubbing_agents_for_soap_clothing_etc.),"Rely on soap substitutes (sand or other rubbing agents for soap, clothing for diapers, etc.)",???????? ??? ????? ??????? (????? ?? ????? ??? ???? ??????? ? ????? ???????? ? ???.),
+hygiene adapt,market_far_away,Buying NFI at a market place further than the usual one,???? ?????? ??? ???????? ?? ??? ???? ?? ????? ???????,
+hygiene adapt,dangerous_market,Buying NFI at a market place in a dangerous place,???? ?????? ??? ???????? ?? ????? ?? ???? ????,
+hygiene adapt,from_a_relative, Borrow NFI from a friend or relative ,?????? ???? ??? ?????? ?? ???? ?? ????,
+hygiene adapt,spend_money, Spend money (or credit) on NFI that should otherwise be used for other purposes,  ????? ????? (?? ????????) ??? ?????? ??? ???????? ???? ????? ????????? ?????? ????,
+hygiene adapt,reduce_consumption,Reduce NFI consumption for personal hygiene,????? ??????? ?????? ??? ???????? ?? ??? ??????? ???????,
+hygiene adapt,laundry_other," Reduce NFI consumption for other purposes (cleaning dishes, laundry, etc.) ",  ????? ??????? ?????? ??? ???????? ?????? ???? (????? ??????? ??????? ??? ??? ???),
+hygiene adapt,specify,Other (specify) ,??? ??? (???),
+,,7. More than 2 hours,,
+hygiene_practise,critical_times,Critical times to wash hands ,??????? ???????? ???? ??????,
+hygiene_practise,water_handling,Water handling and storage,?????? ?????? ????????,
+hygiene_practise,water_treatment,Household Water treatment ,?????? ?????? ????????,
+hygiene_practise,waste_disposal,Waste disposal,?????? ?? ????????,
+hygiene_practise,hygiene,Personal and domestic hygiene,??????? ??????? ?????????,
+hygiene_practise,none,None of the above,????? ??? ???,
+,,7. More than 2 hours,,
+hygiene_support,cash_water_items,"Cash for buying water items (containers, water treatment, etc.) or buying water",????? ????? ???? ?????? ??????? (???????? ? ??????? ?????? ??????? ??? ??? ???) ?? ???? ??????,
+hygiene_support,distribution_water_items," Direct provision/distribution of water items (containers, water treatment, etc.)",  ??????? ??????? / ????? ?????? ??????? (???????? ? ?????? ?????? ? ???),
+hygiene_support,water,Direct provision of water (water trucking),??????? ??????? ?????? (??? ?????? ?????????),
+hygiene_support,construction, Construction/rehabilitation of water points    ,  ???? / ????? ????? ???? ??????,
+hygiene_support,advice_construction, Advice on construction/rehabilitation of water points ,  ??????? ???? ???? / ????? ????? ???? ??????,
+hygiene_support,advice_treatment, Advice on water treatment ,  ??????? ???? ?????? ??????,
+hygiene_support,cash_sanitation_facilities,Cash to build or improve sanitation facilities (toilets/latrines,????? ?? ????? ????? ?? ????? ????? ????? ????? (????????),
+hygiene_support,construction_sanitation, Direct construction or rehabilitation of sanitation facilities toilets/latrines) ,  ?????? ??????? ?? ????? ????? ?????? / ????? ????? ?????),
+hygiene_support,advice_sanitation_facilities, Advice on construction/rehabilitation of sanitation facilities (toilets/latrines),  ??????? ???? ????/ ????? ????? ????? ????? ????? (????????),
+hygiene_support,cash_soap_etc_toothbrush," Cash for buying hygiene items (soap, diapers, pad, toothbrush, toothpaste, etc.)",  ??????? ??????? ????? ???? ??????? (??????? ? ???????? ? ????? ? ????? ??????? ? ????? ??????? ? ???),
+hygiene_support,direct_soap_etc_toothbrush," Direct provision of hygiene items (soap, diapers, pad, toothbrush, toothpaste, etc.)",  ????? ????? ??????? (????? ? ?????? ? ??? ? ????? ????? ? ????? ????? ? ???.),
+hygiene_support,advice_personal_hygiene, Advice on personal hygiene ,  ??????? ???? ??????? ???????,
+,,7. More than 2 hours,,
+coping_mechanisms,jerrycans_soap,"Rely on less preferred types of NFI (jerrycans, soap, etc.)",????? ??? ????? ??? ??????? ?? ?????? ??? ???????? (???????? ???????? ??? ??? ???),
+coping_mechanisms,buying_nfi,"Buying NFI (jerrycans, soap, etc.) at a marketplace in a dangerous place",???? ?????? ??? ???????? (????? ????? ???????? ??? ??? ???) ?? ??? ??????? ?? ???? ????,
+coping_mechanisms,spend_money_nfi,"Spend money (or credit) on NFI (jerrycans, soap, etc.) that should otherwise be used for other purposes ",???? ????? (?? ????????) ??? ???? ??? ?????? (????? ?????? ???????? ??? ??? ???) ???? ????? ????????? ?????? ????,
+coping_mechanisms,reduce_nfi_consumption,"Reduce NFI (jerrycans, soap, etc.) consumption for personal hygiene ",??? ?? ??????? ?????? ??? ???????? (????????? ? ???????? ? ???) ??????? ???????,
+coping_mechanisms,none,None of the above,????? ??? ???,
+coping_mechanisms,other,Other (please list); ,???? (???? ?????) ?,
+,,7. More than 2 hours,,
+shower,communal_line,Communal showers ,?????? ???? ,
+shower,no_shower,No shower,?? ???? ??????,
+shower,private_household,Private showers built by the household,?????? ???? ?? ?????? ?????? ??????,
+shower,private_shower,Private showers built by other organisation,?????? ???? ?? ?????? ?? ??? ?????? ????,
+shower,private_shower_previous,Private showers built by other,???? ??? ?? ?????? ?? ??? ?????,
+shower,other,"Other, please specify",????,
+,,7. More than 2 hours,,
+shower_observation,running_water,Running water,???? ?????,
+shower_observation,hot_water,Running hot water,???? ????? ,
+shower_observation,drainage,A proper drainage (e.g. no standing/stagnant water in the shower),????? ????? (??? ???? ?????? ??? ???? ???? ????? ?? ??????),
+shower_observation,segregation,A sufficient segragation between men and women,?????? ?????? ???????,
+shower_observation,privacy_partitions,Sufficient privacy partitions,????? ?????? ?????,
+shower_observation,structure,Proper walls/doors/windows (e.g. no broken doors/walls/windows),??????? / ??????? / ??????? ???????? (??? ???? ?????? ??? ???? ????? ?????? / ????? / ????? ??????),
+shower_observation,adequate_lock,An adequate lock,??? ?????,
+shower_observation,sufficient_lighting,Sufficient lighting,????? ?????,
+shower_observation,clean,It is clean enough,???? ????? ??? ??? ???????,
+shower_observation,convenient,It is located in a covenient area (the HH has no privacy or dignity concerns),??? ?? ????? ????? (?? ???? ??? ?????? ?? ????? ????? ????????? ?? ???????),
+shower_observation,accessible,The shower is accessible for persons with disabilities,?????? ???? ??????? ??? ???????,
+,,7. More than 2 hours,,
+drinking_water_school,piped,Piped water supply,??????? ?????? ??? ????????,
+drinking_water_school,protected_well,Protected well/Spring,??? /????? ????,
+drinking_water_school,rainwater,Rainwater,???? ???????,
+drinking_water_school,unprotected_well,Unprotected well/spring,??? /????? ??? ????,
+drinking_water_school,tanker,Tanker/Truck/Cart,????? ????/???? ????..,
+drinking_water_school,surface_water,Surface Water,???? ?????,
+drinking_water_school,no_water,No water Source available,?? ???? ???? ???? ????,
+drinking_water_school,dont_know,Don't know,?? ????,
+,,7. More than 2 hours,'iimdadat almiah eabr al'anabib,
+distance,premises,On premises,?? ?????? ????,
+distance,500m,Upto 500m,??? 500?,
+distance,more_500m,500m or further,????? 500? ?? ????,
+distance,dont_know,Don't know,?? ????,
+,,7. More than 2 hours,,
+sanitation_problem,no_locks,There are no locks on the inside of the doors,??? ???? ????? ??????? ?? ??????,
+sanitation_problem,not_maintained, Are not maintained                                             ,?? ??? ??????? ??????? ?????,
+sanitation_problem,no_space,There is not enough space to practice proper Menstrual Hygiene Management  ,?? ???? ????? ????? ??????? ????? ??????? ??????? ????????,
+sanitation_problem,no_water,There is no running water,?? ???? ????,
+sanitation_problem,other,"Other, please specify",??? ??? (???? ???????,
+,,7. More than 2 hours,,
+wash_concern,access_water," Being able to access water for drinking, cooking, bathing and washing (both quality and quantity)",?????? ??? ?????? ??? ?????? ????? ?????? ?????????? ??????? (?????? ???????),
+wash_concern,access_sanitation, Being able to access adequate sanitation facilities (toilets/latrines) ,  ?????? ??? ?????? ??? ????? ????? ????? ???????? (????????),
+wash_concern,personal_hygiene,Being able to ensure personal hygiene,?????? ??? ???? ??????? ???????,
+wash_concern,environment,"Having a healthy environment around the house, e.g. no visible solid waste, stagnant water, etc. ",?????? ??? ???? ???? ?? ???? ????? ?????? ? ??? ???? ?????? ?? ???? ?????? ???? ????? ? ???? ????? ? ???.,
+wash_concern,mitigation,Mitigating flood/drought risk,??????? ?? ????? ????????? / ??????,
+wash_concern,school_sanitation,The school sanitation facilities being inadequate,????? ????? ????? ???????? ??? ?????,
+wash_concern,area_sanitation,The area sanitation facilities being inadequate,????? ????? ????? ?? ?????? ??? ?????,
+wash_concern,no_concern, No problem or concern ,  ?? ????? ?? ???,
+,,7. More than 2 hours,,
+flood_damage,damage,Damage to shelter,??? ?? ??????,
+flood_damage,destroyed,Shelter completely destroyed,???? ?????? ???????,
+flood_damage,leaking,Shelter leaking,????? ?? ??????,
+flood_damage,flooded,Shelter flooded,???? ?????? ??????,
+flood_damage,no_comment,Prefer not to say,???? ??? ???????,
+flood_damage,other,"Other, please specify",????,
+,,7. More than 2 hours,,
+flood_activities,school_inaccessible,Children could not get to school,?? ????? ??????? ?????? ??? ???????,
+flood_activities,mobility,Mobility of adults affected,???? ??? ??????? ????????,
+flood_activities,electricity,Electricity services negatively affected,???? ????? ??? ????? ????????,
+flood_activities,water,Water services negatively afftected,???? ????? ??? ????? ??????,
+flood_activities,agriculture,Affected livelihoods due to damage to agricultural land,????? ??? ????? ???? ??????? ???? ???? ??????? ????????,
+flood_activities,sickness,People getting sick,????? ???? ?????,
+flood_activities,loss,Loss/damage to households' items,????? / ??? ???? ??????,
+flood_activities,other,"Other, please specify",????,
+,,7. More than 2 hours,,
+flood_causes,drainage,Poor drainage systems,??? ???? ????? ????? ?????? ???? ???????,
+flood_causes,sewage,Water sewage system overflows,??? ???? ????? ?????,
+flood_causes,waterway_capacity,Water not being able to flow away due to lack of waterway capacity (rivers),??? ???? ?????? ??? ?????? ?????? ???? ??? ??? ????? ?????? (???????),
+flood_causes,levees,Dams or levees breaking,??? ?? ??????,
+flood_causes,absorption,Surface water increased due to poor soil absorption,????? ?????? ??????? ???? ??? ?????? ?????? ???,
+flood_causes,shelters,Irregulated shelters affecting surface water flow,??????? ??? ??????? ???? ???? ??? ???? ?????? ???????,
+flood_causes,deforrestation,Deforrestation ,????? ???????,
+flood_causes,precipitation,Severe precipitation,???? ??????? ???????,
+flood_causes,climate,Climatic changes,???????? ????????,
+flood_causes,other,"Other, please specify",??? ??? (???? ???????,
+flood_causes,don.t_know,Don.t know,?? ????,
+flood_causes,dont_know,Don’t know,?? ????,
+,,7. More than 2 hours,,
+flood_mitigation,nothing,Nothing,?? ???,
+flood_mitigation,shelter_strengthened,Strengthened my shelter,????? ??????,
+flood_mitigation,location,Moved to a different location,???????? ??? ????? ????,
+flood_mitigation,drainage_area,Better drainage systems in place in the area,????? ???? ????? ????? ?? ???????,
+flood_mitigation,drainage_ourselves,Better drainage system built ourselves around the tent,???? ???? ??? ???? ??????? ??? ??????,
+flood_mitigation,sandbags,Sandbags,??????? ????? ?????,
+flood_mitigation,windows_doors,Improved windows and doors of shelter,????? ????? ?????? ??????,
+flood_mitigation,warning_system,Used early warning system,??????? ???? ??????? ??????,
+flood_mitigation,other,Other,????,
+,,7. More than 2 hours,,
+drought_impact,lack_of_drinking_water,Lack of drinking water available,??? ?? ???? ????? ???????,
+drought_impact,lack_of_water ,Lack of water for other purposes than drinking,??? ?????? ?????? ???? ??? ?????,
+drought_impact,salinization,Salinization of water,????? ?????,
+drought_impact,insufficient_water_crops,Not enough water to meet the water needs of crops,?? ???? ???? ????? ?????? ?????????? ??????? ????????,
+drought_impact,livelihood_opportunities,Negative effect on livelihood opportunities for area residents,??????? ?????? ??? ??? ??????? ????? ???????,
+drought_impact,cost,Prices of food and water increase,????? ????? ?????? ???????? ??????? ,
+drought_impact,insufficient_food,Not enough food available,?? ???? ?? ???? ?? ??????,
+drought_impact,electricity,Electricity services negatively affected,???? ???? ???? ??? ????? ????????,
+drought_impact,sickness,Cause of diseases (i.e. cholera),????? ???????? (??? ????????),
+drought_impact,wildfires,Wildfire in area surroundings,????? ?????? ??????? ?? ???? ???????,
+drought_impact,displacement,Displacement of area residents,????? ?? ???? ???? ???????,
+drought_impact,nothing,Nothing,?? ???,
+drought_impact,other,"Other, please specify",??? ??? (???? ???????,
+,,7. More than 2 hours,,
+drought_causes,rain,Less rain,??? ???????,
+drought_causes,river,River dries up quicker,???? ????? ?????,
+drought_causes,groundwater,Less groundwater available,???? ????? ????? ???? ????,
+drought_causes,population_increase,Population growth increased the demand of water,?????? ????? ??? ????? ???? ?????? ????? ???????,
+drought_causes,irrrigation,Poor irrigation systems,??? ??? ????,
+drought_causes,water_management,Poor water management,??? ????? ??????,
+drought_causes,climate,Climatic changes,???????? ????????,
+drought_causes,other,"Other, please specify",??? ??? (???? ???????,
+drought_causes,dont_know,Don’t know,?? ????,
+,,7. More than 2 hours,7. ???? ?? 2 ????,
+drought_mitigation,water_capacity,Increase water capacity,????? ??? ??????,
+drought_mitigation,water_intensive_farming,Less water intensive farming,????? ????? ?????? ???????,
+drought_mitigation,water_resources,Locating new water resources,????? ????? ????? ?????,
+drought_mitigation,purchase_water,Purchase more water,???? ?????? ?? ??????,
+drought_mitigation,recycling_water,Water recycling,????? ????? ??????,
+drought_mitigation,improving_water_system,Improving current water system fixing leaks etc,????? ?????? ?????? ????? ?????? ???,
+drought_mitigation,diet,Changing diet,????? ?????? ???????,
+drought_mitigation,nothing,Nothing,?? ???,
+drought_mitigation,other,Other,????,
+,,7. More than 2 hours,,
+yes_no_stn,whole_block,"Yes, with the whole block",???? ?? ?????? ??????,
+yes_no_stn,few_households,"Yes, with a few households",???? ?? ??? ?????,
+yes_no_stn,no,No,???,
+yes_no_stn,dont_know,Don’t know ,?? ????,
+,,7. More than 2 hours,,
+yes_no_soap,yes_soap,"Yes, soap present",???? ???? ?????,
+yes_no_soap,yes_no_soap_present,"Yes, no soap present",??? ????? ????? ??? ????? ?????????,
+yes_no_soap,no,No,???,
+,,7. More than 2 hours,,
+why_free_techniques,sufficiently_cleans,Because it sufficiently cleans the water,?????? ?????? ???? ????,
+why_free_techniques,unaffordable,Because we cannot afford any other treatment method,????? ?? ?????? ???? ?? ????? ?????? ????,
+why_free_techniques,no_products,Because there are no treatment products/filters available in the markets,???? ?? ???? ?????? ?????? / ?????? ?????? ?? ???????,
+why_free_techniques,other,"Other, please specify",??? ??? (???? ???????,
+why_free_techniques,dont_know,Don't know,?? ????,
+,,7. More than 2 hours,,
+hygiene_adapt,less_preferred,Rely on less preferred types of NFI,???????? ??? ????? ??? ??????? ?? ?????? ??? ????????,
+hygiene_adapt,soap_substitutes ,"Rely on soap substitutes (sand or other rubbing agents for soap, clothing for diapers, etc.)",???????? ??? ????? ??????? (????? ?? ????? ??? ???? ??????? ? ????? ???????? ? ???.),
+hygiene_adapt,market_further,Buying NFI at a market place further than the usual one,???? ?????? ??? ???????? ?? ??? ???? ?? ????? ???????,
+hygiene_adapt,market_dangerous,Buying NFI at a market place in a dangerous place,???? ?????? ??? ???????? ?? ????? ?? ???? ????,
+hygiene_adapt,borrow_nfi, Borrow NFI from a friend or relative ,?????? ???? ??? ?????? ?? ???? ?? ????,
+hygiene_adapt,spend_credit_nfi,Spend money (or credit) on NFI that should otherwise be used for other purposes,  ????? ????? (?? ????????) ??? ?????? ??? ???????? ???? ????? ????????? ?????? ????,
+hygiene_adapt,reduce_nfi_consumption_hygiene, Reduce NFI consumption for personal hygiene,????? ??????? ?????? ??? ???????? ?? ??? ??????? ???????,
+hygiene_adapt,reduce_nfi_consumption_for_other_purposes_cleaning_hygiene," Reduce NFI consumption for other purposes (cleaning dishes, laundry, etc.) ",  ????? ??????? ?????? ??? ???????? ?????? ???? (????? ??????? ??????? ??? ??? ???),
+hygiene_adapt,other, Other (specify) ,??? ??? (???),
+hygiene_adapt,dont_know, Don't know,?? ????,
+,,7. More than 2 hours,,
+yes_no_dk,yes,Yes,???,
+yes_no_dk,no,No,???,
+yes_no_dk,don.U.0092.t_know,Don't know,?? ????,
+,,7. More than 2 hours,7. More than 2 hours,
+sector,agriculture,Agriculture,???????,
+sector,livestock,Livestock,???????,
+sector,commercial,Commercial,???????,
+sector,manufacturing,Manufacturing,???????,
+sector,construction,Construction,????? ????,
+sector,transportation,Transportation,?????,
+sector,medical,Medical,????/ ?????,
+sector,education,Education,???????,
+sector,hotels_restaurants,Hotels/Restaurants,??????? ?? ???????,
+sector,cleaner_cook,Cleaner/Cook,??????? / ?????,
+sector,i_t,I.T,???? ????? ???????,
+sector,mining,Mining,?????,
+sector,real_estate,Real Estate,????????,
+sector,government,Government,????? ?????,
+sector,import_export,Import/Export,??????? ? ?????,
+sector,ngo_un,NGO/UN,?????? ??? ?????? / UN,
+sector,mechanic,Mechanic,?????????,
+sector,electrician,Electrician,???????,
+sector,other,Other,????,
+,,7. More than 2 hours,7. More than 2 hours,
+income,cash_crop,Income from own cash crop farming,????? ?? ????? ???????? ??????? ??????,
+income,livestock_faming,Income from own livestock farming,????? ?? ????? ??????? ??????,
+income,sales, Income from rent/business/sales of good or services,  ????? ?? ??????? / ??????? / ?????? ????? ?? ???????,
+income,unskilled_labour,Unskilled daily labour / no contract,??????? ??????? ??? ??????? / ?? ???? ???,
+income,employment,Formal employment  with contract,????? ?????? ?? ?????,
+income,benefits, Government benefits,????? ?? ???????,
+income,humanitarian_assistance,Humanitarian assistance,?????? ???????,
+income,gifts,Gifts/ remittances,??????? / ????????,
+income,borrow,Borrowing/ loans,???????? / ??????,
+income,saving,Savings,??????,
+,,7. More than 2 hours,7. ???? ?? 2 ????,
+reasons_return,security_stable,Security situation in area of origin is stable,????? ?????? ????? ?? ????? ??????,
+reasons_return,uxo,Area of origin was cleared of explosive hazards,?? ??? ??????? ?????? ?? ???? ???????,
+reasons_return,other_members_returned,Other family / community members have returned,????? ?????? ?? ??????? ??????? ?? ????? ??????? ??? ????? ??????,
+reasons_return,livelihood_availability_there,Livelihood options are available there,?????? ??????? ????? ????,
+reasons_return,basic_services_availability,"Basic services (water, electricity, health, education, etc.) are available in the area of origin",????? ??????? ???????? ?? ????? ?????? ?? ???? ??????? ???? ?????? ??????,
+reasons_return,emotional_desire,Emotional desire to return,?????? ???????? ???????,
+reasons_return,secure_house_land,"Necessary to secure personal housing, land and property",????? ????? ?????? ?????? ?????? ??????????,
+reasons_return,limited_livelihood_opportunities,Limited livelihood opportunities in area of displacement,??????? ??? ??????? ???????? ?? ????? ??????,
+reasons_return,limited_services,Limited services in area of displacement,????? ?????? ?? ????? ??????,
+reasons_return,no_safe_in_area_of_displace,Do not feel safe in area of displacement,??? ?????? ??????? ?? ????? ??????,
+reasons_return,no_integrated_in_area_of_displace,Do not feel integrated in the area of displacement,??? ?????? ????????? ?? ????? ??????,
+reasons_return,facing_eviction,Facing eviction in the area of displacement,?????? ??????? ?? ????? ??????,
+reasons_return,forced_security,Forced to return by security actors or civilian authorities,????? ??? ?????? ?? ??? ?????? ??????? ?? ??????? ???????,
+reasons_return,fam_released,Family member released from detention,???? ??? ????? ??????? ?? ???????? ?? ?????,
+reasons_return,fam_released,Other  ,????,
+,,,,
+yes_no_hygiene,yes,Yes,???,
+yes_no_hygiene,no,No,??,
+yes_no_hygiene,refuse_answer,Respondent refuses to answer,???? ?????? ??? ???????,
+yes_no_hygiene,refuse_ask,Enumerator refuses to ask,???? ???? ????????? ??? ??????,
+,,,,duhok
+,,,,duhok
+,,,,duhok
+cluster,cluster_location_id_0001,0001 (Amedi),0001 (Amedi),duhok
+cluster,cluster_location_id_0002,0002 (Aradin),0002 (Aradin),duhok
+cluster,cluster_location_id_0003,0003 (Bamarne),0003 (Bamarne),duhok
+cluster,cluster_location_id_0004,0004 (Chamanke),0004 (Chamanke),duhok
+cluster,cluster_location_id_0005,0005 (Inishke),0005 (Inishke),duhok
+cluster,cluster_location_id_0006,0006 (Qadish Collective),0006 (Qadish Collective),duhok
+cluster,cluster_location_id_0007,0007 (Sarsink),0007 (Sarsink),duhok
+cluster,cluster_location_id_0008,0008 (Mizi Village),0008 (Mizi Village),duhok
+cluster,cluster_location_id_0009,0009 (Nahla Area),0009 (Nahla Area),duhok
+cluster,cluster_location_id_0010,0010 (Kanika),0010 (Kanika),duhok
+cluster,cluster_location_id_0011,0011 (Merstak),0011 (Merstak),duhok
+cluster,cluster_location_id_0012,0012 (Bablu),0012 (Bablu),duhok
+cluster,cluster_location_id_0013,0013 (Baroshke Complex),0013 (Baroshke Complex),duhok
+cluster,cluster_location_id_0014,0014 (Dabin 2),0014 (Dabin 2),duhok
+cluster,cluster_location_id_0015,0015 (Eminke),0015 (Eminke),duhok
+cluster,cluster_location_id_0016,0016 (Etit),0016 (Etit),duhok
+cluster,cluster_location_id_0017,0017 (Khabat Kojar),0017 (Khabat Kojar),duhok
+cluster,cluster_location_id_0018,0018 (Masik-1),0018 (Masik-1),duhok
+cluster,cluster_location_id_0019,0019 (Mazi),0019 (Mazi),duhok
+cluster,cluster_location_id_0020,0020 (Midiya),0020 (Midiya),duhok
+cluster,cluster_location_id_0021,0021 (Naor),0021 (Naor),duhok
+cluster,cluster_location_id_0022,0022 (Nazarke),0022 (Nazarke),duhok
+cluster,cluster_location_id_0023,0023 (Rashanke),0023 (Rashanke),duhok
+cluster,cluster_location_id_0024,0024 (Sarheldan),0024 (Sarheldan),duhok
+cluster,cluster_location_id_0025,0025 (Shakhke),0025 (Shakhke),duhok
+cluster,cluster_location_id_0026,0026 (Shele),0026 (Shele),duhok
+cluster,cluster_location_id_0027,0027 (Shindukha),0027 (Shindukha),duhok
+cluster,cluster_location_id_0028,0028 (Zawita),0028 (Zawita),duhok
+cluster,cluster_location_id_0029,0029 (Avrike),0029 (Avrike),duhok
+cluster,cluster_location_id_0030,0030 (Zirka),0030 (Zirka),duhok
+cluster,cluster_location_id_0031,0031 (Zozan),0031 (Zozan),duhok
+cluster,cluster_location_id_0032,0032 (Avro City),0032 (Avro City),duhok
+cluster,cluster_location_id_0033,0033 (Bakhitme),0033 (Bakhitme),duhok
+cluster,cluster_location_id_0034,0034 (Basetki),0034 (Basetki),duhok
+cluster,cluster_location_id_0035,0035 (Bazalan),0035 (Bazalan),duhok
+cluster,cluster_location_id_0036,0036 (Fayda),0036 (Fayda),duhok
+cluster,cluster_location_id_0037,0037 (Girsheen),0037 (Girsheen),duhok
+cluster,cluster_location_id_0038,0038 (Hawshke),0038 (Hawshke),duhok
+cluster,cluster_location_id_0039,0039 (Misereek),0039 (Misereek),duhok
+cluster,cluster_location_id_0040,0040 (Seje),0040 (Seje),duhok
+cluster,cluster_location_id_0041,0041 (Shariya),0041 (Shariya),duhok
+cluster,cluster_location_id_0042,0042 (Domiz-Halat),0042 (Domiz-Halat),duhok
+cluster,cluster_location_id_0043,0043 (Kabarto),0043 (Kabarto),duhok
+cluster,cluster_location_id_0044,0044 (Khanke Qadima),0044 (Khanke Qadima),duhok
+cluster,cluster_location_id_0045,0045 (Kherava),0045 (Kherava),duhok
+cluster,cluster_location_id_0046,0046 (Qasr Yazddin),0046 (Qasr Yazddin),duhok
+cluster,cluster_location_id_0047,0047 (Old Qasr Yazddin),0047 (Old Qasr Yazddin),duhok
+cluster,cluster_location_id_0048,0048 (Old Sorka),0048 (Old Sorka),duhok
+cluster,cluster_location_id_0049,0049 (Diraboon),0049 (Diraboon),duhok
+cluster,cluster_location_id_0050,0050 (Qarawla),0050 (Qarawla),duhok
+cluster,cluster_location_id_0051,0051 (Ashe Chami Sector),0051 (Ashe Chami Sector),duhok
+cluster,cluster_location_id_0052,0052 (Bazar Sector),0052 (Bazar Sector),duhok
+cluster,cluster_location_id_0053,0053 (Betase Sector),0053 (Betase Sector),duhok
+cluster,cluster_location_id_0054,0054 (Bedar Sector),0054 (Bedar Sector),duhok
+cluster,cluster_location_id_0055,0055 (Khrababka Sector),0055 (Khrababka Sector),duhok
+cluster,cluster_location_id_0056,0056 (Rkawa Sector),0056 (Rkawa Sector),duhok
+cluster,cluster_location_id_0057,0057 (Shabaniya Sector),0057 (Shabaniya Sector),duhok
+cluster,cluster_location_id_0058,0058 (Abasiya Sector),0058 (Abasiya Sector),duhok
+cluster,cluster_location_id_0059,0059 (Firqa Sector),0059 (Firqa Sector),duhok
+cluster,cluster_location_id_0060,0060 (Kochka Honari),0060 (Kochka Honari),erbil
+cluster,cluster_location_id_0061,0061 (Bersive),0061 (Bersive),erbil
+cluster,cluster_location_id_0062,0062 (Bajika),0062 (Bajika),erbil
+cluster,cluster_location_id_0063,0063 (Al Eskan),0063 (Al Eskan),erbil
+cluster,cluster_location_id_0064,0064 (Bahrka center),0064 (Bahrka center),erbil
+cluster,cluster_location_id_0065,0065 (Gazna),0065 (Gazna),ninewa
+cluster,cluster_location_id_0066,0066 (Hay Askary),0066 (Hay Askary),erbil
+cluster,cluster_location_id_0067,0067 (Kawa Collective),0067 (Kawa Collective),erbil
+cluster,cluster_location_id_0068,0068 (Khabat),0068 (Khabat),erbil
+cluster,cluster_location_id_0069,0069 (Mamzawa),0069 (Mamzawa),erbil
+cluster,cluster_location_id_0070,0070 (Nisthtiman Comercial Complex),0070 (Nisthtiman Comercial Complex),erbil
+cluster,cluster_location_id_0071,0071 (Qushtapa centre),0071 (Qushtapa centre),erbil
+cluster,cluster_location_id_0072,0072 (Rizgari),0072 (Rizgari),erbil
+cluster,cluster_location_id_0073,0073 (Sebardan),0073 (Sebardan),erbil
+cluster,cluster_location_id_0074,0074 (Shahan city),0074 (Shahan city),erbil
+cluster,cluster_location_id_0075,0075 (Zhyan),0075 (Zhyan),erbil
+cluster,cluster_location_id_0076,0076 (Runaki(Andazyaran)),0076 (Runaki(Andazyaran)),erbil
+cluster,cluster_location_id_0077,0077 (Manara City),0077 (Manara City),erbil
+cluster,cluster_location_id_0078,0078 (Lana City ),0078 (Lana City ),erbil
+cluster,cluster_location_id_0079,0079 (Bayizagha),0079 (Bayizagha),erbil
+cluster,cluster_location_id_0080,0080 (Bazar koya(Bafri qndeel)),0080 (Bazar koya(Bafri qndeel)),erbil
+cluster,cluster_location_id_0081,0081 (Hamamok),0081 (Hamamok),erbil
+cluster,cluster_location_id_0082,0082 (Qalat),0082 (Qalat),erbil
+cluster,cluster_location_id_0083,0083 (Taqtaq),0083 (Taqtaq),erbil
+cluster,cluster_location_id_0084,0084 (Nawdaran),0084 (Nawdaran),erbil
+cluster,cluster_location_id_0085,0085 (Gashteyari),0085 (Gashteyari),erbil
+cluster,cluster_location_id_0086,0086 (Gwer),0086 (Gwer),erbil
+cluster,cluster_location_id_0087,0087 (Sherwany),0087 (Sherwany),erbil
+cluster,cluster_location_id_0088,0088 (Saray(markez bazar)),0088 (Saray(markez bazar)),erbil
+cluster,cluster_location_id_0089,0089 (Farmanbaran),0089 (Farmanbaran),erbil
+cluster,cluster_location_id_0090,0090 (Qalat),0090 (Qalat),erbil
+cluster,cluster_location_id_0091,0091 (Bnari Qara chogh),0091 (Bnari Qara chogh),erbil
+cluster,cluster_location_id_0092,0092 (Abu Sheta),0092 (Abu Sheta),erbil
+cluster,cluster_location_id_0093,0093 (Kapran),0093 (Kapran),erbil
+cluster,cluster_location_id_0094,0094 (Godella),0094 (Godella),erbil
+cluster,cluster_location_id_0095,0095 (Markaz Mergasur),0095 (Markaz Mergasur),erbil
+cluster,cluster_location_id_0096,0096 (Betrma),0096 (Betrma),erbil
+cluster,cluster_location_id_0097,0097 (Harir),0097 (Harir),erbil
+cluster,cluster_location_id_0098,0098 (Harir-Batas),0098 (Harir-Batas),erbil
+cluster,cluster_location_id_0099,0099 (Hiran),0099 (Hiran),erbil
+cluster,cluster_location_id_0100,0100 (Sabirawa),0100 (Sabirawa),erbil
+cluster,cluster_location_id_0101,0101 (Sarmidan-1(Ashti)),0101 (Sarmidan-1(Ashti)),erbil
+cluster,cluster_location_id_0102,0102 (Sarmidan-2(Azadi)),0102 (Sarmidan-2(Azadi)),erbil
+cluster,cluster_location_id_0103,0103 (Shahedan),0103 (Shahedan),erbil
+cluster,cluster_location_id_0104,0104 (Khalifan(center)),0104 (Khalifan(center)),erbil
+cluster,cluster_location_id_0105,0105 (Rawanduz District),0105 (Rawanduz District),erbil
+cluster,cluster_location_id_0106,0106 (Soran District),0106 (Soran District),erbil
+cluster,cluster_location_id_0107,0107 (Diana(Shahedan azady)),0107 (Diana(Shahedan azady)),erbil
+cluster,cluster_location_id_0108,0108 (kawrarash),0108 (kawrarash),al.sulaymaniyah
+cluster,cluster_location_id_0109,0109 (Soran(hay al etfaa)),0109 (Soran(hay al etfaa)),al.sulaymaniyah
+cluster,cluster_location_id_0110,0110 (Hamya),0110 (Hamya),al.sulaymaniyah
+cluster,cluster_location_id_0111,0111 (Azady),0111 (Azady),al.sulaymaniyah
+cluster,cluster_location_id_0112,0112 (Chamchamal-Raparin),0112 (Chamchamal-Raparin),al.sulaymaniyah
+cluster,cluster_location_id_0113,0113 (Handreen),0113 (Handreen),al.sulaymaniyah
+cluster,cluster_location_id_0114,0114 (Piryadi),0114 (Piryadi),al.sulaymaniyah
+cluster,cluster_location_id_0115,0115 (Qarahanjiriakan),0115 (Qarahanjiriakan),al.sulaymaniyah
+cluster,cluster_location_id_0116,0116 (SANGAWIAKAN),0116 (SANGAWIAKAN),al.sulaymaniyah
+cluster,cluster_location_id_0117,0117 (Tawkal),0117 (Tawkal),al.sulaymaniyah
+cluster,cluster_location_id_0118,0118 (Bani maqan),0118 (Bani maqan),al.sulaymaniyah
+cluster,cluster_location_id_0119,0119 (Dawajin),0119 (Dawajin),al.sulaymaniyah
+cluster,cluster_location_id_0120,0120 (Ashti),0120 (Ashti),al.sulaymaniyah
+cluster,cluster_location_id_0121,0121 (Hawara barza),0121 (Hawara barza),al.sulaymaniyah
+cluster,cluster_location_id_0122,0122 (Kanito),0122 (Kanito),al.sulaymaniyah
+cluster,cluster_location_id_0123,0123 (Sara),0123 (Sara),al.sulaymaniyah
+cluster,cluster_location_id_0124,0124 (Shoresh),0124 (Shoresh),al.sulaymaniyah
+cluster,cluster_location_id_0125,0125 (Khelan),0125 (Khelan),al.sulaymaniyah
+cluster,cluster_location_id_0126,0126 (Zarayan Kon),0126 (Zarayan Kon),al.sulaymaniyah
+cluster,cluster_location_id_0127,0127 (Roshambiran),0127 (Roshambiran),al.sulaymaniyah
+cluster,cluster_location_id_0128,0128 (Kani mil),0128 (Kani mil),al.sulaymaniyah
+cluster,cluster_location_id_0129,0129 (Kotal),0129 (Kotal),al.sulaymaniyah
+cluster,cluster_location_id_0130,0130 (Pishowa),0130 (Pishowa),al.sulaymaniyah
+cluster,cluster_location_id_0131,0131 (Qamchugha),0131 (Qamchugha),al.sulaymaniyah
+cluster,cluster_location_id_0132,0132 (Sara),0132 (Sara),al.sulaymaniyah
+cluster,cluster_location_id_0133,0133 (Shaheedan),0133 (Shaheedan),al.sulaymaniyah
+cluster,cluster_location_id_0134,0134 (Timar),0134 (Timar),al.sulaymaniyah
+cluster,cluster_location_id_0135,0135 (Tokma),0135 (Tokma),al.sulaymaniyah
+cluster,cluster_location_id_0136,0136 (Mergapan),0136 (Mergapan),al.sulaymaniyah
+cluster,cluster_location_id_0137,0137 (Kani Witman),0137 (Kani Witman),al.sulaymaniyah
+cluster,cluster_location_id_0138,0138 (Kani Mazoo),0138 (Kani Mazoo),al.sulaymaniyah
+cluster,cluster_location_id_0139,0139 (Asos),0139 (Asos),al.sulaymaniyah
+cluster,cluster_location_id_0140,0140 (Soose),0140 (Soose),al.sulaymaniyah
+cluster,cluster_location_id_0141,0141 (Bakhtyari),0141 (Bakhtyari),al.sulaymaniyah
+cluster,cluster_location_id_0142,0142 (Barkew),0142 (Barkew),al.sulaymaniyah
+cluster,cluster_location_id_0143,0143 (Gulan),0143 (Gulan),al.sulaymaniyah
+cluster,cluster_location_id_0144,0144 (Sharwani),0144 (Sharwani),al.sulaymaniyah
+cluster,cluster_location_id_0145,0145 (Sharstani),0145 (Sharstani),al.sulaymaniyah
+cluster,cluster_location_id_0146,0146 (Hawaran),0146 (Hawaran),al.sulaymaniyah
+cluster,cluster_location_id_0147,0147 (Dalani),0147 (Dalani),al.sulaymaniyah
+cluster,cluster_location_id_0148,0148 (Mordana),0148 (Mordana),al.sulaymaniyah
+cluster,cluster_location_id_0149,0149 (Sara),0149 (Sara),al.sulaymaniyah
+cluster,cluster_location_id_0150,0150 (Sharwani),0150 (Sharwani),al.sulaymaniyah
+cluster,cluster_location_id_0151,0151 (Shikhan),0151 (Shikhan),al.sulaymaniyah
+cluster,cluster_location_id_0152,0152 (Azadi),0152 (Azadi),al.sulaymaniyah
+cluster,cluster_location_id_0153,0153 (Raparine),0153 (Raparine),al.sulaymaniyah
+cluster,cluster_location_id_0154,0154 (Shahidan),0154 (Shahidan),al.sulaymaniyah
+cluster,cluster_location_id_0155,0155 (Kani ishqan),0155 (Kani ishqan),al.sulaymaniyah
+cluster,cluster_location_id_0156,0156 (Azadi),0156 (Azadi),diyala
+cluster,cluster_location_id_0157,0157 (Hamren),0157 (Hamren),al.sulaymaniyah
+cluster,cluster_location_id_0158,0158 (Kalar Kon),0158 (Kalar Kon),diyala
+cluster,cluster_location_id_0159,0159 (Kulajo),0159 (Kulajo),al.sulaymaniyah
+cluster,cluster_location_id_0160,0160 (Sharawani),0160 (Sharawani),al.sulaymaniyah
+cluster,cluster_location_id_0161,0161 (Shaykh Lankar),0161 (Shaykh Lankar),diyala
+cluster,cluster_location_id_0162,0162 (Sherwana),0162 (Sherwana),al.sulaymaniyah
+cluster,cluster_location_id_0163,0163 (Sirwan),0163 (Sirwan),al.sulaymaniyah
+cluster,cluster_location_id_0164,0164 (Qarablagh),0164 (Qarablagh),al.sulaymaniyah
+cluster,cluster_location_id_0165,0165 (Nawrooz),0165 (Nawrooz),diyala
+cluster,cluster_location_id_0166,0166 (Zhalla),0166 (Zhalla),diyala
+cluster,cluster_location_id_0167,0167 (Garmyan),0167 (Garmyan),diyala
+cluster,cluster_location_id_0168,0168 (Sangaw),0168 (Sangaw),al.sulaymaniyah
+cluster,cluster_location_id_0169,0169 (Khornawazan),0169 (Khornawazan),al.sulaymaniyah
+cluster,cluster_location_id_0170,0170 (Shakal),0170 (Shakal),al.sulaymaniyah
+cluster,cluster_location_id_0171,0171 (Hamrin),0171 (Hamrin),al.sulaymaniyah
+cluster,cluster_location_id_0172,0172 (Awbarik),0172 (Awbarik),al.sulaymaniyah
+cluster,cluster_location_id_0173,0173 (Awarakan),0173 (Awarakan),al.sulaymaniyah
+cluster,cluster_location_id_0174,0174 (Rizgare),0174 (Rizgare),al.sulaymaniyah
+cluster,cluster_location_id_0175,0175 (Khabat),0175 (Khabat),al.sulaymaniyah
+cluster,cluster_location_id_0176,0176 (Koling city),0176 (Koling city),al.sulaymaniyah
+cluster,cluster_location_id_0177,0177 (Kewa Rash),0177 (Kewa Rash),al.sulaymaniyah
+cluster,cluster_location_id_0178,0178 (Nawroz),0178 (Nawroz),al.sulaymaniyah
+cluster,cluster_location_id_0179,0179 (Qalat),0179 (Qalat),al.sulaymaniyah
+cluster,cluster_location_id_0180,0180 (Shishar),0180 (Shishar),al.sulaymaniyah
+cluster,cluster_location_id_0181,0181 (Saraa),0181 (Saraa),al.sulaymaniyah
+cluster,cluster_location_id_0182,0182 (kurdistan),0182 (kurdistan),al.sulaymaniyah
+cluster,cluster_location_id_0183,0183 (Rania New),0183 (Rania New),al.sulaymaniyah
+cluster,cluster_location_id_0184,0184 (Srra),0184 (Srra),al.sulaymaniyah
+cluster,cluster_location_id_0185,0185 (Arbat-Shahidan),0185 (Arbat-Shahidan),al.sulaymaniyah
+cluster,cluster_location_id_0186,0186 (Chwar Chra),0186 (Chwar Chra),al.sulaymaniyah
+cluster,cluster_location_id_0187,0187 (Haware Shar),0187 (Haware Shar),al.sulaymaniyah
+cluster,cluster_location_id_0188,0188 (Kanakawa),0188 (Kanakawa),al.sulaymaniyah
+cluster,cluster_location_id_0189,0189 (Kanda Sura),0189 (Kanda Sura),al.sulaymaniyah
+cluster,cluster_location_id_0190,0190 (Kostay Cham),0190 (Kostay Cham),al.sulaymaniyah
+cluster,cluster_location_id_0191,0191 (Rizgari-Arbat),0191 (Rizgari-Arbat),al.sulaymaniyah
+cluster,cluster_location_id_0192,0192 (Rozhlat 305),0192 (Rozhlat 305),al.sulaymaniyah
+cluster,cluster_location_id_0193,0193 (Sabun karan Qt),0193 (Sabun karan Qt),al.sulaymaniyah
+cluster,cluster_location_id_0194,0194 (Sarchnar),0194 (Sarchnar),al.sulaymaniyah
+cluster,cluster_location_id_0195,0195 (bekas),0195 (bekas),al.sulaymaniyah
+cluster,cluster_location_id_0196,0196 (kela spi),0196 (kela spi),al.sulaymaniyah
+cluster,cluster_location_id_0197,0197 (Bazyan-shwankara),0197 (Bazyan-shwankara),al.sulaymaniyah
+cluster,cluster_location_id_0198,0198 (Hemn 146),0198 (Hemn 146),al.sulaymaniyah
+cluster,cluster_location_id_0199,0199 (Naghda),0199 (Naghda),al.anbar
+cluster,cluster_location_id_0200,0200 (Kewstan),0200 (Kewstan),al.anbar
+cluster,cluster_location_id_0201,0201 (Aziz Awa),0201 (Aziz Awa),al.anbar
+cluster,cluster_location_id_0202,0202 (Al Aubaidi Al Qadima),0202 (Al Aubaidi Al Qadima),al.anbar
+cluster,cluster_location_id_0203,0203 (Al Nahda Al-Sharqiyah),0203 (Al Nahda Al-Sharqiyah),al.anbar
+cluster,cluster_location_id_0204,0204 (Al Ubaydi-2),0204 (Al Ubaydi-2),al.anbar
+cluster,cluster_location_id_0205,0205 (Al Zalla),0205 (Al Zalla),al.anbar
+cluster,cluster_location_id_0206,0206 (Al-Rabet),0206 (Al-Rabet),al.anbar
+cluster,cluster_location_id_0207,0207 (Hay 12 Rabee Alawal),0207 (Hay 12 Rabee Alawal),al.anbar
+cluster,cluster_location_id_0208,0208 (Hay Al Askary),0208 (Hay Al Askary),al.anbar
+cluster,cluster_location_id_0209,0209 (Hay Al Sham),0209 (Hay Al Sham),al.anbar
+cluster,cluster_location_id_0210,0210 (Hay Al Shuhadaa),0210 (Hay Al Shuhadaa),al.anbar
+cluster,cluster_location_id_0211,0211 (Hay Al-Athar),0211 (Hay Al-Athar),al.anbar
+cluster,cluster_location_id_0212,0212 (Hay Al-Maamon),0212 (Hay Al-Maamon),al.anbar
+cluster,cluster_location_id_0213,0213 (Hay Al-Yarmook),0213 (Hay Al-Yarmook),al.anbar
+cluster,cluster_location_id_0214,0214 (Wazeeriya),0214 (Wazeeriya),al.anbar
+cluster,cluster_location_id_0215,0215 (Al Askaree),0215 (Al Askaree),al.anbar
+cluster,cluster_location_id_0216,0216 (Al Haara),0216 (Al Haara),al.anbar
+cluster,cluster_location_id_0217,0217 (Al Wadi),0217 (Al Wadi),al.anbar
+cluster,cluster_location_id_0218,0218 (Al-Daraemah Village),0218 (Al-Daraemah Village),al.anbar
+cluster,cluster_location_id_0219,0219 (Antesar),0219 (Antesar),al.anbar
+cluster,cluster_location_id_0220,0220 (Germany Company Location),0220 (Germany Company Location),al.anbar
+cluster,cluster_location_id_0221,0221 (Gharb Al-Wadi),0221 (Gharb Al-Wadi),al.anbar
+cluster,cluster_location_id_0222,0222 (Hay Al Meethagh),0222 (Hay Al Meethagh),al.anbar
+cluster,cluster_location_id_0223,0223 (Hay Al-Matar),0223 (Hay Al-Matar),al.anbar
+cluster,cluster_location_id_0224,0224 (Rumilah Village),0224 (Rumilah Village),al.anbar
+cluster,cluster_location_id_0225,0225 (Al bor (Shishan)),0225 (Al bor (Shishan)),al.anbar
+cluster,cluster_location_id_0226,0226 (Al maadid),0226 (Al maadid),al.anbar
+cluster,cluster_location_id_0227,0227 (Al-Awany Village),0227 (Al-Awany Village),al.anbar
+cluster,cluster_location_id_0228,0228 (Hay Al ZeraI),0228 (Hay Al ZeraI),al.anbar
+cluster,cluster_location_id_0229,0229 (Rayhana),0229 (Rayhana),al.anbar
+cluster,cluster_location_id_0230,0230 (Yarmouk),0230 (Yarmouk),al.anbar
+cluster,cluster_location_id_0231,0231 (Al-Hidayah),0231 (Al-Hidayah),al.anbar
+cluster,cluster_location_id_0232,0232 (Hay Al Qadissiyah),0232 (Hay Al Qadissiyah),al.anbar
+cluster,cluster_location_id_0233,0233 (Hay Al Salam),0233 (Hay Al Salam),al.anbar
+cluster,cluster_location_id_0234,0234 (Hay Al Shuhadaa),0234 (Hay Al Shuhadaa),al.anbar
+cluster,cluster_location_id_0235,0235 (Rawa Al Qadima),0235 (Rawa Al Qadima),al.anbar
+cluster,cluster_location_id_0236,0236 (Al Mualmeen),0236 (Al Mualmeen),al.anbar
+cluster,cluster_location_id_0237,0237 (Al Zaghareed),0237 (Al Zaghareed),al.anbar
+cluster,cluster_location_id_0238,0238 (Al-Amirya-Albu Jasim),0238 (Al-Amirya-Albu Jasim),al.anbar
+cluster,cluster_location_id_0239,0239 (Al-Amirya-Albu Jwad),0239 (Al-Amirya-Albu Jwad),al.anbar
+cluster,cluster_location_id_0240,0240 (Albu Hori),0240 (Albu Hori),al.anbar
+cluster,cluster_location_id_0241,0241 (Albu Khalifa),0241 (Albu Khalifa),al.anbar
+cluster,cluster_location_id_0242,0242 (Al-muatasem),0242 (Al-muatasem),al.anbar
+cluster,cluster_location_id_0243,0243 (Al-shahabi-2),0243 (Al-shahabi-2),al.anbar
+cluster,cluster_location_id_0244,0244 (Al-Zuwayiah),0244 (Al-Zuwayiah),al.anbar
+cluster,cluster_location_id_0245,0245 (Huwaiwa),0245 (Huwaiwa),al.anbar
+cluster,cluster_location_id_0246,0246 (Muallimeen-2),0246 (Muallimeen-2),al.anbar
+cluster,cluster_location_id_0247,0247 (Neeamiya),0247 (Neeamiya),al.anbar
+cluster,cluster_location_id_0248,0248 (subihat),0248 (subihat),al.anbar
+cluster,cluster_location_id_0249,0249 (Al-Amirya-Al Betra),0249 (Al-Amirya-Al Betra),al.anbar
+cluster,cluster_location_id_0250,0250 (Al-Amirya-Al Hmedin),0250 (Al-Amirya-Al Hmedin),al.anbar
+cluster,cluster_location_id_0251,0251 (Al-Amirya-Al Mouilha),0251 (Al-Amirya-Al Mouilha),al.anbar
+cluster,cluster_location_id_0252,0252 (Al-Amirya-Albu Jaber),0252 (Al-Amirya-Albu Jaber),al.anbar
+cluster,cluster_location_id_0253,0253 (Al-Amirya-Albu Mrir),0253 (Al-Amirya-Albu Mrir),al.anbar
+cluster,cluster_location_id_0254,0254 (Al-Amirya-Albu Saleh),0254 (Al-Amirya-Albu Saleh),al.anbar
+cluster,cluster_location_id_0255,0255 (Al-Amirya-Albu Salman),0255 (Al-Amirya-Albu Salman),al.anbar
+cluster,cluster_location_id_0256,0256 (Al-Amirya-Tal Ghatas),0256 (Al-Amirya-Tal Ghatas),al.anbar
+cluster,cluster_location_id_0257,0257 (Albu Dhaher-Albu Dhaher),0257 (Albu Dhaher-Albu Dhaher),al.anbar
+cluster,cluster_location_id_0258,0258 (Hay Al-Resala),0258 (Hay Al-Resala),al.anbar
+cluster,cluster_location_id_0259,0259 (Hay Al Askari),0259 (Hay Al Askari),al.anbar
+cluster,cluster_location_id_0260,0260 (Al-Ekhaa Compaund),0260 (Al-Ekhaa Compaund),al.anbar
+cluster,cluster_location_id_0261,0261 (Al Furat Complex),0261 (Al Furat Complex),al.anbar
+cluster,cluster_location_id_0262,0262 (Al Khansaa),0262 (Al Khansaa),al.anbar
+cluster,cluster_location_id_0263,0263 (Albu Hayat),0263 (Albu Hayat),al.anbar
+cluster,cluster_location_id_0264,0264 (Al-Mutanabi),0264 (Al-Mutanabi),al.anbar
+cluster,cluster_location_id_0265,0265 (Bani Dahir),0265 (Bani Dahir),al.anbar
+cluster,cluster_location_id_0266,0266 (Haqlaniyah-Hay Al-Faroq),0266 (Haqlaniyah-Hay Al-Faroq),al.anbar
+cluster,cluster_location_id_0267,0267 (Haqlaniyah-Al shuhadaa),0267 (Haqlaniyah-Al shuhadaa),al.anbar
+cluster,cluster_location_id_0268,0268 (Hay Al Haqlaniyah Qadim),0268 (Hay Al Haqlaniyah Qadim),al.anbar
+cluster,cluster_location_id_0269,0269 (Hay Al Rifay),0269 (Hay Al Rifay),al.anbar
+cluster,cluster_location_id_0270,0270 (Hay Al Salam),0270 (Hay Al Salam),al.anbar
+cluster,cluster_location_id_0271,0271 (Hay Al Saray),0271 (Hay Al Saray),al.anbar
+cluster,cluster_location_id_0272,0272 (Hay Al Yarmuk),0272 (Hay Al Yarmuk),al.anbar
+cluster,cluster_location_id_0273,0273 (Hay Al-shikh Al Hadid),0273 (Hay Al-shikh Al Hadid),al.anbar
+cluster,cluster_location_id_0274,0274 (Hay Al-Subhani),0274 (Hay Al-Subhani),al.anbar
+cluster,cluster_location_id_0275,0275 (Hay Al-Thamaniya),0275 (Hay Al-Thamaniya),al.anbar
+cluster,cluster_location_id_0276,0276 (Hay Ibn Bittar),0276 (Hay Ibn Bittar),al.anbar
+cluster,cluster_location_id_0277,0277 (Abu Tibban),0277 (Abu Tibban),al.anbar
+cluster,cluster_location_id_0278,0278 (Al Muhamdee),0278 (Al Muhamdee),al.anbar
+cluster,cluster_location_id_0279,0279 (Al Shuqaq),0279 (Al Shuqaq),al.anbar
+cluster,cluster_location_id_0280,0280 (Al-Khaldiyah),0280 (Al-Khaldiyah),al.anbar
+cluster,cluster_location_id_0281,0281 (Al-Mujama Al-Sakani),0281 (Al-Mujama Al-Sakani),al.anbar
+cluster,cluster_location_id_0282,0282 (Al-Qalqalah),0282 (Al-Qalqalah),al.anbar
+cluster,cluster_location_id_0283,0283 (Al-Ummal),0283 (Al-Ummal),al.anbar
+cluster,cluster_location_id_0284,0284 (Basair),0284 (Basair),al.anbar
+cluster,cluster_location_id_0285,0285 (Binan),0285 (Binan),al.anbar
+cluster,cluster_location_id_0286,0286 (Hay Al Farouq),0286 (Hay Al Farouq),al.anbar
+cluster,cluster_location_id_0287,0287 (Hay al Jury),0287 (Hay al Jury),al.anbar
+cluster,cluster_location_id_0288,0288 (Hay Al-Etfaa),0288 (Hay Al-Etfaa),al.anbar
+cluster,cluster_location_id_0289,0289 (Hay Al-jamyah 2),0289 (Hay Al-jamyah 2),al.anbar
+cluster,cluster_location_id_0290,0290 (Hay Al-Zuhoor),0290 (Hay Al-Zuhoor),al.anbar
+cluster,cluster_location_id_0291,0291 (Kapisah-Hay Al-Sinay),0291 (Kapisah-Hay Al-Sinay),al.anbar
+cluster,cluster_location_id_0292,0292 (Mualmeen),0292 (Mualmeen),al.anbar
+cluster,cluster_location_id_0293,0293 (Zakhikhah),0293 (Zakhikhah),al.anbar
+cluster,cluster_location_id_0294,0294 (Hay Al-Khudhir),0294 (Hay Al-Khudhir),al.anbar
+cluster,cluster_location_id_0295,0295 (5 Kilo),0295 (5 Kilo),al.anbar
+cluster,cluster_location_id_0296,0296 (7 Killo-al-mojamaa al-sakany),0296 (7 Killo-al-mojamaa al-sakany),al.anbar
+cluster,cluster_location_id_0297,0297 (Abu Fless),0297 (Abu Fless),al.anbar
+cluster,cluster_location_id_0298,0298 (Al Khulafaa),0298 (Al Khulafaa),al.anbar
+cluster,cluster_location_id_0299,0299 (Al Rimilah),0299 (Al Rimilah),al.anbar
+cluster,cluster_location_id_0300,0300 (Al Sofeya),0300 (Al Sofeya),al.anbar
+cluster,cluster_location_id_0301,0301 (Al Soora),0301 (Al Soora),al.anbar
+cluster,cluster_location_id_0302,0302 (Al Urobah),0302 (Al Urobah),al.anbar
+cluster,cluster_location_id_0303,0303 (Al-Jeraishi),0303 (Al-Jeraishi),al.anbar
+cluster,cluster_location_id_0304,0304 (Al-Kully Kom Complex),0304 (Al-Kully Kom Complex),al.anbar
+cluster,cluster_location_id_0305,0305 (Al-Shuhadaa),0305 (Al-Shuhadaa),al.anbar
+cluster,cluster_location_id_0306,0306 (Hay Al-Salam),0306 (Hay Al-Salam),al.anbar
+cluster,cluster_location_id_0307,0307 (Qadisiya-1),0307 (Qadisiya-1),al.anbar
+cluster,cluster_location_id_0308,0308 (Warar),0308 (Warar),al.anbar
+cluster,cluster_location_id_0309,0309 (Al Azeziya),0309 (Al Azeziya),al.anbar
+cluster,cluster_location_id_0310,0310 (Al Katanah),0310 (Al Katanah),al.anbar
+cluster,cluster_location_id_0311,0311 (Al-Shareka),0311 (Al-Shareka),al.anbar
+cluster,cluster_location_id_0312,0312 (Zankura),0312 (Zankura),al.anbar
+cluster,cluster_location_id_0313,0313 (The modern village),0313 (The modern village),al.anbar
+cluster,cluster_location_id_0314,0314 (Jubiyah),0314 (Jubiyah),al.anbar
+cluster,cluster_location_id_0315,0315 (Al Jamiyah),0315 (Al Jamiyah),al.anbar
+cluster,cluster_location_id_0316,0316 (Albu Alwan),0316 (Albu Alwan),al.anbar
+cluster,cluster_location_id_0317,0317 (Al Ziraa),0317 (Al Ziraa),babil
+cluster,cluster_location_id_0318,0318 (Hay 30 Tamooz),0318 (Hay 30 Tamooz),baghdad
+cluster,cluster_location_id_0319,0319 (Albo-Bali),0319 (Albo-Bali),babil
+cluster,cluster_location_id_0320,0320 (Al Ghadeer 2),0320 (Al Ghadeer 2),babil
+cluster,cluster_location_id_0321,0321 (Al-Jazirah-Al Eskandariya),0321 (Al-Jazirah-Al Eskandariya),babil
+cluster,cluster_location_id_0322,0322 (Hay Aday-Al Eskandariya),0322 (Hay Aday-Al Eskandariya),babil
+cluster,cluster_location_id_0323,0323 (Hay Al Amer),0323 (Hay Al Amer),babil
+cluster,cluster_location_id_0324,0324 (Hay Al Ataba),0324 (Hay Al Ataba),babil
+cluster,cluster_location_id_0325,0325 (Hay Al Moatnen 3),0325 (Hay Al Moatnen 3),babil
+cluster,cluster_location_id_0326,0326 (Hay Alaskarey),0326 (Hay Alaskarey),babil
+cluster,cluster_location_id_0327,0327 (Hay Alaskary-AlThaghet),0327 (Hay Alaskary-AlThaghet),babil
+cluster,cluster_location_id_0328,0328 (Hay Al-Jamhoreiah),0328 (Hay Al-Jamhoreiah),babil
+cluster,cluster_location_id_0329,0329 (Hay Al-Mustafa),0329 (Hay Al-Mustafa),babil
+cluster,cluster_location_id_0330,0330 (Hay Al-Rafedain),0330 (Hay Al-Rafedain),babil
+cluster,cluster_location_id_0331,0331 (Hur Husaein),0331 (Hur Husaein),babil
+cluster,cluster_location_id_0332,0332 (Hay Al Ghadeer 3),0332 (Hay Al Ghadeer 3),babil
+cluster,cluster_location_id_0333,0333 (Hay Al Ghadeer 1),0333 (Hay Al Ghadeer 1),babil
+cluster,cluster_location_id_0334,0334 (Abu Khastawi),0334 (Abu Khastawi),babil
+cluster,cluster_location_id_0335,0335 (Al Abodiya),0335 (Al Abodiya),babil
+cluster,cluster_location_id_0336,0336 (Al Bakraly-3),0336 (Al Bakraly-3),babil
+cluster,cluster_location_id_0337,0337 (Al Baqer),0337 (Al Baqer),babil
+cluster,cluster_location_id_0338,0338 (Al Jazrah-Siha),0338 (Al Jazrah-Siha),baghdad
+cluster,cluster_location_id_0339,0339 (Kureteah),0339 (Kureteah),baghdad
+cluster,cluster_location_id_0340,0340 (Qas Sowelem-Compound),0340 (Qas Sowelem-Compound),baghdad
+cluster,cluster_location_id_0341,0341 (1 Huzairan),0341 (1 Huzairan),baghdad
+cluster,cluster_location_id_0342,0342 (Abo Moniaser),0342 (Abo Moniaser),baghdad
+cluster,cluster_location_id_0343,0343 (Hay-Busatan),0343 (Hay-Busatan),baghdad
+cluster,cluster_location_id_0344,0344 (Khernabat-South),0344 (Khernabat-South),baghdad
+cluster,cluster_location_id_0345,0345 (Al Thaniya),0345 (Al Thaniya),baghdad
+cluster,cluster_location_id_0346,0346 (Al Mahasna village ),0346 (Al Mahasna village ),baghdad
+cluster,cluster_location_id_0347,0347 (Yassen Al Mutlk village),0347 (Yassen Al Mutlk village),baghdad
+cluster,cluster_location_id_0348,0348 (Al shaneter village),0348 (Al shaneter village),baghdad
+cluster,cluster_location_id_0349,0349 (Al Zaidan-Al Sadan village),0349 (Al Zaidan-Al Sadan village),baghdad
+cluster,cluster_location_id_0350,0350 (Shuhada Markza-Shuhadda the first),0350 (Shuhada Markza-Shuhadda the first),baghdad
+cluster,cluster_location_id_0351,0351 (Shuhada Markza-Shuhdda the second),0351 (Shuhada Markza-Shuhdda the second),baghdad
+cluster,cluster_location_id_0352,0352 (Al Heetaween village),0352 (Al Heetaween village),baghdad
+cluster,cluster_location_id_0353,0353 (Al Masara village),0353 (Al Masara village),baghdad
+cluster,cluster_location_id_0354,0354 (Al Fallujieen village ),0354 (Al Fallujieen village ),baghdad
+cluster,cluster_location_id_0355,0355 (Al Hawijar village ),0355 (Al Hawijar village ),baghdad
+cluster,cluster_location_id_0356,0356 (Al Kroash village),0356 (Al Kroash village),baghdad
+cluster,cluster_location_id_0357,0357 (Al Sheiti village),0357 (Al Sheiti village),baghdad
+cluster,cluster_location_id_0358,0358 (Al Zawaba village),0358 (Al Zawaba village),baghdad
+cluster,cluster_location_id_0359,0359 (Majad Al Draa village),0359 (Majad Al Draa village),baghdad
+cluster,cluster_location_id_0360,0360 (Al Kabaeshat village),0360 (Al Kabaeshat village),baghdad
+cluster,cluster_location_id_0361,0361 (Adhamia-312),0361 (Adhamia-312),baghdad
+cluster,cluster_location_id_0362,0362 (Adhamia-314),0362 (Adhamia-314),baghdad
+cluster,cluster_location_id_0363,0363 (Adhamiya-310),0363 (Adhamiya-310),baghdad
+cluster,cluster_location_id_0364,0364 (Al Hussainiya-202),0364 (Al Hussainiya-202),baghdad
+cluster,cluster_location_id_0365,0365 (Al Maghreb-302),0365 (Al Maghreb-302),baghdad
+cluster,cluster_location_id_0366,0366 (Al Shamasiyah-320),0366 (Al Shamasiyah-320),baghdad
+cluster,cluster_location_id_0367,0367 (Al Shamasiyah-316),0367 (Al Shamasiyah-316),baghdad
+cluster,cluster_location_id_0368,0368 (Bob Al Sham-388),0368 (Bob Al Sham-388),baghdad
+cluster,cluster_location_id_0369,0369 (Hay Al Rabee-340),0369 (Hay Al Rabee-340),baghdad
+cluster,cluster_location_id_0370,0370 (Tunis-330),0370 (Tunis-330),baghdad
+cluster,cluster_location_id_0371,0371 (Al Darnaj village),0371 (Al Darnaj village),baghdad
+cluster,cluster_location_id_0372,0372 (Hay Al Rabee-336),0372 (Hay Al Rabee-336),baghdad
+cluster,cluster_location_id_0373,0373 (Al baladiyat-728),0373 (Al baladiyat-728),baghdad
+cluster,cluster_location_id_0374,0374 (Al baladiyat-730),0374 (Al baladiyat-730),baghdad
+cluster,cluster_location_id_0375,0375 (Baghdad Al Jadidia-725),0375 (Baghdad Al Jadidia-725),baghdad
+cluster,cluster_location_id_0376,0376 (Baghdad Al Jadidia-727),0376 (Baghdad Al Jadidia-727),baghdad
+cluster,cluster_location_id_0377,0377 (Al Jumhoriyah 111),0377 (Al Jumhoriyah 111),baghdad
+cluster,cluster_location_id_0378,0378 (Al Kamaliya-759),0378 (Al Kamaliya-759),baghdad
+cluster,cluster_location_id_0379,0379 (Al Mashtal-733),0379 (Al Mashtal-733),baghdad
+cluster,cluster_location_id_0380,0380 (Al Saadon-101),0380 (Al Saadon-101),baghdad
+cluster,cluster_location_id_0381,0381 (Al Sindabad-979),0381 (Al Sindabad-979),baghdad
+cluster,cluster_location_id_0382,0382 (Al Zaafaranyah-953),0382 (Al Zaafaranyah-953),baghdad
+cluster,cluster_location_id_0383,0383 (Al Zaafaranyah-961),0383 (Al Zaafaranyah-961),baghdad
+cluster,cluster_location_id_0384,0384 (Al Ameen-737),0384 (Al Ameen-737),baghdad
+cluster,cluster_location_id_0385,0385 (Hay Sumer-706),0385 (Hay Sumer-706),baghdad
+cluster,cluster_location_id_0386,0386 (Al Hurriyah-428),0386 (Al Hurriyah-428),baghdad
+cluster,cluster_location_id_0387,0387 (Al Hurriyah-432),0387 (Al Hurriyah-432),baghdad
+cluster,cluster_location_id_0388,0388 (Sabea Al Buor-14000),0388 (Sabea Al Buor-14000),baghdad
+cluster,cluster_location_id_0389,0389 (Sabea Al Buor-15000),0389 (Sabea Al Buor-15000),baghdad
+cluster,cluster_location_id_0390,0390 (Shoala-458),0390 (Shoala-458),baghdad
+cluster,cluster_location_id_0391,0391 (Jakook-440),0391 (Jakook-440),baghdad
+cluster,cluster_location_id_0392,0392 (Al Ahnaf-Al Rakia Fadel village),0392 (Al Ahnaf-Al Rakia Fadel village),baghdad
+cluster,cluster_location_id_0393,0393 (Al Forat-893),0393 (Al Forat-893),baghdad
+cluster,cluster_location_id_0394,0394 (Al Ghazaliya-681),0394 (Al Ghazaliya-681),baghdad
+cluster,cluster_location_id_0395,0395 (Al Iskan(Al Masfi)-822),0395 (Al Iskan(Al Masfi)-822),baghdad
+cluster,cluster_location_id_0396,0396 (Al Jameah-627),0396 (Al Jameah-627),baghdad
+cluster,cluster_location_id_0397,0397 (Al Jameah-631),0397 (Al Jameah-631),baghdad
+cluster,cluster_location_id_0398,0398 (Al Jameah-635),0398 (Al Jameah-635),baghdad
+cluster,cluster_location_id_0399,0399 (Al Jamhoriyah(Al Masfi)-838),0399 (Al Jamhoriyah(Al Masfi)-838),baghdad
+cluster,cluster_location_id_0400,0400 (Al Jazaer-818),0400 (Al Jazaer-818),baghdad
+cluster,cluster_location_id_0401,0401 (Al Jazaer-820),0401 (Al Jazaer-820),baghdad
+cluster,cluster_location_id_0402,0402 (Al Wadi(Al Masfi)-824),0402 (Al Wadi(Al Masfi)-824),baghdad
+cluster,cluster_location_id_0403,0403 (Al Yarmouk-608),0403 (Al Yarmouk-608),baghdad
+cluster,cluster_location_id_0404,0404 (Albo_Aitha),0404 (Albo_Aitha),baghdad
+cluster,cluster_location_id_0405,0405 (Al Radwania),0405 (Al Radwania),baghdad
+cluster,cluster_location_id_0406,0406 (Al Amerya-636),0406 (Al Amerya-636),baghdad
+cluster,cluster_location_id_0407,0407 (Al Amerya-638),0407 (Al Amerya-638),baghdad
+cluster,cluster_location_id_0408,0408 (Al Karkh-212),0408 (Al Karkh-212),baghdad
+cluster,cluster_location_id_0409,0409 (Sheikh Maaroof-214),0409 (Sheikh Maaroof-214),baghdad
+cluster,cluster_location_id_0410,0410 (14 Tamooz),0410 (14 Tamooz),baghdad
+cluster,cluster_location_id_0411,0411 (Al Latefia-Al Qadessia),0411 (Al Latefia-Al Qadessia),baghdad
+cluster,cluster_location_id_0412,0412 (Al Latefia-Al Salam),0412 (Al Latefia-Al Salam),baghdad
+cluster,cluster_location_id_0413,0413 (Hay Al-Askary),0413 (Hay Al-Askary),baghdad
+cluster,cluster_location_id_0414,0414 (Kilo 18),0414 (Kilo 18),baghdad
+cluster,cluster_location_id_0415,0415 (Kilo 25),0415 (Kilo 25),baghdad
+cluster,cluster_location_id_0416,0416 (Hay Al Mazraa),0416 (Hay Al Mazraa),baghdad
+cluster,cluster_location_id_0417,0417 (Hay Al Zuhoor),0417 (Hay Al Zuhoor),baghdad
+cluster,cluster_location_id_0418,0418 (Faheel Am Al Jaeer village ),0418 (Faheel Am Al Jaeer village ),baghdad
+cluster,cluster_location_id_0419,0419 (Hay Al Shuhada(Al kragolyia)),0419 (Hay Al Shuhada(Al kragolyia)),baghdad
+cluster,cluster_location_id_0420,0420 (Al bu Khdear village ),0420 (Al bu Khdear village ),baghdad
+cluster,cluster_location_id_0421,0421 (The Al-Haraj villag),0421 (The Al-Haraj villag),baghdad
+cluster,cluster_location_id_0422,0422 (Al Muaghith village-(Al Jomblatiya Southern)),0422 (Al Muaghith village-(Al Jomblatiya Southern)),babil
+cluster,cluster_location_id_0423,0423 (Al Mustafa village-(Al Jomblatiya Southern)),0423 (Al Mustafa village-(Al Jomblatiya Southern)),baghdad
+cluster,cluster_location_id_0424,0424 (Al Azez Al Ghaffar-(Al Jomblatiya Southern)),0424 (Al Azez Al Ghaffar-(Al Jomblatiya Southern)),babil
+cluster,cluster_location_id_0425,0425 (Al Moammen Billah-(Al Jomblatiya Southern)),0425 (Al Moammen Billah-(Al Jomblatiya Southern)),babil
+cluster,cluster_location_id_0426,0426 (Al Imam Ali village-(Al Jomblatiya Southern)),0426 (Al Imam Ali village-(Al Jomblatiya Southern)),baghdad
+cluster,cluster_location_id_0427,0427 (Al Motokal village-(Al Jomblatiya Northern)),0427 (Al Motokal village-(Al Jomblatiya Northern)),baghdad
+cluster,cluster_location_id_0428,0428 (Al Abraar village-(Al Jomblatiya Northern)),0428 (Al Abraar village-(Al Jomblatiya Northern)),baghdad
+cluster,cluster_location_id_0429,0429 (Albu Moufarrej Village),0429 (Albu Moufarrej Village),baghdad
+cluster,cluster_location_id_0430,0430 (Killo-5),0430 (Killo-5),baghdad
+cluster,cluster_location_id_0431,0431 (Al Rawad),0431 (Al Rawad),baghdad
+cluster,cluster_location_id_0432,0432 (Al Tarmiya Center),0432 (Al Tarmiya Center),baghdad
+cluster,cluster_location_id_0433,0433 (Hai Al Hukem Al Mahali),0433 (Hai Al Hukem Al Mahali),baghdad
+cluster,cluster_location_id_0434,0434 (Hai Al Wehda),0434 (Hai Al Wehda),baghdad
+cluster,cluster_location_id_0435,0435 (Hamadi Al Khalil Village),0435 (Hamadi Al Khalil Village),baghdad
+cluster,cluster_location_id_0436,0436 (Nadeem-2 Village),0436 (Nadeem-2 Village),baghdad
+cluster,cluster_location_id_0437,0437 (13 Al Dhabat-Albo Abdo village),0437 (13 Al Dhabat-Albo Abdo village),diyala
+cluster,cluster_location_id_0438,0438 (13 Al Dhabat-Dawad Al Hasan),0438 (13 Al Dhabat-Dawad Al Hasan),diyala
+cluster,cluster_location_id_0439,0439 (7 Mijman-Al Wisan village),0439 (7 Mijman-Al Wisan village),diyala
+cluster,cluster_location_id_0440,0440 (Al Ghalbiya),0440 (Al Ghalbiya),diyala
+cluster,cluster_location_id_0441,0441 (Al-Makareen Village),0441 (Al-Makareen Village),diyala
+cluster,cluster_location_id_0442,0442 (Arab Hafedh Village),0442 (Arab Hafedh Village),diyala
+cluster,cluster_location_id_0443,0443 (Dalli Abass-Al-Shuhada Qtr),0443 (Dalli Abass-Al-Shuhada Qtr),diyala
+cluster,cluster_location_id_0444,0444 (Dawod Al-Salom village),0444 (Dawod Al-Salom village),diyala
+cluster,cluster_location_id_0445,0445 (Markaz Hibhib),0445 (Markaz Hibhib),diyala
+cluster,cluster_location_id_0446,0446 (Hibhib-Al Shohadaa Qtr),0446 (Hibhib-Al Shohadaa Qtr),diyala
+cluster,cluster_location_id_0447,0447 (Hibhib-Al Yarmook Qtr),0447 (Hibhib-Al Yarmook Qtr),diyala
+cluster,cluster_location_id_0448,0448 (Jadidat Al Shat village),0448 (Jadidat Al Shat village),diyala
+cluster,cluster_location_id_0449,0449 (Al Aqssa Village),0449 (Al Aqssa Village),diyala
+cluster,cluster_location_id_0450,0450 (Habib Al Khaizaran Village),0450 (Habib Al Khaizaran Village),diyala
+cluster,cluster_location_id_0451,0451 (Dalli Abass-Al-Dhobat Qtr),0451 (Dalli Abass-Al-Dhobat Qtr),diyala
+cluster,cluster_location_id_0452,0452 (Dalli Abass-Al Shekh Hassan Qtr),0452 (Dalli Abass-Al Shekh Hassan Qtr),diyala
+cluster,cluster_location_id_0453,0453 (Mohammed Taha Village),0453 (Mohammed Taha Village),diyala
+cluster,cluster_location_id_0454,0454 (Najim Al Abdulla Village),0454 (Najim Al Abdulla Village),diyala
+cluster,cluster_location_id_0455,0455 (Al Kholafa Village),0455 (Al Kholafa Village),diyala
+cluster,cluster_location_id_0456,0456 (Jdhaif Village),0456 (Jdhaif Village),diyala
+cluster,cluster_location_id_0457,0457 (Mansouriyat Al Gabal),0457 (Mansouriyat Al Gabal),diyala
+cluster,cluster_location_id_0458,0458 (Albo Hnayhen Village),0458 (Albo Hnayhen Village),diyala
+cluster,cluster_location_id_0459,0459 (Al Aali Village),0459 (Al Aali Village),diyala
+cluster,cluster_location_id_0460,0460 (A Hammadi Village),0460 (A Hammadi Village),diyala
+cluster,cluster_location_id_0461,0461 (Al Lihayb Village),0461 (Al Lihayb Village),diyala
+cluster,cluster_location_id_0462,0462 (Al Mithaq Village),0462 (Al Mithaq Village),diyala
+cluster,cluster_location_id_0463,0463 (Al Sakhar Village),0463 (Al Sakhar Village),diyala
+cluster,cluster_location_id_0464,0464 (Al Shekha Village),0464 (Al Shekha Village),diyala
+cluster,cluster_location_id_0465,0465 (Al Sodoor),0465 (Al Sodoor),diyala
+cluster,cluster_location_id_0466,0466 (Al Somood Qtr),0466 (Al Somood Qtr),diyala
+cluster,cluster_location_id_0467,0467 (Al Tinaira Village),0467 (Al Tinaira Village),diyala
+cluster,cluster_location_id_0468,0468 (Al Oqood Village),0468 (Al Oqood Village),diyala
+cluster,cluster_location_id_0469,0469 (Hamada village),0469 (Hamada village),diyala
+cluster,cluster_location_id_0470,0470 (Al Mataar Qtr),0470 (Al Mataar Qtr),diyala
+cluster,cluster_location_id_0471,0471 (Imam Talib Village),0471 (Imam Talib Village),diyala
+cluster,cluster_location_id_0472,0472 (Shak Al Rak Village),0472 (Shak Al Rak Village),diyala
+cluster,cluster_location_id_0473,0473 (Sodoor Al Ray),0473 (Sodoor Al Ray),diyala
+cluster,cluster_location_id_0474,0474 (Al Isaiwed Village),0474 (Al Isaiwed Village),diyala
+cluster,cluster_location_id_0475,0475 (Al Jazera Al Thanya village),0475 (Al Jazera Al Thanya village),diyala
+cluster,cluster_location_id_0476,0476 (Al Dawasir Qtr),0476 (Al Dawasir Qtr),diyala
+cluster,cluster_location_id_0477,0477 (Al Gatoon-Al Mujama Qtr),0477 (Al Gatoon-Al Mujama Qtr),diyala
+cluster,cluster_location_id_0478,0478 (Al Gatoon-Al rahma),0478 (Al Gatoon-Al rahma),diyala
+cluster,cluster_location_id_0479,0479 (Al Gatoon-Al Yarmook Qtr),0479 (Al Gatoon-Al Yarmook Qtr),diyala
+cluster,cluster_location_id_0480,0480 (Al Mafraq),0480 (Al Mafraq),diyala
+cluster,cluster_location_id_0481,0481 (Al Rasool Qtr),0481 (Al Rasool Qtr),diyala
+cluster,cluster_location_id_0482,0482 (Al Tahreer),0482 (Al Tahreer),diyala
+cluster,cluster_location_id_0483,0483 (Buhriz-Borgha Qtr),0483 (Buhriz-Borgha Qtr),diyala
+cluster,cluster_location_id_0484,0484 (Al Intesar-1 Qtr),0484 (Al Intesar-1 Qtr),diyala
+cluster,cluster_location_id_0485,0485 (Al-Mualimeen-Shahid wadah Qtr),0485 (Al-Mualimeen-Shahid wadah Qtr),diyala
+cluster,cluster_location_id_0486,0486 (Kanbar Village),0486 (Kanbar Village),diyala
+cluster,cluster_location_id_0487,0487 (Mohamed sakran),0487 (Mohamed sakran),diyala
+cluster,cluster_location_id_0488,0488 (Ali Murad village),0488 (Ali Murad village),diyala
+cluster,cluster_location_id_0489,0489 (Bakhtiari Qtr),0489 (Bakhtiari Qtr),diyala
+cluster,cluster_location_id_0490,0490 (Imam Abass Qtr),0490 (Imam Abass Qtr),diyala
+cluster,cluster_location_id_0491,0491 (Markaz Jabara),0491 (Markaz Jabara),diyala
+cluster,cluster_location_id_0492,0492 (Mullah Aziz village),0492 (Mullah Aziz village),diyala
+cluster,cluster_location_id_0493,0493 (Obara-2 Qtr),0493 (Obara-2 Qtr),diyala
+cluster,cluster_location_id_0494,0494 (Salih Agha village),0494 (Salih Agha village),diyala
+cluster,cluster_location_id_0495,0495 (Tula Frosh Qtr),0495 (Tula Frosh Qtr),diyala
+cluster,cluster_location_id_0496,0496 (Zurab village),0496 (Zurab village),diyala
+cluster,cluster_location_id_0497,0497 (Al Rabe Al Thaniya Qtr),0497 (Al Rabe Al Thaniya Qtr),diyala
+cluster,cluster_location_id_0498,0498 (Al Taakhi Qtr),0498 (Al Taakhi Qtr),diyala
+cluster,cluster_location_id_0499,0499 (Al Wehdaa Qtr),0499 (Al Wehdaa Qtr),diyala
+cluster,cluster_location_id_0500,0500 (Alkhadra Qtr Sector 3),0500 (Alkhadra Qtr Sector 3),diyala
+cluster,cluster_location_id_0501,0501 (Al Oroba Qtr Sector 2),0501 (Al Oroba Qtr Sector 2),diyala
+cluster,cluster_location_id_0502,0502 (Al Taleaa Qtr ( sector 3 )),0502 (Al Taleaa Qtr ( sector 3 )),diyala
+cluster,cluster_location_id_0503,0503 (Al Jamahir Qtr Sector 2),0503 (Al Jamahir Qtr Sector 2),diyala
+cluster,cluster_location_id_0504,0504 (Al Shuhada Qtr Sector 2),0504 (Al Shuhada Qtr Sector 2),diyala
+cluster,cluster_location_id_0505,0505 (Al Shuhada Qtr Sector 3),0505 (Al Shuhada Qtr Sector 3),diyala
+cluster,cluster_location_id_0506,0506 (Al Shuhada Qtr Sector 5),0506 (Al Shuhada Qtr Sector 5),diyala
+cluster,cluster_location_id_0507,0507 (Al Shuhada Qtr Sector 6),0507 (Al Shuhada Qtr Sector 6),diyala
+cluster,cluster_location_id_0508,0508 (Al Nakheel Village),0508 (Al Nakheel Village),diyala
+cluster,cluster_location_id_0509,0509 (Topaskar),0509 (Topaskar),diyala
+cluster,cluster_location_id_0510,0510 (AL Chagaat Village),0510 (AL Chagaat Village),diyala
+cluster,cluster_location_id_0511,0511 (Baheza Village),0511 (Baheza Village),diyala
+cluster,cluster_location_id_0512,0512 (Al Tajneed Qtr),0512 (Al Tajneed Qtr),diyala
+cluster,cluster_location_id_0513,0513 (Qaratappa),0513 (Qaratappa),diyala
+cluster,cluster_location_id_0514,0514 (bawa shaswar),0514 (bawa shaswar),diyala
+cluster,cluster_location_id_0515,0515 (rezgari),0515 (rezgari),diyala
+cluster,cluster_location_id_0516,0516 (nawrooz),0516 (nawrooz),kerbala
+cluster,cluster_location_id_0517,0517 (sar qala),0517 (sar qala),kerbala
+cluster,cluster_location_id_0518,0518 (shahidan),0518 (shahidan),kerbala
+cluster,cluster_location_id_0519,0519 (Al Jamyah),0519 (Al Jamyah),kerbala
+cluster,cluster_location_id_0520,0520 (Albu Aziz),0520 (Albu Aziz),kerbala
+cluster,cluster_location_id_0521,0521 (emlbege(hay al salam)),0521 (emlbege(hay al salam)),kerbala
+cluster,cluster_location_id_0522,0522 (Kareat al jubur),0522 (Kareat al jubur),kerbala
+cluster,cluster_location_id_0523,0523 (Mantakat Al hnedea),0523 (Mantakat Al hnedea),kerbala
+cluster,cluster_location_id_0524,0524 (Al Jedar Al Gharbi),0524 (Al Jedar Al Gharbi),kerbala
+cluster,cluster_location_id_0525,0525 (Albo Soof),0525 (Albo Soof),kerbala
+cluster,cluster_location_id_0526,0526 (Al-Jadwal Al-Ghrabi-Al Askary),0526 (Al-Jadwal Al-Ghrabi-Al Askary),kerbala
+cluster,cluster_location_id_0527,0527 (Al-Khayrat),0527 (Al-Khayrat),kerbala
+cluster,cluster_location_id_0528,0528 (Al Amen 1),0528 (Al Amen 1),kerbala
+cluster,cluster_location_id_0529,0529 (Al Ameshea 2),0529 (Al Ameshea 2),kerbala
+cluster,cluster_location_id_0530,0530 (Al Intefadha Al Shabaniya),0530 (Al Intefadha Al Shabaniya),kerbala
+cluster,cluster_location_id_0531,0531 (Al Wand Al Mustajad),0531 (Al Wand Al Mustajad),kerbala
+cluster,cluster_location_id_0532,0532 (Al Ateshy),0532 (Al Ateshy),kerbala
+cluster,cluster_location_id_0533,0533 (Al-hussainya-hay al-hussain),0533 (Al-hussainya-hay al-hussain),kerbala
+cluster,cluster_location_id_0534,0534 (Al-kakaeiah Al-Sharkeiah),0534 (Al-kakaeiah Al-Sharkeiah),kerbala
+cluster,cluster_location_id_0535,0535 (Al-Safiya 2),0535 (Al-Safiya 2),kerbala
+cluster,cluster_location_id_0536,0536 (Badat Aswad),0536 (Badat Aswad),kerbala
+cluster,cluster_location_id_0537,0537 (Hay Al Karrar),0537 (Hay Al Karrar),kerbala
+cluster,cluster_location_id_0538,0538 (Hay Al-Abbas),0538 (Hay Al-Abbas),kerbala
+cluster,cluster_location_id_0539,0539 (Hay Al-Rasool),0539 (Hay Al-Rasool),kerbala
+cluster,cluster_location_id_0540,0540 (Hay Al-Wafaa-333),0540 (Hay Al-Wafaa-333),kirkuk
+cluster,cluster_location_id_0541,0541 (Kantraat Al Salam),0541 (Kantraat Al Salam),kirkuk
+cluster,cluster_location_id_0542,0542 (Al-hadi),0542 (Al-hadi),kirkuk
+cluster,cluster_location_id_0543,0543 (Abu-Al-Jaise),0543 (Abu-Al-Jaise),kirkuk
+cluster,cluster_location_id_0544,0544 (Al Askary),0544 (Al Askary),kirkuk
+cluster,cluster_location_id_0545,0545 (Al-riyadh center),0545 (Al-riyadh center),kirkuk
+cluster,cluster_location_id_0546,0546 (Al-zab),0546 (Al-zab),kirkuk
+cluster,cluster_location_id_0547,0547 (Ash shareaa),0547 (Ash shareaa),kirkuk
+cluster,cluster_location_id_0548,0548 (Shamitt Village),0548 (Shamitt Village),kirkuk
+cluster,cluster_location_id_0549,0549 (Bakara Village),0549 (Bakara Village),kirkuk
+cluster,cluster_location_id_0550,0550 (Al-Namalah village),0550 (Al-Namalah village),kirkuk
+cluster,cluster_location_id_0551,0551 (Hawd Sittah village),0551 (Hawd Sittah village),salah al-din
+cluster,cluster_location_id_0552,0552 (Howr Al-Sufen village),0552 (Howr Al-Sufen village),kirkuk
+cluster,cluster_location_id_0553,0553 (Jadidah Sada village),0553 (Jadidah Sada village),kirkuk
+cluster,cluster_location_id_0554,0554 (Tall AL-Dhahab ( Ulia ) village),0554 (Tall AL-Dhahab ( Ulia ) village),kirkuk
+cluster,cluster_location_id_0555,0555 (Al-Farouk Village),0555 (Al-Farouk Village),kirkuk
+cluster,cluster_location_id_0556,0556 (Fareeq Awa),0556 (Fareeq Awa),kirkuk
+cluster,cluster_location_id_0557,0557 (Hay Ashti),0557 (Hay Ashti),kirkuk
+cluster,cluster_location_id_0558,0558 (Laylan-Al Abadat village),0558 (Laylan-Al Abadat village),kirkuk
+cluster,cluster_location_id_0559,0559 (Laylan-Bash Bulaq village),0559 (Laylan-Bash Bulaq village),kirkuk
+cluster,cluster_location_id_0560,0560 (Taza-Omer Bin Khattab),0560 (Taza-Omer Bin Khattab),kirkuk
+cluster,cluster_location_id_0561,0561 (Hay Gulan),0561 (Hay Gulan),kirkuk
+cluster,cluster_location_id_0562,0562 (Khaled bin Waleed village),0562 (Khaled bin Waleed village),kirkuk
+cluster,cluster_location_id_0563,0563 (Salihi village),0563 (Salihi village),kirkuk
+cluster,cluster_location_id_0564,0564 (Wahda village),0564 (Wahda village),kirkuk
+cluster,cluster_location_id_0565,0565 (Saad Bin Waqqas village),0565 (Saad Bin Waqqas village),kirkuk
+cluster,cluster_location_id_0566,0566 (Karakstanvillage),0566 (Karakstanvillage),kirkuk
+cluster,cluster_location_id_0567,0567 (Hay Al-Salam ( Daquq )),0567 (Hay Al-Salam ( Daquq )),kirkuk
+cluster,cluster_location_id_0568,0568 (Hay Klisa 1),0568 (Hay Klisa 1),kirkuk
+cluster,cluster_location_id_0569,0569 (Hay Nawroz ( Daquq)),0569 (Hay Nawroz ( Daquq)),kirkuk
+cluster,cluster_location_id_0570,0570 (Hay Runaki / Daquq),0570 (Hay Runaki / Daquq),kirkuk
+cluster,cluster_location_id_0571,0571 (Al Faylaq-Mahala 5),0571 (Al Faylaq-Mahala 5),kirkuk
+cluster,cluster_location_id_0572,0572 (Al Hurriyah),0572 (Al Hurriyah),kirkuk
+cluster,cluster_location_id_0573,0573 (Al Taakhi),0573 (Al Taakhi),kirkuk
+cluster,cluster_location_id_0574,0574 (Al Tadamon(Hawkari)),0574 (Al Tadamon(Hawkari)),kirkuk
+cluster,cluster_location_id_0575,0575 (Amal al shaabi),0575 (Amal al shaabi),kirkuk
+cluster,cluster_location_id_0576,0576 (Bajwan),0576 (Bajwan),kirkuk
+cluster,cluster_location_id_0577,0577 (Darwaza),0577 (Darwaza),kirkuk
+cluster,cluster_location_id_0578,0578 (Hay 1 Athar),0578 (Hay 1 Athar),kirkuk
+cluster,cluster_location_id_0579,0579 (Hay Al Hamzali),0579 (Hay Al Hamzali),kirkuk
+cluster,cluster_location_id_0580,0580 (Hay Al Jamia-Mahalla 622),0580 (Hay Al Jamia-Mahalla 622),kirkuk
+cluster,cluster_location_id_0581,0581 (Hay Al Nassir),0581 (Hay Al Nassir),kirkuk
+cluster,cluster_location_id_0582,0582 (Hay Al Sekak),0582 (Hay Al Sekak),kirkuk
+cluster,cluster_location_id_0583,0583 (Hay Al-Nasir 2),0583 (Hay Al-Nasir 2),kirkuk
+cluster,cluster_location_id_0584,0584 (Hay Al-Nedaa),0584 (Hay Al-Nedaa),kirkuk
+cluster,cluster_location_id_0585,0585 (Hay Al-Sinay),0585 (Hay Al-Sinay),kirkuk
+cluster,cluster_location_id_0586,0586 (Hay Al-Urooba),0586 (Hay Al-Urooba),kirkuk
+cluster,cluster_location_id_0587,0587 (Hay Azadi),0587 (Hay Azadi),kirkuk
+cluster,cluster_location_id_0588,0588 (Panja Ali),0588 (Panja Ali),kirkuk
+cluster,cluster_location_id_0589,0589 (Rahim Awa),0589 (Rahim Awa),kirkuk
+cluster,cluster_location_id_0590,0590 (Runaki),0590 (Runaki),kirkuk
+cluster,cluster_location_id_0591,0591 (Sayada village),0591 (Sayada village),kirkuk
+cluster,cluster_location_id_0592,0592 (Tiseen),0592 (Tiseen),kirkuk
+cluster,cluster_location_id_0593,0593 (Mala Abdullah village),0593 (Mala Abdullah village),kirkuk
+cluster,cluster_location_id_0594,0594 (Al-Qadisssiya(Rabareen) seconad),0594 (Al-Qadisssiya(Rabareen) seconad),kirkuk
+cluster,cluster_location_id_0595,0595 (Hay Al-Askary 1),0595 (Hay Al-Askary 1),kirkuk
+cluster,cluster_location_id_0596,0596 (Hay Al-Askary 2),0596 (Hay Al-Askary 2),kirkuk
+cluster,cluster_location_id_0597,0597 (Al-Rashad center),0597 (Al-Rashad center),kirkuk
+cluster,cluster_location_id_0598,0598 (Al-Dookmat Al-Kabira village),0598 (Al-Dookmat Al-Kabira village),kirkuk
+cluster,cluster_location_id_0599,0599 (Altun Kupri Center),0599 (Altun Kupri Center),kirkuk
+cluster,cluster_location_id_0600,0600 (Hay Al Muaasker),0600 (Hay Al Muaasker),kirkuk
+cluster,cluster_location_id_0601,0601 (Hay Al Tanak),0601 (Hay Al Tanak),kirkuk
+cluster,cluster_location_id_0602,0602 (Hay Al-Shuhadaa),0602 (Hay Al-Shuhadaa),kirkuk
+cluster,cluster_location_id_0603,0603 (Qashqaiyah village),0603 (Qashqaiyah village),kirkuk
+cluster,cluster_location_id_0604,0604 (Qutan village),0604 (Qutan village),kirkuk
+cluster,cluster_location_id_0605,0605 (Hay Kurdistan),0605 (Hay Kurdistan),ninewa
+cluster,cluster_location_id_0606,0606 (Hay Rabareen),0606 (Hay Rabareen),ninewa
+cluster,cluster_location_id_0607,0607 (Hay Diyarbakir),0607 (Hay Diyarbakir),ninewa
+cluster,cluster_location_id_0608,0608 (Akre),0608 (Akre),ninewa
+cluster,cluster_location_id_0609,0609 (Banasur),0609 (Banasur),ninewa
+cluster,cluster_location_id_0610,0610 (Bardarash),0610 (Bardarash),ninewa
+cluster,cluster_location_id_0611,0611 (Daratu),0611 (Daratu),ninewa
+cluster,cluster_location_id_0612,0612 (Dinarta),0612 (Dinarta),ninewa
+cluster,cluster_location_id_0613,0613 (Grdasin),0613 (Grdasin),ninewa
+cluster,cluster_location_id_0614,0614 (Kalak),0614 (Kalak),ninewa
+cluster,cluster_location_id_0615,0615 (Khalilkan),0615 (Khalilkan),ninewa
+cluster,cluster_location_id_0616,0616 (Roviya),0616 (Roviya),ninewa
+cluster,cluster_location_id_0617,0617 (Husseini),0617 (Husseini),ninewa
+cluster,cluster_location_id_0618,0618 (Zangal),0618 (Zangal),ninewa
+cluster,cluster_location_id_0619,0619 (Markaz Baaj),0619 (Markaz Baaj),ninewa
+cluster,cluster_location_id_0620,0620 (Ahwedar),0620 (Ahwedar),ninewa
+cluster,cluster_location_id_0621,0621 (Abu-Rasen),0621 (Abu-Rasen),ninewa
+cluster,cluster_location_id_0622,0622 (Al-Swejen),0622 (Al-Swejen),ninewa
+cluster,cluster_location_id_0623,0623 (Sibaya Village),0623 (Sibaya Village),ninewa
+cluster,cluster_location_id_0624,0624 (Wardeya),0624 (Wardeya),ninewa
+cluster,cluster_location_id_0625,0625 (Al-ghadeer complex),0625 (Al-ghadeer complex),ninewa
+cluster,cluster_location_id_0626,0626 (Khazna Tappa),0626 (Khazna Tappa),ninewa
+cluster,cluster_location_id_0627,0627 (Muafaqiyah village),0627 (Muafaqiyah village),ninewa
+cluster,cluster_location_id_0628,0628 (Shaquli village),0628 (Shaquli village),ninewa
+cluster,cluster_location_id_0629,0629 (Wardak),0629 (Wardak),ninewa
+cluster,cluster_location_id_0630,0630 (Kubaiba village),0630 (Kubaiba village),ninewa
+cluster,cluster_location_id_0631,0631 (Kharabat sultan village),0631 (Kharabat sultan village),ninewa
+cluster,cluster_location_id_0632,0632 (Qretakh Village),0632 (Qretakh Village),ninewa
+cluster,cluster_location_id_0633,0633 (Jlewkhan village),0633 (Jlewkhan village),ninewa
+cluster,cluster_location_id_0634,0634 (Ali Rash Village),0634 (Ali Rash Village),ninewa
+cluster,cluster_location_id_0635,0635 (Qaraqosh),0635 (Qaraqosh),ninewa
+cluster,cluster_location_id_0636,0636 (Al-Salamiyah Village),0636 (Al-Salamiyah Village),ninewa
+cluster,cluster_location_id_0637,0637 (Bartalla center),0637 (Bartalla center),ninewa
+cluster,cluster_location_id_0638,0638 (Basakhrah Village),0638 (Basakhrah Village),ninewa
+cluster,cluster_location_id_0639,0639 (Atrush),0639 (Atrush),ninewa
+cluster,cluster_location_id_0640,0640 (Baadre),0640 (Baadre),ninewa
+cluster,cluster_location_id_0641,0641 (Berstik),0641 (Berstik),ninewa
+cluster,cluster_location_id_0642,0642 (Betnar),0642 (Betnar),ninewa
+cluster,cluster_location_id_0643,0643 (Chira),0643 (Chira),ninewa
+cluster,cluster_location_id_0644,0644 (Esiyan Village),0644 (Esiyan Village),ninewa
+cluster,cluster_location_id_0645,0645 (Mahad),0645 (Mahad),ninewa
+cluster,cluster_location_id_0646,0646 (Mamrashan),0646 (Mamrashan),ninewa
+cluster,cluster_location_id_0647,0647 (Qasrok),0647 (Qasrok),ninewa
+cluster,cluster_location_id_0648,0648 (Shekhan),0648 (Shekhan),ninewa
+cluster,cluster_location_id_0649,0649 (Almaman),0649 (Almaman),ninewa
+cluster,cluster_location_id_0650,0650 (Pirbob),0650 (Pirbob),ninewa
+cluster,cluster_location_id_0651,0651 (Sheikh Milwan Village),0651 (Sheikh Milwan Village),ninewa
+cluster,cluster_location_id_0652,0652 (Small Rikaba Village),0652 (Small Rikaba Village),ninewa
+cluster,cluster_location_id_0653,0653 (Big Rikaba Village),0653 (Big Rikaba Village),ninewa
+cluster,cluster_location_id_0654,0654 (Nargizlia Village),0654 (Nargizlia Village),ninewa
+cluster,cluster_location_id_0655,0655 (Taq Harb),0655 (Taq Harb),ninewa
+cluster,cluster_location_id_0656,0656 (Taq Mekail),0656 (Taq Mekail),ninewa
+cluster,cluster_location_id_0657,0657 (Tal abta),0657 (Tal abta),ninewa
+cluster,cluster_location_id_0658,0658 (AL-Ani Village),0658 (AL-Ani Village),ninewa
+cluster,cluster_location_id_0659,0659 (Medan kli Gnobia village),0659 (Medan kli Gnobia village),ninewa
+cluster,cluster_location_id_0660,0660 (AL_ Trorkmania Al-shmalia village),0660 (AL_ Trorkmania Al-shmalia village),ninewa
+cluster,cluster_location_id_0661,0661 (Tal faris genobe village),0661 (Tal faris genobe village),ninewa
+cluster,cluster_location_id_0662,0662 (Markaz AL-Hatra),0662 (Markaz AL-Hatra),ninewa
+cluster,cluster_location_id_0663,0663 (Al Harmaat),0663 (Al Harmaat),ninewa
+cluster,cluster_location_id_0664,0664 (Al jazaer),0664 (Al jazaer),ninewa
+cluster,cluster_location_id_0665,0665 (Al rasheediya),0665 (Al rasheediya),ninewa
+cluster,cluster_location_id_0666,0666 (Al tahreer),0666 (Al tahreer),ninewa
+cluster,cluster_location_id_0667,0667 (Al Tanak),0667 (Al Tanak),ninewa
+cluster,cluster_location_id_0668,0668 (Al-Akhaa),0668 (Al-Akhaa),ninewa
+cluster,cluster_location_id_0669,0669 (Al-Harmat 2),0669 (Al-Harmat 2),ninewa
+cluster,cluster_location_id_0670,0670 (Al-Karamah),0670 (Al-Karamah),ninewa
+cluster,cluster_location_id_0671,0671 (Al-Khadraa),0671 (Al-Khadraa),ninewa
+cluster,cluster_location_id_0672,0672 (Al-Maamon),0672 (Al-Maamon),ninewa
+cluster,cluster_location_id_0673,0673 (Al-Quds),0673 (Al-Quds),ninewa
+cluster,cluster_location_id_0674,0674 (Bashiqa center),0674 (Bashiqa center),ninewa
+cluster,cluster_location_id_0675,0675 (Hay 30 July),0675 (Hay 30 July),ninewa
+cluster,cluster_location_id_0676,0676 (Hay Al Intisar),0676 (Hay Al Intisar),ninewa
+cluster,cluster_location_id_0677,0677 (Hay Al Islah Al Zirai),0677 (Hay Al Islah Al Zirai),ninewa
+cluster,cluster_location_id_0678,0678 (Hay Al Nahrawan),0678 (Hay Al Nahrawan),ninewa
+cluster,cluster_location_id_0679,0679 (Hay Al Samah),0679 (Hay Al Samah),ninewa
+cluster,cluster_location_id_0680,0680 (Hay Al Tammem),0680 (Hay Al Tammem),ninewa
+cluster,cluster_location_id_0681,0681 (Hay Al-Shifaa),0681 (Hay Al-Shifaa),ninewa
+cluster,cluster_location_id_0682,0682 (Hay Nablus),0682 (Hay Nablus),ninewa
+cluster,cluster_location_id_0683,0683 (HAY-SUMMER),0683 (HAY-SUMMER),ninewa
+cluster,cluster_location_id_0684,0684 (Muhalabya center),0684 (Muhalabya center),ninewa
+cluster,cluster_location_id_0685,0685 (Bysan),0685 (Bysan),ninewa
+cluster,cluster_location_id_0686,0686 (Hay alsedeeq),0686 (Hay alsedeeq),ninewa
+cluster,cluster_location_id_0687,0687 (Tal-Zahra Village),0687 (Tal-Zahra Village),ninewa
+cluster,cluster_location_id_0688,0688 (Al-Salahiya Village),0688 (Al-Salahiya Village),ninewa
+cluster,cluster_location_id_0689,0689 (Qabr bin Naif Village),0689 (Qabr bin Naif Village),ninewa
+cluster,cluster_location_id_0690,0690 (Arbajiyah),0690 (Arbajiyah),ninewa
+cluster,cluster_location_id_0691,0691 (Yarmjah),0691 (Yarmjah),ninewa
+cluster,cluster_location_id_0692,0692 (Bahzani),0692 (Bahzani),ninewa
+cluster,cluster_location_id_0693,0693 (Badosh Al-thania Village),0693 (Badosh Al-thania Village),ninewa
+cluster,cluster_location_id_0694,0694 (Tel Al-raes Al-thania Village),0694 (Tel Al-raes Al-thania Village),ninewa
+cluster,cluster_location_id_0695,0695 (Al-eakedat),0695 (Al-eakedat),ninewa
+cluster,cluster_location_id_0696,0696 (Al-Abar),0696 (Al-Abar),ninewa
+cluster,cluster_location_id_0697,0697 (Al-Najjar),0697 (Al-Najjar),ninewa
+cluster,cluster_location_id_0698,0698 (Door Al-Sukar),0698 (Door Al-Sukar),ninewa
+cluster,cluster_location_id_0699,0699 (Ghizlani),0699 (Ghizlani),ninewa
+cluster,cluster_location_id_0700,0700 (Al-Matahin),0700 (Al-Matahin),ninewa
+cluster,cluster_location_id_0701,0701 (Judaedat AlMufti),0701 (Judaedat AlMufti),ninewa
+cluster,cluster_location_id_0702,0702 (Badosh uoleha Village),0702 (Badosh uoleha Village),ninewa
+cluster,cluster_location_id_0703,0703 (Khana sor),0703 (Khana sor),ninewa
+cluster,cluster_location_id_0704,0704 (Sinuni center),0704 (Sinuni center),ninewa
+cluster,cluster_location_id_0705,0705 (Dohola ),0705 (Dohola ),ninewa
+cluster,cluster_location_id_0706,0706 (Borek),0706 (Borek),ninewa
+cluster,cluster_location_id_0707,0707 (Karsi ),0707 (Karsi ),ninewa
+cluster,cluster_location_id_0708,0708 (Kolka),0708 (Kolka),ninewa
+cluster,cluster_location_id_0709,0709 (Semi-Hester),0709 (Semi-Hester),ninewa
+cluster,cluster_location_id_0710,0710 (Quwasi),0710 (Quwasi),ninewa
+cluster,cluster_location_id_0711,0711 (Wary Bahdo),0711 (Wary Bahdo),ninewa
+cluster,cluster_location_id_0712,0712 (Sardashty),0712 (Sardashty),ninewa
+cluster,cluster_location_id_0713,0713 (Haliqye),0713 (Haliqye),ninewa
+cluster,cluster_location_id_0714,0714 (Ashti & Heriko),0714 (Ashti & Heriko),ninewa
+cluster,cluster_location_id_0715,0715 (Tiraf),0715 (Tiraf),ninewa
+cluster,cluster_location_id_0716,0716 (Zorava and zirwa),0716 (Zorava and zirwa),ninewa
+cluster,cluster_location_id_0717,0717 (Hay Azadi),0717 (Hay Azadi),ninewa
+cluster,cluster_location_id_0718,0718 (Rozh Halat),0718 (Rozh Halat),ninewa
+cluster,cluster_location_id_0719,0719 (Hay Alshuhada),0719 (Hay Alshuhada),ninewa
+cluster,cluster_location_id_0720,0720 (Hay Alzeraee),0720 (Hay Alzeraee),ninewa
+cluster,cluster_location_id_0721,0721 (Golat),0721 (Golat),ninewa
+cluster,cluster_location_id_0722,0722 (Abu Mariya),0722 (Abu Mariya),ninewa
+cluster,cluster_location_id_0723,0723 (Al Muthalatha village),0723 (Al Muthalatha village),ninewa
+cluster,cluster_location_id_0724,0724 (Ashiq),0724 (Ashiq),ninewa
+cluster,cluster_location_id_0725,0725 (Hay Al Muthana),0725 (Hay Al Muthana),ninewa
+cluster,cluster_location_id_0726,0726 (Kahreez),0726 (Kahreez),ninewa
+cluster,cluster_location_id_0727,0727 (Qasabat Zummar),0727 (Qasabat Zummar),ninewa
+cluster,cluster_location_id_0728,0728 (Ain Hilwa Upper),0728 (Ain Hilwa Upper),ninewa
+cluster,cluster_location_id_0729,0729 (Hay Al Askari),0729 (Hay Al Askari),ninewa
+cluster,cluster_location_id_0730,0730 (Hay Al Arbaeen),0730 (Hay Al Arbaeen),ninewa
+cluster,cluster_location_id_0731,0731 (Hay Alasreya),0731 (Hay Alasreya),ninewa
+cluster,cluster_location_id_0732,0732 (Hay Al laban),0732 (Hay Al laban),ninewa
+cluster,cluster_location_id_0733,0733 (Hay Al Qadisya),0733 (Hay Al Qadisya),ninewa
+cluster,cluster_location_id_0734,0734 (Tal alhuaa),0734 (Tal alhuaa),ninewa
+cluster,cluster_location_id_0735,0735 (Almawmi vilage),0735 (Almawmi vilage),ninewa
+cluster,cluster_location_id_0736,0736 (Ewaynat vilage),0736 (Ewaynat vilage),ninewa
+cluster,cluster_location_id_0737,0737 (Ry Al-Jazera),0737 (Ry Al-Jazera),ninewa
+cluster,cluster_location_id_0738,0738 (Hay Al wahda),0738 (Hay Al wahda),ninewa
+cluster,cluster_location_id_0739,0739 (Hay Alkefah al shmali),0739 (Hay Alkefah al shmali),ninewa
+cluster,cluster_location_id_0740,0740 (Al-Qadisiya Al-thaniya),0740 (Al-Qadisiya Al-thaniya),ninewa
+cluster,cluster_location_id_0741,0741 (Hay Al-Rabeea),0741 (Hay Al-Rabeea),ninewa
+cluster,cluster_location_id_0742,0742 (Hay saad),0742 (Hay saad),ninewa
+cluster,cluster_location_id_0743,0743 (Hay Al-Taleea Alawla),0743 (Hay Al-Taleea Alawla),ninewa
+cluster,cluster_location_id_0744,0744 (Ksr mahrab village),0744 (Ksr mahrab village),ninewa
+cluster,cluster_location_id_0745,0745 (Al Qawsiyat),0745 (Al Qawsiyat),ninewa
+cluster,cluster_location_id_0746,0746 (Al Quba),0746 (Al Quba),ninewa
+cluster,cluster_location_id_0747,0747 (Alqosh),0747 (Alqosh),ninewa
+cluster,cluster_location_id_0748,0748 (Bozan),0748 (Bozan),ninewa
+cluster,cluster_location_id_0749,0749 (Diwasa),0749 (Diwasa),ninewa
+cluster,cluster_location_id_0750,0750 (Pabera Complex),0750 (Pabera Complex),ninewa
+cluster,cluster_location_id_0751,0751 (Sharafiya),0751 (Sharafiya),ninewa
+cluster,cluster_location_id_0752,0752 (Shaykhaka),0752 (Shaykhaka),ninewa
+cluster,cluster_location_id_0753,0753 (Tallsquf),0753 (Tallsquf),ninewa
+cluster,cluster_location_id_0754,0754 (Derston),0754 (Derston),ninewa
+cluster,cluster_location_id_0755,0755 (Al-Mistah),0755 (Al-Mistah),ninewa
+cluster,cluster_location_id_0756,0756 (Qara-Kharab),0756 (Qara-Kharab),ninewa
+cluster,cluster_location_id_0757,0757 (Felfel),0757 (Felfel),ninewa
+cluster,cluster_location_id_0758,0758 (Al-Naser Complex),0758 (Al-Naser Complex),salah al-din
+cluster,cluster_location_id_0759,0759 (Shwedeg Sagheer),0759 (Shwedeg Sagheer),salah al-din
+cluster,cluster_location_id_0760,0760 (Babnet Al_ olyia),0760 (Babnet Al_ olyia),salah al-din
+cluster,cluster_location_id_0761,0761 (Al-Khadhra area),0761 (Al-Khadhra area),salah al-din
+cluster,cluster_location_id_0762,0762 (Hay Mohammad Aldorri-Mhalla 107),0762 (Hay Mohammad Aldorri-Mhalla 107),salah al-din
+cluster,cluster_location_id_0763,0763 (Al Asriyah village),0763 (Al Asriyah village),salah al-din
+cluster,cluster_location_id_0764,0764 (Al Mujammaa Al Sakani),0764 (Al Mujammaa Al Sakani),salah al-din
+cluster,cluster_location_id_0765,0765 (Hay Abu Dalaf),0765 (Hay Abu Dalaf),salah al-din
+cluster,cluster_location_id_0766,0766 (Hay Al Aboor),0766 (Hay Al Aboor),salah al-din
+cluster,cluster_location_id_0767,0767 (Hay Al Askri),0767 (Hay Al Askri),salah al-din
+cluster,cluster_location_id_0768,0768 (Hay Al Mahad),0768 (Hay Al Mahad),salah al-din
+cluster,cluster_location_id_0769,0769 (Hay Al Sharqiyah),0769 (Hay Al Sharqiyah),salah al-din
+cluster,cluster_location_id_0770,0770 (Hay Tal Al Banat),0770 (Hay Tal Al Banat),salah al-din
+cluster,cluster_location_id_0771,0771 (Hay Al Qadisiah),0771 (Hay Al Qadisiah),salah al-din
+cluster,cluster_location_id_0772,0772 (Al Fajir village(Al Tasni)),0772 (Al Fajir village(Al Tasni)),salah al-din
+cluster,cluster_location_id_0773,0773 (Hay Al Jumiala),0773 (Hay Al Jumiala),salah al-din
+cluster,cluster_location_id_0774,0774 (Hay Al Askari),0774 (Hay Al Askari),salah al-din
+cluster,cluster_location_id_0775,0775 (Hay Al Qasbah),0775 (Hay Al Qasbah),salah al-din
+cluster,cluster_location_id_0776,0776 (Hay Al Ziraa),0776 (Hay Al Ziraa),salah al-din
+cluster,cluster_location_id_0777,0777 (Huriyah al jazerah-Al-Aboud),0777 (Huriyah al jazerah-Al-Aboud),salah al-din
+cluster,cluster_location_id_0778,0778 (Qaryat Al Sabkha),0778 (Qaryat Al Sabkha),salah al-din
+cluster,cluster_location_id_0779,0779 (Tal Al Jumiala area),0779 (Tal Al Jumiala area),salah al-din
+cluster,cluster_location_id_0780,0780 (Hay Al-Khasim Al-Qadem village),0780 (Hay Al-Khasim Al-Qadem village),salah al-din
+cluster,cluster_location_id_0781,0781 (Al-Qudus),0781 (Al-Qudus),salah al-din
+cluster,cluster_location_id_0782,0782 (Al-Ayitha Village),0782 (Al-Ayitha Village),salah al-din
+cluster,cluster_location_id_0783,0783 (Al-Musehly Village),0783 (Al-Musehly Village),salah al-din
+cluster,cluster_location_id_0784,0784 (Al-Sfeena Village),0784 (Al-Sfeena Village),salah al-din
+cluster,cluster_location_id_0785,0785 (Sudayrah Aulya Village),0785 (Sudayrah Aulya Village),salah al-din
+cluster,cluster_location_id_0786,0786 (Al-Salman village),0786 (Al-Salman village),salah al-din
+cluster,cluster_location_id_0787,0787 (Al-Mashhad Village),0787 (Al-Mashhad Village),salah al-din
+cluster,cluster_location_id_0788,0788 (Awegylah Village),0788 (Awegylah Village),salah al-din
+cluster,cluster_location_id_0789,0789 (Al-Sheekh Hamad Village),0789 (Al-Sheekh Hamad Village),salah al-din
+cluster,cluster_location_id_0790,0790 (Al Mushhaq Village),0790 (Al Mushhaq Village),salah al-din
+cluster,cluster_location_id_0791,0791 (Al Shiwesh village),0791 (Al Shiwesh village),salah al-din
+cluster,cluster_location_id_0792,0792 (Hay Tal Al Zatar-mahalla 219),0792 (Hay Tal Al Zatar-mahalla 219),salah al-din
+cluster,cluster_location_id_0793,0793 (Qaryat Al Sareen),0793 (Qaryat Al Sareen),salah al-din
+cluster,cluster_location_id_0794,0794 (Albu Tuama Village),0794 (Albu Tuama Village),salah al-din
+cluster,cluster_location_id_0795,0795 (Al Hamra village),0795 (Al Hamra village),salah al-din
+cluster,cluster_location_id_0796,0796 (Al Hejaj Village-13),0796 (Al Hejaj Village-13),salah al-din
+cluster,cluster_location_id_0797,0797 (Al Mazraa Village),0797 (Al Mazraa Village),salah al-din
+cluster,cluster_location_id_0798,0798 (Al-Zweeyah Village ),0798 (Al-Zweeyah Village ),salah al-din
+cluster,cluster_location_id_0799,0799 (Hay Altameem),0799 (Hay Altameem),salah al-din
+cluster,cluster_location_id_0800,0800 (Hay Alnour village),0800 (Hay Alnour village),salah al-din
+cluster,cluster_location_id_0801,0801 (Alharejiya village),0801 (Alharejiya village),salah al-din
+cluster,cluster_location_id_0802,0802 (Jedaeda village),0802 (Jedaeda village),salah al-din
+cluster,cluster_location_id_0803,0803 (AL-Siniya),0803 (AL-Siniya),salah al-din
+cluster,cluster_location_id_0804,0804 (Al Hardaniyah),0804 (Al Hardaniyah),salah al-din
+cluster,cluster_location_id_0805,0805 (Al Mashrooa Village),0805 (Al Mashrooa Village),salah al-din
+cluster,cluster_location_id_0806,0806 (Albu Jewari),0806 (Albu Jewari),salah al-din
+cluster,cluster_location_id_0807,0807 (Al-Duloeyah-Hay Al Jubor),0807 (Al-Duloeyah-Hay Al Jubor),salah al-din
+cluster,cluster_location_id_0808,0808 (Al-Duloeyah-Hay khazraj),0808 (Al-Duloeyah-Hay khazraj),salah al-din
+cluster,cluster_location_id_0809,0809 (Beshakan village),0809 (Beshakan village),salah al-din
+cluster,cluster_location_id_0810,0810 (Mahalla-Abu Sefa-1),0810 (Mahalla-Abu Sefa-1),salah al-din
+cluster,cluster_location_id_0811,0811 (Al-Juboor Village),0811 (Al-Juboor Village),salah al-din
+cluster,cluster_location_id_0812,0812 (Yathrib sub distrct ),0812 (Yathrib sub distrct ),salah al-din
+cluster,cluster_location_id_0813,0813 (Al_Farhateya village),0813 (Al_Farhateya village),salah al-din
+cluster,cluster_location_id_0814,0814 (Balad station),0814 (Balad station),salah al-din
+cluster,cluster_location_id_0815,0815 (Sinjaar),0815 (Sinjaar),salah al-din
+cluster,cluster_location_id_0816,0816 (Jwezerat),0816 (Jwezerat),salah al-din
+cluster,cluster_location_id_0817,0817 (OM Shaeefa),0817 (OM Shaeefa),salah al-din
+cluster,cluster_location_id_0818,0818 (Aziz Balad),0818 (Aziz Balad),salah al-din
+cluster,cluster_location_id_0819,0819 (Al Zuheari Village),0819 (Al Zuheari Village),salah al-din
+cluster,cluster_location_id_0820,0820 (Bezna Village),0820 (Bezna Village),salah al-din
+cluster,cluster_location_id_0821,0821 (Hay Al Hussien),0821 (Hay Al Hussien),salah al-din
+cluster,cluster_location_id_0822,0822 (Hay Al Wihda Mahala 102),0822 (Hay Al Wihda Mahala 102),salah al-din
+cluster,cluster_location_id_0823,0823 (Markaz Al-Dujeel-Al Shabab village),0823 (Markaz Al-Dujeel-Al Shabab village),salah al-din
+cluster,cluster_location_id_0824,0824 (Markaz Al-Dujeel-Hay Al Wihda Mahala 101),0824 (Markaz Al-Dujeel-Hay Al Wihda Mahala 101),salah al-din
+cluster,cluster_location_id_0825,0825 (Markaz Al-Dujeel-Hay Al Wihda Mahala 103),0825 (Markaz Al-Dujeel-Hay Al Wihda Mahala 103),salah al-din
+cluster,cluster_location_id_0826,0826 (Al Jubairiyah Al Thalitha),0826 (Al Jubairiyah Al Thalitha),salah al-din
+cluster,cluster_location_id_0827,0827 (Al Qala-Mahal 201),0827 (Al Qala-Mahal 201),salah al-din
+cluster,cluster_location_id_0828,0828 (Al Sayoya-Mahala 1),0828 (Al Sayoya-Mahala 1),salah al-din
+cluster,cluster_location_id_0829,0829 (Al_Jazera),0829 (Al_Jazera),salah al-din
+cluster,cluster_location_id_0830,0830 (Al-Abasiya Village),0830 (Al-Abasiya Village),salah al-din
+cluster,cluster_location_id_0831,0831 (Al-Efraz area),0831 (Al-Efraz area),salah al-din
+cluster,cluster_location_id_0832,0832 (Al-Hewaish area),0832 (Al-Hewaish area),salah al-din
+cluster,cluster_location_id_0833,0833 (Al-Shuhadaa-Mahalla 324),0833 (Al-Shuhadaa-Mahalla 324),salah al-din
+cluster,cluster_location_id_0834,0834 (Hay Al Baladiya-104),0834 (Hay Al Baladiya-104),salah al-din
+cluster,cluster_location_id_0835,0835 (Hay Al Mutasim-mahala 105),0835 (Hay Al Mutasim-mahala 105),salah al-din
+cluster,cluster_location_id_0836,0836 (Hay Al Muthanna-Mahalla 312),0836 (Hay Al Muthanna-Mahalla 312),salah al-din
+cluster,cluster_location_id_0837,0837 (Hay Al Wathiq-Mahala 314),0837 (Hay Al Wathiq-Mahala 314),salah al-din
+cluster,cluster_location_id_0838,0838 (Hay Al Zuhoor(Al qala 4)Mahala 202),0838 (Hay Al Zuhoor(Al qala 4)Mahala 202),salah al-din
+cluster,cluster_location_id_0839,0839 (Hay Al-Khathraa Mahala 322),0839 (Hay Al-Khathraa Mahala 322),salah al-din
+cluster,cluster_location_id_0840,0840 (Al-Tresha-Albu Fahed),0840 (Al-Tresha-Albu Fahed),salah al-din
+cluster,cluster_location_id_0841,0841 (Al-Jillam area),0841 (Al-Jillam area),salah al-din
+cluster,cluster_location_id_0842,0842 (Hawi Albsat),0842 (Hawi Albsat),salah al-din
+cluster,cluster_location_id_0843,0843 (Mahalla Makeshfa),0843 (Mahalla Makeshfa),salah al-din
+cluster,cluster_location_id_0844,0844 (Al Ahad Al Jadid village),0844 (Al Ahad Al Jadid village),salah al-din
+cluster,cluster_location_id_0845,0845 (Hay Al Askari),0845 (Hay Al Askari),salah al-din
+cluster,cluster_location_id_0846,0846 (Al Namah Al ShamaliyahVillage),0846 (Al Namah Al ShamaliyahVillage),salah al-din
+cluster,cluster_location_id_0847,0847 (Hay Al Asry Al Jadid-404),0847 (Hay Al Asry Al Jadid-404),salah al-din
+cluster,cluster_location_id_0848,0848 (Samrah Village),0848 (Samrah Village),salah al-din
+cluster,cluster_location_id_0849,0849 (Qadisya 2 500 Area),0849 (Qadisya 2 500 Area),salah al-din
+cluster,cluster_location_id_0850,0850 (Al-Mutaradah 204),0850 (Al-Mutaradah 204),salah al-din
+cluster,cluster_location_id_0851,0851 (Hammad Shihab),0851 (Hammad Shihab),salah al-din
+cluster,cluster_location_id_0852,0852 (Al Karama Village),0852 (Al Karama Village),salah al-din
+cluster,cluster_location_id_0853,0853 (Hay Al Anwaa Mahala 420),0853 (Hay Al Anwaa Mahala 420),salah al-din
+cluster,cluster_location_id_0854,0854 (Hay Aljamiyaa),0854 (Hay Aljamiyaa),salah al-din
+cluster,cluster_location_id_0855,0855 (Hay Al Zuhour-422),0855 (Hay Al Zuhour-422),salah al-din
+cluster,cluster_location_id_0856,0856 (Qadisya 1 Mahala 214),0856 (Qadisya 1 Mahala 214),salah al-din
+cluster,cluster_location_id_0857,0857 (Qadisya 2 Mahala 216),0857 (Qadisya 2 Mahala 216),salah al-din
+cluster,cluster_location_id_0858,0858 (Tal-Al Sibaat Village),0858 (Tal-Al Sibaat Village),salah al-din
+cluster,cluster_location_id_0859,0859 (Hay Aldiuom),0859 (Hay Aldiuom),salah al-din
+cluster,cluster_location_id_0860,0860 (Hay Alqalaa),0860 (Hay Alqalaa),salah al-din
+cluster,cluster_location_id_0861,0861 (Hay Alkahrbaa),0861 (Hay Alkahrbaa),salah al-din
+cluster,cluster_location_id_0862,0862 (Mahalla Al Aed),0862 (Mahalla Al Aed),salah al-din
+cluster,cluster_location_id_0863,0863 (Hay Al Dhubbat),0863 (Hay Al Dhubbat),salah al-din
+cluster,cluster_location_id_0864,0864 (Hay Al-Sikak),0864 (Hay Al-Sikak),salah al-din
+cluster,cluster_location_id_0865,0865 (Al Auja village ),0865 (Al Auja village ),salah al-din
+cluster,cluster_location_id_0866,0866 (Al-Dibsa Village),0866 (Al-Dibsa Village),salah al-din
+cluster,cluster_location_id_0867,0867 (Al-Qadisya Complex),0867 (Al-Qadisya Complex),salah al-din
+cluster,cluster_location_id_0868,0868 (Hay Aqsu),0868 (Hay Aqsu),salah al-din
+cluster,cluster_location_id_0869,0869 (Hay Garmian),0869 (Hay Garmian),kirkuk
+cluster,cluster_location_id_0870,0870 (Hay Komari-120),0870 (Hay Komari-120),salah al-din
+cluster,cluster_location_id_0871,0871 (Hay Rizgari-114),0871 (Hay Rizgari-114),salah al-din
+cluster,cluster_location_id_0872,0872 (Hay Shoraw-1),0872 (Hay Shoraw-1),salah al-din
+cluster,cluster_location_id_0873,0873 (Markaz Tooz-Hay Al Askari),0873 (Markaz Tooz-Hay Al Askari),salah al-din
+cluster,cluster_location_id_0874,0874 (Markaz Tooz-Hay Al Taiyar 122),0874 (Markaz Tooz-Hay Al Taiyar 122),salah al-din
+cluster,cluster_location_id_0875,0875 (Markaz Tooz-Hay Brayati),0875 (Markaz Tooz-Hay Brayati),salah al-din
+cluster,cluster_location_id_0876,0876 (Markaz Tooz-Hay Imam Ahmed),0876 (Markaz Tooz-Hay Imam Ahmed),salah al-din
+cluster,cluster_location_id_0877,0877 (Markaz Tooz-Jesir Dara),0877 (Markaz Tooz-Jesir Dara),salah al-din
+cluster,cluster_location_id_0878,0878 (Tal Al Naqqar),0878 (Tal Al Naqqar),salah al-din
+cluster,cluster_location_id_0879,0879 (Unformal Shelter),0879 (Unformal Shelter),salah al-din
+cluster,cluster_location_id_0880,0880 (Brawchili village),0880 (Brawchili village),salah al-din
+cluster,cluster_location_id_0881,0881 (Chardaghli village),0881 (Chardaghli village),al.sulaymaniyah
+cluster,cluster_location_id_0882,0882 (Nawjool area),0882 (Nawjool area),salah al-din
+cluster,cluster_location_id_0883,0883 (Jawry),0883 (Jawry),salah al-din
+cluster,cluster_location_id_0884,0884 (Milnaser Village),0884 (Milnaser Village),wassit
+cluster,cluster_location_id_0885,0885 (Sulayman Beg sub district center),0885 (Sulayman Beg sub district center),wassit
+cluster,cluster_location_id_0886,0886 (Al-Salam Village),0886 (Al-Salam Village),wassit
+cluster,cluster_location_id_0887,0887 (Hay Al-Maghrib),0887 (Hay Al-Maghrib),wassit
+cluster,cluster_location_id_0888,0888 (Hay Al-askary),0888 (Hay Al-askary),wassit
+cluster,cluster_location_id_0889,0889 (Hai Al-Askari-5 Dunam),0889 (Hai Al-Askari-5 Dunam),wassit
+cluster,cluster_location_id_0890,0890 (Hay Al-Jameya),0890 (Hay Al-Jameya),wassit
+cluster,cluster_location_id_0891,0891 (Al-Zubaidiya city center),0891 (Al-Zubaidiya city center),wassit
+cluster,cluster_location_id_0892,0892 (Al-Azezia 150 area),0892 (Al-Azezia 150 area),wassit
+cluster,cluster_location_id_0893,0893 (Al-Sarai),0893 (Al-Sarai),wassit
+cluster,cluster_location_id_0894,0894 (Al-Tanmeya),0894 (Al-Tanmeya),wassit
+cluster,cluster_location_id_0895,0895 (Taj al-dien),0895 (Taj al-dien),wassit
+cluster,cluster_location_id_0896,0896 (Taj al-dien center 1),0896 (Taj al-dien center 1),wassit
+cluster,cluster_location_id_0897,0897 (Al Batar village),0897 (Al Batar village),wassit
+cluster,cluster_location_id_0898,0898 (Al Gardhia),0898 (Al Gardhia),wassit
+cluster,cluster_location_id_0899,0899 (Al Hasan Al Askari),0899 (Al Hasan Al Askari),wassit
+cluster,cluster_location_id_0900,0900 (Al-Jihad-Al Shaheed Dawood),0900 (Al-Jihad-Al Shaheed Dawood),wassit
+cluster,cluster_location_id_0901,0901 (Hay Al-Hawaraa 3),0901 (Hay Al-Hawaraa 3),wassit
+cluster,cluster_location_id_0902,0902 (Al-Jihad-Al-Sajad),0902 (Al-Jihad-Al-Sajad),wassit
+cluster,cluster_location_id_0903,0903 (Damook 150),0903 (Damook 150),wassit
+cluster,cluster_location_id_0904,0904 (Damook Al-Dhbat),0904 (Damook Al-Dhbat),wassit
+cluster,cluster_location_id_0905,0905 (Damook-Al-Hurriya),0905 (Damook-Al-Hurriya),wassit
+cluster,cluster_location_id_0906,0906 (Hay Al-Emam Ali-2),0906 (Hay Al-Emam Ali-2),wassit
+cluster,cluster_location_id_0907,0907 (Al-Jihad-Al Thaqalain),0907 (Al-Jihad-Al Thaqalain),wassit
+cluster,cluster_location_id_0908,0908 (Hay Al-Hakeem),0908 (Hay Al-Hakeem),wassit
+cluster,cluster_location_id_0909,0909 (Hay al-zahraa),0909 (Hay al-zahraa),wassit
+cluster,cluster_location_id_0910,0910 (Sewada Said Shati),0910 (Sewada Said Shati),al.basrah
+cluster,cluster_location_id_0911,0911 (Al-Hassan Al-Askari Al-Thania),0911 (Al-Hassan Al-Askari Al-Thania),al.basrah
+cluster,cluster_location_id_0912,0912 (Al-Umarat-Al-Mutamaizeen),0912 (Al-Umarat-Al-Mutamaizeen),al.basrah
+cluster,cluster_location_id_0913,0913 (Al Ashar Center),0913 (Al Ashar Center),al.basrah
+cluster,cluster_location_id_0914,0914 (AL Mowafaqiah),0914 (AL Mowafaqiah),al.basrah
+cluster,cluster_location_id_0915,0915 (Al-asma_i al-jadeed),0915 (Al-asma_i al-jadeed),al.basrah
+cluster,cluster_location_id_0916,0916 (Al-bradhia),0916 (Al-bradhia),al.basrah
+cluster,cluster_location_id_0917,0917 (Al-hakeem),0917 (Al-hakeem),al.basrah
+cluster,cluster_location_id_0918,0918 (Al-jubaila_),0918 (Al-jubaila_),al.basrah
+cluster,cluster_location_id_0919,0919 (As-safat-Al Qadima),0919 (As-safat-Al Qadima),al.basrah
+cluster,cluster_location_id_0920,0920 (Hai al-mohandesin),0920 (Hai al-mohandesin),al.basrah
+cluster,cluster_location_id_0921,0921 (Hay Al Risalah),0921 (Hay Al Risalah),al.basrah
+cluster,cluster_location_id_0922,0922 (Manawi pasha),0922 (Manawi pasha),al.basrah
+cluster,cluster_location_id_0923,0923 (Nadhran),0923 (Nadhran),maysan
+cluster,cluster_location_id_0924,0924 (Al Khaleej1),0924 (Al Khaleej1),maysan
+cluster,cluster_location_id_0925,0925 (Hay Al-Morabaa),0925 (Hay Al-Morabaa),maysan
+cluster,cluster_location_id_0926,0926 (Al Hay Al JameI),0926 (Al Hay Al JameI),maysan
+cluster,cluster_location_id_0927,0927 (Al Salam),0927 (Al Salam),maysan
+cluster,cluster_location_id_0928,0928 (Hay Al Karar),0928 (Hay Al Karar),maysan
+cluster,cluster_location_id_0929,0929 (Hay Al-Ameer),0929 (Hay Al-Ameer),al.najaf
+cluster,cluster_location_id_0930,0930 (Hay Al-Ghader),0930 (Hay Al-Ghader),al.najaf
+cluster,cluster_location_id_0931,0931 (Hay Awasha),0931 (Hay Awasha),al.najaf
+cluster,cluster_location_id_0932,0932 (Al Barakiya),0932 (Al Barakiya),al.najaf
+cluster,cluster_location_id_0933,0933 (Albu Noman),0933 (Albu Noman),al.najaf
+cluster,cluster_location_id_0934,0934 (Alwat Al Fahal),0934 (Alwat Al Fahal),al.najaf
+cluster,cluster_location_id_0935,0935 (Hay missan 236),0935 (Hay missan 236),al.najaf
+cluster,cluster_location_id_0936,0936 (Sader 3),0936 (Sader 3),al.najaf
+cluster,cluster_location_id_0937,0937 (Al bory),0937 (Al bory),al.najaf
+cluster,cluster_location_id_0938,0938 (Aljadidah alulah),0938 (Aljadidah alulah),al.najaf
+cluster,cluster_location_id_0939,0939 (AL-RADHAWIYA),0939 (AL-RADHAWIYA),al.najaf
+cluster,cluster_location_id_0940,0940 (Hay Al Ameer),0940 (Hay Al Ameer),al.najaf
+cluster,cluster_location_id_0941,0941 (Hay Al qadissiyah),0941 (Hay Al qadissiyah),al.najaf
+cluster,cluster_location_id_0942,0942 (Hay Al Rahma),0942 (Hay Al Rahma),al.najaf
+cluster,cluster_location_id_0943,0943 (Al-Shaheed Al-Sadar 1),0943 (Al-Shaheed Al-Sadar 1),al.najaf
+cluster,cluster_location_id_0944,0944 (Al-Mazarea AL-Westa),0944 (Al-Mazarea AL-Westa),al.najaf
+cluster,cluster_location_id_0945,0945 (Al-Qasim),0945 (Al-Qasim),babil
+cluster,cluster_location_id_0946,0946 (Markaz Alhaidariya),0946 (Markaz Alhaidariya),al.najaf
+cluster,cluster_location_id_0947,0947 (Mazara Al-Hawli),0947 (Mazara Al-Hawli),al.najaf
+cluster,cluster_location_id_0948,0948 (Fadak Village),0948 (Fadak Village),al.najaf
+cluster,cluster_location_id_0949,0949 (Al-Mazara 2),0949 (Al-Mazara 2),thi.qar
+cluster,cluster_location_id_0950,0950 (Al-Shaheed Al-Sadar-Shareet),0950 (Al-Shaheed Al-Sadar-Shareet),thi.qar
+cluster,cluster_location_id_0951,0951 (Al-Ghadeer Village complex),0951 (Al-Ghadeer Village complex),thi.qar
+cluster,cluster_location_id_0952,0952 (Al Aker),0952 (Al Aker),thi.qar
+cluster,cluster_location_id_0953,0953 (Al Aoeh),0953 (Al Aoeh),thi.qar
+cluster,cluster_location_id_0954,0954 (Al-Thawrah),0954 (Al-Thawrah),thi.qar
+cluster,cluster_location_id_0955,0955 (Al-zielat),0955 (Al-zielat),thi.qar
+cluster,cluster_location_id_0956,0956 (Hay Al Fidaa),0956 (Hay Al Fidaa),thi.qar
+cluster,cluster_location_id_0957,0957 (Hay Al Tadhihiya),0957 (Hay Al Tadhihiya),thi.qar
+cluster,cluster_location_id_0958,0958 (Hay Mehidiya),0958 (Hay Mehidiya),thi.qar
+cluster,cluster_location_id_0959,0959 (Sadir City),0959 (Sadir City),al.qadissiya
+cluster,cluster_location_id_0960,0960 (Um Al Dood),0960 (Um Al Dood),al.qadissiya
+cluster,cluster_location_id_0961,0961 (Hay AL-Mansouria),0961 (Hay AL-Mansouria),al.qadissiya
+cluster,cluster_location_id_0962,0962 (Al hamad village),0962 (Al hamad village),al.qadissiya
+cluster,cluster_location_id_0963,0963 (Hay Al Nahda 3),0963 (Hay Al Nahda 3),al.qadissiya
+cluster,cluster_location_id_0964,0964 (Al himran village),0964 (Al himran village),al.qadissiya
+cluster,cluster_location_id_0965,0965 (Albu Khnefis village),0965 (Albu Khnefis village),al.qadissiya
+cluster,cluster_location_id_0966,0966 (Al-Jasem Village),0966 (Al-Jasem Village),al.qadissiya
+cluster,cluster_location_id_0967,0967 (Al-Sadiq(2)),0967 (Al-Sadiq(2)),al.qadissiya
+cluster,cluster_location_id_0968,0968 (Hay Al-Hussain),0968 (Hay Al-Hussain),al.qadissiya
+cluster,cluster_location_id_0969,0969 (Al-Taamem-2),0969 (Al-Taamem-2),al.qadissiya
+cluster,cluster_location_id_0970,0970 (Al-Taqiya 2),0970 (Al-Taqiya 2),al.qadissiya
+cluster,cluster_location_id_0971,0971 (Hay Al Jamiaa),0971 (Hay Al Jamiaa),al.qadissiya
+cluster,cluster_location_id_0972,0972 (Hay Al Shomos),0972 (Hay Al Shomos),al.qadissiya
+cluster,cluster_location_id_0973,0973 (Hay Al-Hadarah),0973 (Hay Al-Hadarah),al.qadissiya
+cluster,cluster_location_id_0974,0974 (Hay Al-Naseej),0974 (Hay Al-Naseej),
+cluster,cluster_location_id_0975,0975 (Qaryat Al Ensaf),0975 (Qaryat Al Ensaf),
+cluster,cluster_location_id_0976,0976 (Salman Hlis Village),0976 (Salman Hlis Village),
+,,7. More than 2 hours,7. ???? ?? 2 ????,
+agree,strongly_agree,Strongly agree,????? ????,
+agree,somewhat_agree,Somewhat agree,????? ??? ?? ??,
+agree,neither_agree,Neither agree or disagree,?? ????? ??? ?????/ ?????,
+agree,somewhat_disagree,Somewhat disagree,?? ????? ??? ?? ??,
+agree,strongly_disagree,Strongly disagree,?? ????? ????,
+,,,,
+,,,,
+,,,,
+,,,,
+economic_wellbeing,increase,Increase in econoomic wellbeing,????? ?? ?????? ?????????,
+economic_wellbeing,decrease,Decrease in economic wellbeing,?????? ?? ???????? ??????????,
+economic_wellbeing,no_change,No change,?? ?????,
+,,,,
+economic_reason,agriculture,Dependent on agriculture and has been unable to maintain its livelihood,????? ??? ??????? ??? ????? ?? ?????? ??? ??????,
+economic_reason,livestock,Dependent on livestock and has been unable to maintain its livelihood,????? ??? ??????? ??? ????? ?? ?????? ??? ??? ?????,
+economic_reason,buying other resources,"Buying other resources (water, food, protection) and draining financial resources",???? ??????? ?????? (?????? ??????? ????????) ???????? ??????? ???????,
+economic_reason,health,"Suffered health implications as a result of the dry spell, and medical assistance/medication is draining financial resources",???? ?? ?????? ?????? ??????? ?? ???? ?????? ? ????????? ?????? / ?????? ?????? ??????? ???????,
+economic_reason,unemployment,Loss of working hours/unemployment,????? ????? ????? / ???????,
+economic_reason,other, Other (Specify),  ???? (???),

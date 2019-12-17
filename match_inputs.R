@@ -28,7 +28,7 @@ questionnaire <- load_questionnaire(response,questions,choices)
 
 # prepare samplingframes
 
-## cluster sampling frame: make values that can be matched with data
+# # ## cluster sampling frame: make values that can be matched with data
 # samplingframe$popgroup[samplingframe$popgroup=="idp"]<-"idp"
 # samplingframe$district <- cluster_lookup_table$new_ID[match(samplingframe$psu, cluster_lookup_table$psu)]
 # samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
@@ -43,7 +43,7 @@ questionnaire <- load_questionnaire(response,questions,choices)
 # response$cluster_location_id[response$population_group != "idp_in_camp"] %find those not in% samplingframe$cluster_ID
 
 ### create id in samplingframe and in data
-# samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
+samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
 response$cluster_id <- paste(response$cluster_location_id, response$population_group, sep = "_")
 
 # any id that can't be found in combination?
@@ -52,11 +52,12 @@ response$cluster_id <- paste(response$cluster_location_id, response$population_g
 
 ### reverse not matching?
 # samplingframe$cluster_strata_ID %find those not in% response$cluster_id
+
 ## unique cluster ids for IDP in camp (unique):
 
 # in_camp <- response$population_group=="idp_in_camp"
-# in_camp_ids<-paste0("NO_CLUSTER_",1:length(which(response$population_group=="idp_in_camp")),"_idp_in_camp")
-# in_camp_cluster_sampling_frame<-data.frame(cluster_strata_ID= in_camp_ids,pop=1)
+#  in_camp_ids<-paste0("NO_CLUSTER_",1:length(which(response$population_group=="idp_in_camp")),"_idp_in_camp")
+#  in_camp_cluster_sampling_frame<-data.frame(cluster_strata_ID= in_camp_ids,pop=1)
 
 # response$cluster_id[in_camp]<-in_camp_ids
 
@@ -83,31 +84,31 @@ samplingframe_strata <- samplingframe %>%
 samplingframe_strata<-as.data.frame(samplingframe_strata)
   
 
-## in camp: make values match data
-# samplingframe_in_camp$stratum<-paste0(samplingframe_in_camp$camp,"idp_in_camp")
-
-## in camp: make columns match other sampling frame:
-# samplingframe_in_camp <- samplingframe_in_camp %>% dplyr::select(stratum,"population" = population..july.cccm.)
-## combine in camp and out of camp sampling frames
-# samplingframe_strata <- rbind(samplingframe_strata,samplingframe_in_camp)
+# ## in camp: make values match data
+#  samplingframe_in_camp$stratum<-paste0(samplingframe_in_camp$camp,"idp_in_camp")
+# 
+# ## in camp: make columns match other sampling frame:
+#  samplingframe_in_camp <- samplingframe_in_camp %>% dplyr::select(stratum,"population" = population..july.cccm.)
+# ## combine in camp and out of camp sampling frames
+#  samplingframe_strata <- rbind(samplingframe_strata,samplingframe_in_camp)
 
 # add strata names to data
 
 ## out of camp:
-# districtdata <- read.csv("input/combined_sample_ids.csv", 
-         # stringsAsFactors=F, check.names=F)
-# columns <- c("district")
+districtdata <- read.csv("input/combined_sample_ids.csv",
+stringsAsFactors=F, check.names=F)
+columns <- c("district")
 
 
 #
 
 response <- response %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
-                                                                               ifelse(calc_remainee == 1, "host", NA))))
+                                                                                ifelse(calc_remainee == 1, "host", NA))))
 
 response <- response %>% 
   mutate(district = cluster_lookup_table$district[match(cluster_location_id,cluster_lookup_table$new_ID)])
 
-response <- response %>% 
+ response <- response %>% 
   mutate(strata = paste0(district,population_group))
 
 ## in camp: (replace district with camp name for idp_in_camp population group)
@@ -116,7 +117,7 @@ response <- response %>%
 
 
 ## add rows to cluster samplingframe where no cluster sampling was used
-# samplingframe<-bind_rows(samplingframe,in_camp_cluster_sampling_frame)
+ # samplingframe<-bind_rows(samplingframe,in_camp_cluster_sampling_frame)
 
 
 

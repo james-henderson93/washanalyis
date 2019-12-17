@@ -81,13 +81,13 @@ response <- response[-which(response$X_uuid %in% strata_samplingframe_issues$X_u
 # only in camp idps have cluster weight of 1:
 
 
-# cluster_weight_fun<-function(df){
-#   weights<-rep(NA,nrow(df))
-#   in_camp<-df$population_group=="idp_in_camp"
-#   weights[!in_camp]<-clusters_weight_fun_out_of_camp(df[!in_camp,])
-#   weights[in_camp]<-1
-#   weights
-#   }
+cluster_weight_fun<-function(df){
+ weights<-rep(NA,nrow(df))
+   in_camp<-df$population_group=="idp_in_camp"
+ weights[!in_camp]<-clusters_weight_fun_out_of_camp(df[!in_camp,])
+   weights[in_camp]<-1
+   weights
+   }
 
 strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
                                       sampling.frame.population.column = "population",
@@ -99,19 +99,19 @@ strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
 weight_fun<-strata_weight_fun
 
 
-response$weights<-weight_fun(response)
-
-# for speedy speed we can not recalculate weights on every run):
-# weight_fun<-function(df){
-#   df$weights
-# }
+ response$weights<-weight_fun(response)
+# write.csv(response, "temp.csv", row.names = F)
+#  # for speedy speed we can not recalculate weights on every run):
+#  weight_fun<-function(df){
+#    df$weights
+#  }
 
 source("Recoding.R")
 response_with_composites <- calc_avgs(response)
 response_with_composites <- recodingchoices(response_with_composites)
 
-table(response_with_composites[, c("sufficient_containers_recoded")][which(response_with_composites$district == "erbil")], useNA="always")
-table(response_with_composites$population_group, useNA="always")
+# table(response_with_composites[, c("sufficient_containers_recoded")][which(response_with_composites$district == "erbil")], useNA="always")
+# table(response_with_composites$population_group, useNA="always")
 #which(response_with_composites$district == "al.hatra")
 
 # Correcting for random sampled districts
@@ -128,16 +128,17 @@ analysisplan <- read.csv(sprintf("Input/dap_%s.csv",dap_name), stringsAsFactors 
 #  | startsWith(analysisplan$dependent.variable, "s21") 
 #  | startsWith(analysisplan$dependent.variable, "s22")
                                     # ),]
-#analysisplan <- analysisplan_nationwide(analysisplan)
-#analysisplan <- analysisplan_pop_group_aggregated(analysisplan)
+analysisplan <- analysisplan_nationwide(analysisplan)
+analysisplan <- analysisplan_pop_group_aggregated(analysisplan)
 #analysisplan <- analysisplan[which(analysisplan$independent.variable == ""),]
+
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
-                                          weighting = weight_fun,
-                                   #       cluster_variable_name = "cluster_id",
+                                           weighting = weight_fun, 
+                                       cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
 
 
-name <- "20191120_preliminary"
+ name <- "20191214_preliminary_incamp_pop_group_nationwide"
 saveRDS(result,paste(sprintf("output/result_%s.RDS", name)))
 #summary[which(summary$dependent.var == "g51a"),]
 # 
@@ -151,6 +152,7 @@ write.csv(summary, sprintf("output/raw_results_%s.csv", name), row.names=F)
 summary <- read.csv(sprintf("output/raw_results_%s.csv", name), stringsAsFactors = F)
 summary <- correct.zeroes(summary)
 summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
+
 write.csv(summary, sprintf("output/raw_results_%s_filtered.csv", name), row.names=F)
 if(all(is.na(summary$independent.var.value))){summary$independent.var.value <- "all"}
 groups <- unique(summary$independent.var.value)

@@ -1,0 +1,124 @@
+Governorate,district,popgroup,Sampling.type,Population,stratum
+Baghdad,al.adhamiya,host,2 stages random - st1,4182,al.adhamiyahost
+Dohuk,al.amadiya,host,2 stages random - st1,500,al.amadiyahost
+Basrah,al.basrah,host,2 stages random - st1,2270,al.basrahhost
+Qadissiya,al.diwaniya,host,2 stages random - st1,3610,al.diwaniyahost
+Anbar,al.falluja,host,2 stages random - st1,4820,al.fallujahost
+Ninewa,al.hamdaniya,host,2 stages random - st1,1663,al.hamdaniyahost
+Babylon,al.hilla,host,2 stages random - st1,1835,al.hillahost
+Kerbala,al.hindiya,host,2 stages random - st1,947,al.hindiyahost
+Baghdad,al.kadhmiyah,host,2 stages random - st1,5254,al.kadhmiyahhost
+Missan,al.kahla,host,2 stages random - st1,672,al.kahlahost
+Baghdad,al.karkh,host,2 stages random - st1,6722,al.karkhhost
+Wassit,al.kut,host,2 stages random - st1,3628,al.kuthost
+Baghdad,al.mahmoudiya,host,2 stages random - st1,1511,al.mahmoudiyahost
+Ninewa,al.mosul,host,Cluster sampling,27559,al.mosulhost
+Najaf,al.najaf,host,2 stages random - st1,8530,al.najafhost
+Baghdad,al.risafa,host,2 stages random - st1,688,al.risafahost
+Ninewa,al.shikhan,host,2 stages random - st1,9678,al.shikhanhost
+Salah Al-Din,al.shirqat,host,2 stages random - st1,2248,al.shirqathost
+Sulaymaniyah,al.sulaymaniyah,host,2 stages random - st1,2011,al.sulaymaniyahhost
+Wassit,al.suwaira,host,2 stages random - st1,627,al.suwairahost
+Ninewa,aqra,host,2 stages random - st1,826,aqrahost
+Salah Al-Din,balad,host,2 stages random - st1,917,baladhost
+Salah Al-Din,baquba,host,2 stages random - st1,4533,baqubahost
+Dohuk,duhok,host,Cluster sampling,11472,duhokhost
+Erbil,erbil,host,2 stages random - st1,525,erbilhost
+Kerbala,kerbela,host,2 stages random - st1,3444,kerbelahost
+Kirkuk,kirkuk,host,Cluster sampling,29441,kirkukhost
+Salah Al-Din,samarra,host,2 stages random - st1,5827,samarrahost
+Dohuk,sumail,host,Cluster sampling,5600,sumailhost
+Salah Al-Din,tikrit,host,Cluster sampling,6408,tikrithost
+Ninewa,tilkaef,host,2 stages random - st1,3100,tilkaefhost
+Salah Al-Din,tooz.khurmato,host,2 stages random - st1,1470,tooz.khurmatohost
+Dohuk,zakho,host,Cluster sampling,14414,zakhohost
+Baghdad,al.adhamiya,idp,Cluster sampling,880,al.adhamiyaidp
+Dohuk,al.amadiya,idp,Cluster sampling,503,al.amadiyaidp
+Ninewa,al.baaj,idp,2 stages random - st1,231,al.baajidp
+Basrah,al.basrah,idp,Cluster sampling,347,al.basrahidp
+Qadissiya,al.diwaniya,idp,Cluster sampling,580,al.diwaniyaidp
+Anbar,al.falluja,idp,Cluster sampling,1753,al.fallujaidp
+Ninewa,al.hamdaniya,idp,2 stages random - st1,4434,al.hamdaniyaidp
+Babylon,al.hilla,idp,Cluster sampling,239,al.hillaidp
+Kerbala,al.hindiya,idp,Cluster sampling,804,al.hindiyaidp
+Baghdad,al.kadhmiyah,idp,Cluster sampling,2489,al.kadhmiyahidp
+Missan,al.kahla,idp,Cluster sampling,203,al.kahlaidp
+Baghdad,al.karkh,idp,Cluster sampling,3662,al.karkhidp
+Diyala,al.khalis,idp,Cluster sampling,752,al.khalisidp
+Najaf,al.kufa,idp,Cluster sampling,544,al.kufaidp
+Wassit,al.kut,idp,Cluster sampling,835,al.kutidp
+Baghdad,al.mahmoudiya,idp,Cluster sampling,1058,al.mahmoudiyaidp
+Ninewa,al.mosul,idp,Cluster sampling,17236,al.mosulidp
+Babylon,al.mussyab,idp,Cluster sampling,2414,al.mussyabidp
+Najaf,al.najaf,idp,Cluster sampling,1079,al.najafidp
+Thi-Qar,al.nasiriya,idp,Cluster sampling,239,al.nasiriyaidp
+Anbar,al.ramadi,idp,2 stages random - st1,862,al.ramadiidp
+Baghdad,al.risafa,idp,Cluster sampling,465,al.risafaidp
+Ninewa,al.shikhan,idp,Cluster sampling,3918,al.shikhanidp
+Salah Al-Din,al.shirqat,idp,Cluster sampling,211,al.shirqatidp
+Sulaymaniyah,al.sulaymaniyah,idp,Cluster sampling,12453,al.sulaymaniyahidp
+Wassit,al.suwaira,idp,Cluster sampling,273,al.suwairaidp
+Ninewa,aqra,idp,Cluster sampling,4175,aqraidp
+Salah Al-Din,balad,idp,Cluster sampling,2383,baladidp
+Salah Al-Din,baquba,idp,Cluster sampling,3796,baqubaidp
+Diyala,beygee,idp,2 stages random - st1,442,beygeeidp
+Sulaymaniyah,chamchamal,idp,Cluster sampling,1598,chamchamalidp
+Kirkuk,daquq,idp,2 stages random - st1,927,daquqidp
+Sulaymaniyah,derbendikhan,idp,Cluster sampling,1043,derbendikhanidp
+Kirkuk,dibis,idp,2 stages random - st1,353,dibisidp
+Sulaymaniyah,dokan,idp,Cluster sampling,770,dokanidp
+Dahuk,duhok,idp,Cluster sampling,5528,duhokidp
+Erbil,erbil,idp,Cluster sampling,26195,erbilidp
+Anbar,haditha,idp,Cluster sampling,341,hadithaidp
+Sulaymaniyah,halabcha,idp,Cluster sampling,584,halabchaidp
+Anbar,heet,idp,Cluster sampling,285,heetidp
+Sulaymaniyah,kalar,idp,Cluster sampling,2436,kalaridp
+Kerbala,kerbela,idp,Cluster sampling,2478,kerbelaidp
+Diyala,khanaqin,idp,Cluster sampling,1686,khanaqinidp
+Diyala,kifri,idp,Cluster sampling,2423,kifriidp
+Kirkuk,kirkuk,idp,Cluster sampling,13591,kirkukidp
+Erbil,koysinjaq,idp,Cluster sampling,698,koysinjaqidp
+Sulaymaniyah,rania,idp,Cluster sampling,414,raniaidp
+Erbil,rawanduz,idp,Cluster sampling,468,rawanduzidp
+Salah Al-Din,samarra,idp,Cluster sampling,3736,samarraidp
+Erbil,shaqlawa,idp,Cluster sampling,881,shaqlawaidp
+Ninewa,sinjar,idp,Cluster sampling,4118,sinjaridp
+Dohuk,sumail,idp,Cluster sampling,14186,sumailidp
+Ninewa,telafar,idp,Cluster sampling,1602,telafaridp
+Salah Al-Din,tikrit,idp,Cluster sampling,5284,tikritidp
+Ninewa,tilkaef,idp,Cluster sampling,3768,tilkaefidp
+Salah Al-Din,tooz.khurmato,idp,Cluster sampling,4503,tooz.khurmatoidp
+Dohuk,zakho,idp,Cluster sampling,8619,zakhoidp
+Ninewa,al.baaj,returnee,Cluster sampling,1779,al.baajreturnee
+Salah Al-Din,al.daur,returnee,2 stages random - st1,10081,al.daurreturnee
+Anbar,al.falluja,returnee,Cluster sampling,90609,al.fallujareturnee
+Ninewa,al.hamdaniya,returnee,Cluster sampling,28985,al.hamdaniyareturnee
+Ninewa,al.hatra,returnee,Cluster sampling,3512,al.hatrareturnee
+Kirkuk,al.hawiga,returnee,Cluster sampling,24130,al.hawigareturnee
+Baghdad,al.kadhmiyah,returnee,Cluster sampling,4720,al.kadhmiyahreturnee
+Anbar,al.kaim,returnee,Cluster sampling,6392,al.kaimreturnee
+Diyala,al.khalis,returnee,Cluster sampling,13143,al.khalisreturnee
+Baghdad,al.mahmoudiya,returnee,Cluster sampling,8587,al.mahmoudiyareturnee
+Ninewa,al.mosul,returnee,Cluster sampling,160467,al.mosulreturnee
+Diyala,al.muqdadiya,returnee,Cluster sampling,8098,al.muqdadiyareturnee
+Babylon,al.mussyab,returnee,2 stages random - st1,770,al.mussyabreturnee
+Anbar,al.ramadi,returnee,Cluster sampling,76317,al.ramadireturnee
+Anbar,al.rutba,returnee,2 stages random - st1,4675,al.rutbareturnee
+Ninewa,al.shikhan,returnee,2 stages random - st1,295,al.shikhanreturnee
+Salah Al-Din,al.shirqat,returnee,Cluster sampling,20870,al.shirqatreturnee
+Anbar,ana,returnee,Cluster sampling,4795,anareturnee
+Salah Al-Din,balad,returnee,Cluster sampling,11428,baladreturnee
+Salah Al-Din,beygee,returnee,Cluster sampling,19879,beygeereturnee
+Kirkuk,daquq,returnee,Cluster sampling,924,daquqreturnee
+Kirkuk,dibis,returnee,2 stages random - st1,1196,dibisreturnee
+Anbar,haditha,returnee,Cluster sampling,4694,hadithareturnee
+Anbar,heet,returnee,Cluster sampling,30677,heetreturnee
+Diyala,khanaqin,returnee,Cluster sampling,15971,khanaqinreturnee
+Kirkuk,kirkuk,returnee,Cluster sampling,27111,kirkukreturnee
+Erbil,makhmour,returnee,Cluster sampling,5944,makhmourreturnee
+Salah Al-Din,samarra,returnee,Cluster sampling,9358,samarrareturnee
+Ninewa,sinjar,returnee,Cluster sampling,9512,sinjarreturnee
+Ninewa,telafar,returnee,Cluster sampling,56076,telafarreturnee
+Salah Al-Din,tikrit,returnee,Cluster sampling,28556,tikritreturnee
+Ninewa,tilkaef,returnee,Cluster sampling,20105,tilkaefreturnee
+Salah Al-Din,tooz.khurmato,returnee,Cluster sampling,7464,tooz.khurmatoreturnee

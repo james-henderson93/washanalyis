@@ -1,0 +1,119 @@
+list_name,name,english,filter
+governorate_wash,al.anbar,al.anbar,
+governorate_wash,baghdad,Baghdad,
+governorate_wash,duhok,Duhok,
+governorate_wash,diyala,Diyala,
+governorate_wash,erbil,Erbil,
+governorate_wash,kerbala,Kerbala,
+governorate_wash,maysan,Maysan,
+governorate_wash,ninewa,Ninewa,
+governorate_wash,al.sulaymaniyah,al.sulaymaniyah,
+governorate_wash,kirkuk,Kirkuk,
+governorate_wash,salah al-din,Salah Al-Din,
+governorate_wash,al.najaf,Najaf,
+governorate_wash,thi.qar,Thi Qar,
+governorate_wash,al.basrah,Basrah,
+governorate_wash,al.qadissiya,Qadissiya,
+governorate_wash,babil,Babylon,
+governorate_wash,wassit,Wassit,
+district_wash,al.falluja,Al-Falluja,al.anbar
+district_wash,al.kaim,Al-Kaim,al.anbar
+district_wash,al.ramadi,Al-Ramadi,al.anbar
+district_wash,al.rutba,Al-Rutba,al.anbar
+district_wash,ana,Ana,al.anbar
+district_wash,haditha,Haditha,al.anbar
+district_wash,heet,Heet,al.anbar
+district_wash,abu.al.khaseeb,Abu Al-Khaseeb,al.basrah
+district_wash,al.basrah,al.basrah,al.basrah
+district_wash,al.faw,Al-Faw,al.basrah
+district_wash,al.midaina,Al-Midaina,al.basrah
+district_wash,al.qurna,Al-Qurna,al.basrah
+district_wash,al.zubair,Al-Zubair,al.basrah
+district_wash,shat.al.arab,Shat Al-Arab,al.basrah
+district_wash,al.khidhir,Al-Khidhir,al.muthanna
+district_wash,al.rumaitha,Al-Rumaitha,al.muthanna
+district_wash,al.salman,Al-Salman,al.muthanna
+district_wash,al.samawa,Al-Samawa,al.muthanna
+district_wash,al.kufa,Al-Kufa,al.najaf
+district_wash,al.manathera,Al-Manathera,al.najaf
+district_wash,al.najaf,al.najaf,al.najaf
+district_wash,afaq,Afaq,al.qadissiya
+district_wash,al.diwaniya,Al-Diwaniya,al.qadissiya
+district_wash,al.hamza,Al-Hamza,al.qadissiya
+district_wash,al.shamiya,Al-Shamiya,al.qadissiya
+district_wash,al.sulaymaniyah,al.sulaymaniyah,al.sulaymaniyah
+district_wash,chamchamal,Chamchamal,al.sulaymaniyah
+district_wash,derbendikhan,Derbendikhan,al.sulaymaniyah
+district_wash,dokan,Dokan,al.sulaymaniyah
+district_wash,halabcha,Halabcha,al.sulaymaniyah
+district_wash,kalar,Kalar,al.sulaymaniyah
+district_wash,panjwin,Panjwin,al.sulaymaniyah
+district_wash,pshdar,Pshdar,al.sulaymaniyah
+district_wash,rania,Rania,al.sulaymaniyah
+district_wash,sharbazher,Sharbazher,al.sulaymaniyah
+district_wash,al.hashimiya,Al-Hashimiya,babil
+district_wash,al.hilla,Al-Hilla,babil
+district_wash,al.mahaweel,Al-Mahaweel,babil
+district_wash,al.mussyab,Al-Mussyab,babil
+district_wash,al.adhamiya,Al-Adhamiya,baghdad
+district_wash,al.kadhmiyah,Al-Kadhmiyah,baghdad
+district_wash,al.karkh,Al-Karkh,baghdad
+district_wash,al.mada.in,Al-Mada'in,baghdad
+district_wash,al.mahmoudiya,Al-Mahmoudiya,baghdad
+district_wash,al.risafa,Al-Risafa,baghdad
+district_wash,al.thawra,Al-Thawra,baghdad
+district_wash,al.khalis,Al-Khalis,diyala
+district_wash,al.muqdadiya,Al-Muqdadiya,diyala
+district_wash,baladruz,Baladruz,diyala
+district_wash,baquba,Baquba,diyala
+district_wash,khanaqin,Khanaqin,diyala
+district_wash,kifri,Kifri,diyala
+district_wash,al.amadiya,Al-Amadiya,duhok
+district_wash,duhok,Duhok,duhok
+district_wash,sumail,Sumail,duhok
+district_wash,zakho,Zakho,duhok
+district_wash,al.zibar,Al-Zibar,erbil
+district_wash,erbil,Erbil,erbil
+district_wash,koysinjaq,Koysinjaq,erbil
+district_wash,makhmour,Makhmour,erbil
+district_wash,rawanduz,Rawanduz,erbil
+district_wash,shaqlawa,Shaqlawa,erbil
+district_wash,ain.al.tamur,Ain Al-Tamur,kerbala
+district_wash,al.hindiya,Al-Hindiya,kerbala
+district_wash,kerbela,Kerbela,kerbala
+district_wash,al.hawiga,Al-Hawiga,kirkuk
+district_wash,daquq,Daquq,kirkuk
+district_wash,dibis,Dibis,kirkuk
+district_wash,kirkuk,Kirkuk,kirkuk
+district_wash,al.amara,Al-Amara,maysan
+district_wash,ali.al.gharbi,Ali Al-Gharbi,maysan
+district_wash,al.kahla,Al-Kahla,maysan
+district_wash,al.maimouna,Al-Maimouna,maysan
+district_wash,al.mejar.al.kabir,Al-Mejar Al-Kabir,maysan
+district_wash,qalat.saleh,Qalat Saleh,maysan
+district_wash,al.baaj,Al-Baaj,ninewa
+district_wash,al.hamdaniya,Al-Hamdaniya,ninewa
+district_wash,al.hatra,Al-Hatra,ninewa
+district_wash,al.mosul,Al-Mosul,ninewa
+district_wash,al.shikhan,Al-Shikhan,ninewa
+district_wash,aqra,Aqra,ninewa
+district_wash,sinjar,Sinjar,ninewa
+district_wash,telafar,Telafar,ninewa
+district_wash,tilkaef,Tilkaef,ninewa
+district_wash,al.daur,Al-Daur,salah al-din
+district_wash,al.shirqat,Al-Shirqat,salah al-din
+district_wash,balad,Balad,salah al-din
+district_wash,beygee,Beygee,salah al-din
+district_wash,samarra,Samarra,salah al-din
+district_wash,tikrit,Tikrit,salah al-din
+district_wash,tooz.khurmato,Tooz Khurmato,salah al-din
+district_wash,al.chibayish,Al-Chibayish,thi.qar
+district_wash,al.nasiriya,Al-Nasiriya,thi.qar
+district_wash,al.rifai,Al-Rifai,thi.qar
+district_wash,al.shatra,Al-Shatra,thi.qar
+district_wash,suq.al.shoyokh,Suq Al-Shoyokh,thi.qar
+district_wash,al.hai,Al-Hai,wassit
+district_wash,al.kut,Al-Kut,wassit
+district_wash,al.namaniya,Al-Namaniya,wassit
+district_wash,al.suwaira,Al-Suwaira,wassit
+district_wash,badra,Badra,wassit

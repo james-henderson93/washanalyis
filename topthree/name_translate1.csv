@@ -1,0 +1,94 @@
+old_title,new_title
+sector_respondent.agriculture,Agriculture
+sector_respondent.livestock,Livestock
+sector_respondent.commercial,Commercial
+sector_respondent.manufacturing,Manufacturing
+sector_respondent.construction,Construction
+sector_respondent.transportation,Transportation
+sector_respondent.medical,Medical
+sector_respondent.education,Education
+sector_respondent.hotels_restaurants,Hotels/Restaurants
+sector_respondent.cleaner_cook,Cleaner/Cook
+sector_respondent.i_t,I.T
+sector_respondent.mining,Mining
+sector_respondent.real_estate,Real Estate
+sector_respondent.government,Government
+sector_respondent.import_export,Import/Export
+sector_respondent.ngo_un,NGO/UN
+sector_respondent.mechanic,Mechanic
+sector_respondent.electrician,Electrician
+sector_respondent.other,Other
+drinking_water_source.network_private,Piped water into compound
+drinking_water_source.network_comm,Piped water connected to public tap
+drinking_water_source.dug_well,Borehole
+drinking_water_source.prot_well,Protected well
+drinking_water_source.rainwater,Protected rainwater tank
+drinking_water_source.river_spring,Protected spring
+drinking_water_source.bottled_water,Bottled water
+drinking_water_source.purchase_water,Purchase water
+drinking_water_source.water_trucking,Water Trucking
+drinking_water_source.illegal_connection,Illegal connection to piped network
+drinking_water_source.unprot_tank,Unprotected rainwater tank
+drinking_water_source.unprot_well,Unprotected well
+drinking_water_source.unprot_spring,Unprotected spring
+drinking_water_source.surface_water,Surface water without pre-treatment
+drinking_water_other,Other
+why_treat.turbid,It is turbid
+why_treat.tastes_unpleasant, It tastes unpleasant
+why_treat.smells_unpleasant, It smells unpleasant
+why_treat.unsafe,It is unsafe
+why_treat.other, Other
+why_treat.don’t_know,Remove
+problems_access_reasons.waterpoints_toofar,Waterpoints are too far
+problems_access_reasons.waterpoints_difficult,Waterpoints are difficult to reach
+problems_access_reasons.water_dangerous,Fetching water is a dangerous activity
+problems_access_reasons.groups_noaccess,Some groups have no access to the waterpoints
+problems_access_reasons.insufficient_number,Insufficient number of water points
+problems_access_reasons.waterpoints_dysfunctional,Water points are not functioning or close
+problems_access_reasons.market_notavailable,Water is not available at the market
+problems_access_reasons.water_expensive,Water is too expensive
+problems_access_reasons.containers_notenough,Not enough container to store the water 
+problems_access_reasons.taste_quality_bad,Don’t like taste / quality of water
+problems_access_reasons.no_problems,No problems
+problems_access_reasons.other,Other (please list)
+problems_access_reasons.dont_know,remove
+water_contingency.less_preferred,Rely on less preferred drinking sources (unimproved/untreated)
+water_contingency.rely_surface_water,Rely on surface water for drinking water
+water_contingency.rely_less_preferred_source,Rely on less preferred sources (unimproved/untreated) for other purposes
+water_contingency.rely_surface_water_other,Rely on surface water for other purposes
+water_contingency.fetch_water,Fetch water at a source further than the usual one
+water_contingency.children_fetch_water,Send children to fetch water
+water_contingency.fetch_water_dangerous,Fetch water at a source that could be dangerous 
+water_contingency.spend_money_water,Spend money (or credit) on water
+water_contingency.reduce_drinking_water,Reduce drinking water consumption
+water_contingency.reduce_water_consumption,Reduce water consumption for other purposes
+water_contingency_unprotected ,No coping mechanisms used
+water_contingency_other,Other
+water_contingency_dont_know,Remove
+sanitation_facility.bucket_toilet,Bucket toilet 
+sanitation_facility.flush,Flush or pour/flush toilet       
+sanitation_facility.hanging_toilet,Hanging toilet/latrine
+sanitation_facility.latrine_slab,Pit latrine with a slab and platform  
+sanitation_facility.latrine_without_slab,Pit latrine without a slab or platform    
+sanitation_facility.open_hole,Open hole  
+sanitation_facility.pit_vip,Pit VIP toilet      
+sanitation_facility.plastic_bag,Plastic bag
+sanitation_facility.none_of,Open defecation          
+sanitation_facility.other,Other
+sanitation_facility.dont_know,Remove
+disposal.garbage_bin,Communal garbage bin emptied by municipality
+disposal.private,Private container
+disposal.rubbish_pit,Rubbish pit
+disposal.burning,Burning
+disposal.inside_residential,Throw in street / open space inside residential area
+disposal.outside_residential,Throw in street/open space outside residential area
+disposal.burying,Burying
+disposal.other,Other
+how_activities_affected.school_inaccessible,Children could not get to school
+how_activities_affected.mobility,Mobility of adults affected
+how_activities_affected.electricity,Electricity services negatively affected
+how_activities_affected.water,Water services negatively afftected
+how_activities_affected.agriculture,Affected livelihoods due to damage to agricultural land
+how_activities_affected.sickness,People getting sick
+how_activities_affected.loss,Loss/damage to households' items
+how_activities_other,"Other, please specify"

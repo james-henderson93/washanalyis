@@ -115,15 +115,15 @@ recodingchoices <-function(r) {
                                              (r$handwashing_access_communal == "no"), 1, 0)
   # r$no_handwashing_facility <- ifelse (r$handwashing_access == "no", 1, 0)
 
-  r$safe_waste_disposal <- ifelse (r$waste_disposal %in%
+  r$safe_waste_disposal <- ifelse(r$latrine_drain %in%
                                      c("septic_tank", "communal_line"), 1,0)
   
-  r$unsafe_waste_disposal <- ifelse (r$waste_disposal %in%
+  r$unsafe_waste_disposal <- ifelse(r$latrine_drain %in%
                                        c("hole", "stagnant_field", 
                                          "nothing"), 1, 0)
   
                                        
-                                   
+              
                                        
                                        
                                        
@@ -242,12 +242,22 @@ recodingchoices <-function(r) {
   #                                                            "containers_notenough", "taste_quality_bad"), 1, 0)
   
 
-  r$water_access_problems_exclnoproblems <- r$problems_access_reasons
-  r$water_access_problems_exclnoproblems <- ifelse(r$water_access_problems_exclnoproblems == "no_problems", 
-                                                   NA, r$water_access_problems_exclnoproblems)
-  r$water_contingency_exclnone <- r$water_contingency
-  r$water_contingency_exclnone <- ifelse(r$water_contingency_exclnone== "none",
-                                         NA, r$water_contingency_exclnone)
+  r$water_access_problems_noproblems <- ifelse(r$problems_access_reasons %in% c("no_problems"), 1,0)
+  r$water_contingency_none <-ifelse(r$water_contingency %in% c("none"), 1,0)
+  r$waste_visibility_feaces <-ifelse(r$waste_visibility %in% c("feaces"), 1,0)
+  
+
+r$activities_affected_experienced_flood <- ifelse(r$experienced_floods == "yes" & 
+                                           (r$activities_affected == "yes"), 1, 0)  
+
+
+
+
+  # r$water_access_problems_noproblems <- ifelse(r$water_access_problems_exclnoproblems == "no_problems", 
+  #                                                  NA, r$water_access_problems_exclnoproblems)
+  # r$water_contingency_exclnone <- r$water_contingency
+  # r$water_contingency_exclnone <- ifelse(r$water_contingency_exclnone== "none",
+  #                                        NA, r$water_contingency_exclnone)
    r$menstrual_hygiene_excl <- r$menstrual_hygiene
    r$menstrual_hygiene_excl <- ifelse(r$menstrual_hygiene=="refuse_answer"| r$menstrual_hygiene=="refuse_ask",
                                       NA, r$menstrual_hygiene_excl)
@@ -268,7 +278,7 @@ recodingchoices <-function(r) {
 topthree <-function(r) {
 
 
- topthree <- read.csv("output/summary_sorted_20191218_preliminary_pop_group_aggregated_district_all.csv")
+ topthree <- read.csv("output/final/20191220_new__new_preliminary_pop_group_disaggregated_district.csv")
  topthree[c(which(endsWith(names(r), "_min")))] <- NULL
  topthree[c(which(endsWith(names(r), "_max")))] <- NULL
  topthree <- topthree[-c(2:5),]

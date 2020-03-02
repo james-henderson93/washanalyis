@@ -1,0 +1,10 @@
+heeeey
+
+So the actual function used to create top three is named rank_money2 (line 14 Ranking Priorities)
+The renaming of variables (line 77) is where this will need to be changed to suit your variables
+name_translated1.csv (line 100) will also have to be created but i'll leave mine in this folder too, as a guide
+I have also uploaded  my recoding script where the topthree function is in action.
+
+
+
+any questions, let me know

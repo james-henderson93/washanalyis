@@ -66,10 +66,15 @@ calc_avgs <- function(avg) {
 }
 
 recodingchoices <-function(r) {
-  
+
+  # adding column of nation into dataset
+    
+  # allDataMerge$GovMarg <- paste("10")
+  # r$nation <- paste(Iraq)
 
   
-
+  r <- as.data.frame(r) 
+  r <-response
   
   # recoding choices for direct reporting on looking for yes answers instead of 1
   yes_indicators = c("visible_sewage", "household_soap", "sufficient_containers","sufficient_hygiene_items", "handwashing_access", "menstrual_hygiene", "experienced_floods", "shelter_affected", "flood_improved")
@@ -265,51 +270,54 @@ recodingchoices <-function(r) {
   return(r) 
 }
 
-topthree <-function(r) {
+ topthree <-function(r) {
 
 
- topthree <- read.csv("output/summary_sorted_20191218_preliminary_pop_group_aggregated_district_all.csv")
+ topthree <- read.csv("output/20200302_preliminary_camp.csv")
  topthree[c(which(endsWith(names(r), "_min")))] <- NULL
  topthree[c(which(endsWith(names(r), "_max")))] <- NULL
  topthree <- topthree[-c(2:5),]
 
  drinking_water_source <- topthree[c(which(startsWith(names(topthree), "drinking_water_source.")))]
- district <- topthree[,c("district")]
- drinking_water_source <- cbind(district, drinking_water_source)
+ repeat.var.value <- topthree[,c("repeat.var.value")]
+ drinking_water_source <- cbind(repeat.var.value, drinking_water_source)
 drinking_water_source[,c(2:length(drinking_water_source))] <- unlist(drinking_water_source[,c(2:length(drinking_water_source))])
 
  sector_respondent <- topthree[c(which(startsWith(names(topthree), "sector_respondent.")))]
- district <- topthree[,c("district")]
- sector_respondent <- cbind(district, sector_respondent)
+ repeat.var.value <- topthree[,c("repeat.var.value")]
+ sector_respondent <- cbind(repeat.var.value, sector_respondent)
  sector_respondent[,c(2:length(sector_respondent))] <- unlist(sector_respondent[,c(2:length(sector_respondent))])
 
  why_treat <- topthree[c(which(startsWith(names(topthree), "why_treat.")))]
- district <- topthree[,c("district")]
-why_treat <- cbind(district, why_treat)
+ repeat.var.value <- topthree[,c("repeat.var.value")]
+why_treat <- cbind(repeat.var.value, why_treat)
  why_treat[,c(2:length(why_treat))] <- unlist(why_treat[,c(2:length(why_treat))])
 
  problems_access_reasons <- topthree[c(which(startsWith(names(topthree), "problems_access_reasons.")))]
- district <- topthree[,c("district")]
- problems_access_reasons <- cbind(district, problems_access_reasons)
+ repeat.var.value <- topthree[,c("repeat.var.value")]
+ problems_access_reasons <- cbind(repeat.var.value, problems_access_reasons)
  problems_access_reasons[,c(2:length(problems_access_reasons))] <- unlist(problems_access_reasons[,c(2:length(problems_access_reasons))])
 
  water_contingency<- topthree[c(which(startsWith(names(topthree), "water_contingency.")))]
- district <- topthree[,c("district")]
- water_contingency <- cbind(district, water_contingency)
+ repeat.var.value <- topthree[,c("repeat.var.value")]
+ water_contingency <- cbind(repeat.var.value, water_contingency)
  water_contingency[,c(2:length(water_contingency))] <- unlist(water_contingency[,c(2:length(water_contingency))])
- sanitation_facility <- topthree[c(which(startsWith(names(topthree), "sanitation_facility.")))]# district <- topthree[,c("district")]
- sanitation_facility <- cbind(district, sanitation_facility)
+ 
+ sanitation_facility <- topthree[c(which(startsWith(names(topthree), "sanitation_facility.")))]
+ repeat.var.value <- topthree[,c("repeat.var.value")]
+ sanitation_facility <- cbind(repeat.var.value, sanitation_facility)
  sanitation_facility[,c(2:length(sanitation_facility))] <- unlist(sanitation_facility[,c(2:length(sanitation_facility))])
+ 
  how_activities_affected <- topthree[c(which(startsWith(names(topthree), "how_activities_affected.")))]
- district <- topthree[,c("district")]
-how_activities_affected <- cbind(district, how_activities_affected)
+ repeat.var.value <- topthree[,c("repeat.var.value")]
+how_activities_affected <- cbind(repeat.var.value, how_activities_affected)
  how_activities_affected[,c(2:length(how_activities_affected))] <- unlist(how_activities_affected[,c(2:length(how_activities_affected))])
-# #
-# # # waste_disposal <- topthree[c(which(startsWith(names(topthree), "waste_disposal.")))]
-#  district <- topthree[,c("district")]
-#  waste_disposal <- cbind(district, waste_disposal)
-#  waste_disposal[,c(2:length(waste_disposal))] <- unlist(waste_disposal[,c(2:length(waste_disposal))])
- return(r)}
+
+ waste_disposal <- topthree[c(which(startsWith(names(topthree), "waste_disposal.")))]
+ repeat.var.value <- topthree[,c("repeat.var.value")]
+  waste_disposal <- cbind(repeat.var.value, waste_disposal)
+  waste_disposal[,c(2:length(waste_disposal))] <- unlist(waste_disposal[,c(2:length(waste_disposal))])
+  return(r)}
 
 # r[r=="#N/A"] <- NA
 

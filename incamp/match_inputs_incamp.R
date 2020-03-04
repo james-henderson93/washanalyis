@@ -120,17 +120,17 @@ questionnaire <- load_questionnaire(response,questions,choices)
 
 
 
-samplingframe_strata <- samplingframe_in_camp
-## Check if all match:
-response <- idp_in_camp
-if(any(!(response$camp_name %in% samplingframe_strata$camp))){
-  warning("some strata not found in samplingframe")
-  warning(which(!(response$camp_name %in% samplingframe_strata$camp)) %>% length)
-}
-
-if(any(is.na(response$camp_name))){
-  warning("strata can not be NA")
-}
+# samplingframe_strata <- samplingframe_in_camp
+# ## Check if all match:
+# response <- idp_in_camp
+# if(any(!(response$camp_name %in% samplingframe_strata$camp))){
+#   warning("some strata not found in samplingframe")
+#   warning(which(!(response$camp_name %in% samplingframe_strata$camp)) %>% length)
+# }
+# 
+# if(any(is.na(response$camp_name))){
+#   warning("strata can not be NA")
+# }
 
 
 

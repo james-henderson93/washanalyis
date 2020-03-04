@@ -1,5 +1,6 @@
 # setup
 setwd("~/REACH24919/WASH")
+
 library(xlsx)
 library(plyr) # rbind.fill
 library(dplyr)
@@ -9,7 +10,7 @@ library(xlsformfill) # generate fake data for kobo
 library(surveyweights) # calculate weights from samplingframes
 library(hypegrammaR) # simple stats 4 complex samples
 library(composr) # horziontal operations
-source("postprocessing_functions.R")
+source("../postprocessing_functions.R")
 source("to_alpha_lowercase.R")
 
 #' load input files & make everything match:
@@ -91,18 +92,19 @@ source("match_inputs_incamp.R", local = T)
 #    weights
 #    }
 
-strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
+strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_in_camp,
                                       sampling.frame.population.column = "population",
                                       sampling.frame.stratum.column = "camp",
                                       data.stratum.column = "camp_name",
-                                      data = idp_in_camp)
+                                      data = response)
 
 # weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun)
 attempt<-strata_weight_fun
 
 
 # response$weights<-weight_fun(response)
-idp_in_camp$attempt<-attempt(idp_in_camp)
+# response2 <- response
+# response2$attempt<-attempt(response)
 # write.csv(response, "temp.csv", row.names = F)
 #  # for speedy speed we can not recalculate weights on every run):
 #  weight_fun<-function(df){
@@ -110,8 +112,9 @@ idp_in_camp$attempt<-attempt(idp_in_camp)
 #  }
 
 source("Recoding_incamp.R")
-response_with_composites <- calc_avgs(idp_in_camp)
+response_with_composites <- calc_avgs(response)
 response_with_composites <- recodingchoices(response_with_composites)
+response_with_composites <-r
 # names(response_with_composites)<-make.names(names(response_with_composites))
 # names(df)<-make.names(names(df))
 # write.csv(response_with_composites,sprintf("output/responsewithcompositesincamp.csv", name), row.names=F)
@@ -131,15 +134,17 @@ response_with_composites <- recodingchoices(response_with_composites)
 #   paste("simple random unique cluster id - ",1:length(which(simple_random_records)))
 
 dap_name <- "preliminaryincamp"
-analysisplan <- read.csv(sprintf("input/dap_%s.csv",dap_name), stringsAsFactors = F)
+dap_name <- "preliminaryincampnationwide"
+analysisplan <- read.csv(sprintf("dap_%s.csv",dap_name), stringsAsFactors = F)
+
+# analysisplan <- analysisplan_pop_group_aggregated(analysisplan)
+
 #analysisplan <- analysisplan[-which(analysisplan$ignore),]
 # analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "flood_causes") 
 #  | startsWith(analysisplan$dependent.variable, "s7") 
 #  | startsWith(analysisplan$dependent.variable, "s21") 
 #  | startsWith(analysisplan$dependent.variable, "s22")
 # ),]
-analysisplan <- analysisplan_nationwide(analysisplan)
-analysisplan <- analysisplan_pop_group_aggregated(analysisplan)
 #analysisplan <- analysisplan[which(analysisplan$independent.variable == ""),]
 
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
@@ -147,8 +152,19 @@ result <- from_analysisplan_map_to_output(response_with_composites, analysisplan
                                           cluster_variable_name = NULL,
                                           questionnaire = questionnaire, confidence_level = 0.9)
 
+analysisplan_nat <- analysisplan_nationwide(analysisplan)
 
-name <- "20191218_preliminary_pop_group_disaggregated_nationwide"
+result_nat <- from_analysisplan_map_to_output(response_with_composites, 
+                                              analysisplan = analysisplan_nat,
+                                              weighting = attempt, 
+                                              cluster_variable_name = NULL,
+                                              questionnaire = questionnaire, confidence_level = 0.9)
+
+
+hypegrammaR::map_to_summary_table(result$results, "output/20200302_preliminary_nationwide.csv", questionnaire = questionnaire)
+
+
+name <- "output/20200302_preliminary_nationwide"
 saveRDS(result,paste(sprintf("output/result_%s.RDS", name)))
 #summary[which(summary$dependent.var == "g51a"),]
 # 
@@ -158,21 +174,21 @@ saveRDS(result,paste(sprintf("output/result_%s.RDS", name)))
 # names(lookup_in_camp)[which(names(lookup_in_camp) == "governorate")] <- "filter"
 
 summary <- bind_rows(lapply(result[[1]], function(x){x$summary.statistic}))
-write.csv(summary, sprintf("output/raw_results_%s.csv", name), row.names=F)
-summary <- read.csv(sprintf("output/raw_results_%s.csv", name), stringsAsFactors = F)
+write.csv(summary, sprintf("output/.csv", name), row.names=F)
+summary <- read.csv(sprintf("output/.csv", name), stringsAsFactors = F)
 summary <- correct.zeroes(summary)
 summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
 
-write.csv(summary, sprintf("output/raw_results_%s_filtered.csv", name), row.names=F)
-if(all(is.na(summary$independent.var.value))){summary$independent.var.value <- "all"}
+write.csv(summary, sprintf("output/filtered.csv", name), row.names=F)
+if(all(is.na(summary$repeat.var.value))){summary$repeat.var.value <- "all"}
 groups <- unique(summary$independent.var.value)
 groups <- groups[!is.na(groups)]
 for (i in 1:length(groups)) {
   df <- pretty.output(summary, groups[i], analysisplan, cluster_lookup_table, lookup_table, severity = F, camp = F)
-  write.csv(df, sprintf("output/summary_sorted_%s_%s.csv", name, groups[i]), row.names = F)
+  write.csv(df, sprintf("output/summary_sorted.csv", name, groups[i]), row.names = F)
   if(i == 1){
-    write.xlsx(df, file=sprintf("output/summary_sorted_%s.xlsx", name), sheetName=groups[i], row.names=FALSE)
+    write.xlsx(df, file=sprintf("output/summary_sorted.xlsx", name), sheetName=groups[i], row.names=FALSE)
   } else {
-    write.xlsx(df, file=sprintf("output/summary_sorted_%s.xlsx", name), sheetName=groups[i], append=TRUE, row.names=FALSE)
+    write.xlsx(df, file=sprintf("output/summary_sorted.xlsx", name), sheetName=groups[i], append=TRUE, row.names=FALSE)
   }
 }
